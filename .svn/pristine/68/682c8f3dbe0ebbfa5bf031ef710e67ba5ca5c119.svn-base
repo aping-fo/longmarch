@@ -59,10 +59,16 @@ public class SdkServer {
             context.setResourceBase(".");
             //server.setHandler(context);
 
+
             ResourceHandler resourceHandler = new ResourceHandler();
             resourceHandler.setDirectoriesListed(true);
 
+
             String iconPath = System.getProperty("user.dir") + File.separator + "icon";
+            File f = new File(iconPath);
+            if(!f.exists()) {
+                f.mkdirs();
+            }
 
             resourceHandler.setResourceBase(iconPath);
 
