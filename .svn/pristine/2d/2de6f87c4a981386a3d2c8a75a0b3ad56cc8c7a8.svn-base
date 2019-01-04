@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<config>
+	<id>1</id>
+	<category>1</category>
+	<score>[0,29]</score>
+	<result>您不是气虚质体制</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>2</id>
+	<category>1</category>
+	<score>[30,39]</score>
+	<result>您有气虚质倾向</result>
+	<recommend>调节:多食用具有益气健脾作用的食物,如黄豆、白扁豆、鸡肉等。少食空心菜、生萝卜等。</recommend>
+</config>
+<config>
+	<id>3</id>
+	<category>1</category>
+	<score>[40,100]</score>
+	<result>您有气虚质体制</result>
+	<recommend>调节:多食用具有益气健脾作用的食物,如黄豆、白扁豆、鸡肉等。少食空心菜、生萝卜等。</recommend>
+</config>
+<config>
+	<id>4</id>
+	<category>2</category>
+	<score>[0,29]</score>
+	<result>您不是阳虚质体制</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>5</id>
+	<category>2</category>
+	<score>[30,39]</score>
+	<result>您有阳虚质倾向</result>
+	<recommend>调节:平时可多食牛肉、羊肉等温阳之品,少食梨、西瓜、荸荠等生冷寒凉食物,少饮绿茶。</recommend>
+</config>
+<config>
+	<id>6</id>
+	<category>2</category>
+	<score>[40,100]</score>
+	<result>您有阳虚质体制</result>
+	<recommend>调节:平时可多食牛肉、羊肉等温阳之品,少食梨、西瓜、荸荠等生冷寒凉食物,少饮绿茶。</recommend>
+</config>
+<config>
+	<id>7</id>
+	<category>3</category>
+	<score>[0,29]</score>
+	<result>您不是阴虚质</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>8</id>
+	<category>3</category>
+	<score>[30,39]</score>
+	<result>您有阴虚质倾向</result>
+	<recommend>调节:多食瘦猪肉、鸭肉、绿豆、冬瓜等甘凉滋润之品,少食羊肉、韭菜、辣椒、葵花子等性温燥烈之品。适合太极拳、太极剑、气功等项目。</recommend>
+</config>
+<config>
+	<id>9</id>
+	<category>3</category>
+	<score>[40,100]</score>
+	<result>您有阴虚质体制</result>
+	<recommend>调节:多食瘦猪肉、鸭肉、绿豆、冬瓜等甘凉滋润之品,少食羊肉、韭菜、辣椒、葵花子等性温燥烈之品。适合太极拳、太极剑、气功等项目。</recommend>
+</config>
+<config>
+	<id>10</id>
+	<category>4</category>
+	<score>[0,29]</score>
+	<result>您不是痰湿质体制</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>11</id>
+	<category>4</category>
+	<score>[30,39]</score>
+	<result>您有痰湿质倾向</result>
+	<recommend>调节:饮食应以清淡为主,可多食冬瓜等。因体形肥胖,易于困倦,故应根据自己的具体情况循序渐进,长期坚持运动锻炼。</recommend>
+</config>
+<config>
+	<id>12</id>
+	<category>4</category>
+	<score>[40,100]</score>
+	<result>您有痰湿质体制</result>
+	<recommend>调节:饮食应以清淡为主,可多食冬瓜等。因体形肥胖,易于困倦,故应根据自己的具体情况循序渐进,长期坚持运动锻炼。</recommend>
+</config>
+<config>
+	<id>13</id>
+	<category>5</category>
+	<score>[0,29]</score>
+	<result>您不是热湿质</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>14</id>
+	<category>5</category>
+	<score>[30,39]</score>
+	<result>您有热湿质倾向</result>
+	<recommend>调节:饮食以清淡为主,可多食赤小豆、绿豆、芹菜、黄瓜、藕等甘寒的食物。适合中长跑、游泳、爬山、各种球类、武术等。</recommend>
+</config>
+<config>
+	<id>15</id>
+	<category>5</category>
+	<score>[40,100]</score>
+	<result>您有热湿质体制</result>
+	<recommend>调节:饮食以清淡为主,可多食赤小豆、绿豆、芹菜、黄瓜、藕等甘寒的食物。适合中长跑、游泳、爬山、各种球类、武术等。</recommend>
+</config>
+<config>
+	<id>16</id>
+	<category>6</category>
+	<score>[0,29]</score>
+	<result>您不是血瘀质</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>17</id>
+	<category>6</category>
+	<score>[30,39]</score>
+	<result>您有血瘀质倾向</result>
+	<recommend>调节:多食山楂、醋、玫瑰花等,少食肥肉等滋腻之品。可参加各种舞蹈、步行健身法、徒手健身操等。</recommend>
+</config>
+<config>
+	<id>18</id>
+	<category>6</category>
+	<score>[40,100]</score>
+	<result>您有血瘀质体制</result>
+	<recommend>调节:多食山楂、醋、玫瑰花等,少食肥肉等滋腻之品。可参加各种舞蹈、步行健身法、徒手健身操等。</recommend>
+</config>
+<config>
+	<id>19</id>
+	<category>7</category>
+	<score>[0,29]</score>
+	<result>您不是气郁质</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>20</id>
+	<category>7</category>
+	<score>[30,39]</score>
+	<result>您有气郁质倾向</result>
+	<recommend>调节:多食黄花菜、海带、山楂、玫瑰花等具有行气、解郁、消食、醒神作用的食物。气郁体质的人不要总待在家里,要多参加群众性的体育运动项目。</recommend>
+</config>
+<config>
+	<id>21</id>
+	<category>7</category>
+	<score>[40,100]</score>
+	<result>您有气郁质体制</result>
+	<recommend>调节:多食黄花菜、海带、山楂、玫瑰花等具有行气、解郁、消食、醒神作用的食物。气郁体质的人不要总待在家里,要多参加群众性的体育运动项目。</recommend>
+</config>
+<config>
+	<id>22</id>
+	<category>8</category>
+	<score>[0,29]</score>
+	<result>您不是特禀质</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>23</id>
+	<category>8</category>
+	<score>[30,39]</score>
+	<result>您有特禀质倾向</result>
+	<recommend>调节:多食益气固表的食物,少食荞麦(含致敏物质荞麦荧光素)、蚕豆等。居室宜通风良好。保持室内清洁,被褥、床单要经常洗晒,可防止对尘螨过敏。</recommend>
+</config>
+<config>
+	<id>24</id>
+	<category>8</category>
+	<score>[40,100]</score>
+	<result>您有特禀质体制</result>
+	<recommend>调节:多食益气固表的食物,少食荞麦(含致敏物质荞麦荧光素)、蚕豆等。居室宜通风良好。保持室内清洁,被褥、床单要经常洗晒,可防止对尘螨过敏。</recommend>
+</config>
+<config>
+	<id>25</id>
+	<category>9</category>
+	<score>[0,59]</score>
+	<result>您不是平和质体制</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+<config>
+	<id>26</id>
+	<category>9</category>
+	<score>[60,100]</score>
+	<result>如您没有其他八种体制倾向
+您就是平和质</result>
+	<recommend>进行其他体制测试</recommend>
+</config>
+</root>

@@ -1,0 +1,134 @@
+[INFO ] 11-03 10:15:43  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 10:15:43  Cache loaded for 0
+[INFO ] 11-03 10:15:43  send data ==> {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}"}
+[INFO ] 11-03 10:15:43  {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 10:15:43  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 0,[cmd] = 1004
+[INFO ] 11-03 10:15:43  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 10:15:43  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 10:15:43  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 0,[cmd] = 1003
+[INFO ] 11-03 10:15:43  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}"}
+[INFO ] 11-03 10:15:43  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}","cmd":"1003"}
+[INFO ] 11-03 10:18:39  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 10:18:39  send data ==> {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}"}
+[INFO ] 11-03 10:18:39  {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 10:18:39  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 0,[cmd] = 1004
+[INFO ] 11-03 10:18:39  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 10:18:39  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 10:18:39  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 0,[cmd] = 1003
+[INFO ] 11-03 10:18:39  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}"}
+[INFO ] 11-03 10:18:39  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}","cmd":"1003"}
+[INFO ] 11-03 10:26:46  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 10:26:46  send data ==> {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}"}
+[INFO ] 11-03 10:26:46  {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 10:26:46  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 0,[cmd] = 1004
+[INFO ] 11-03 10:26:46  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 10:26:46  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 10:26:46  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 0,[cmd] = 1003
+[INFO ] 11-03 10:26:46  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}"}
+[INFO ] 11-03 10:26:46  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}","cmd":"1003"}
+[INFO ] 11-03 10:35:39  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 10:35:39  send data ==> {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}"}
+[INFO ] 11-03 10:35:39  {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 10:35:39  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 0,[cmd] = 1004
+[INFO ] 11-03 10:35:39  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 10:35:39  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 10:35:39  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 0,[cmd] = 1003
+[INFO ] 11-03 10:35:39  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}"}
+[INFO ] 11-03 10:35:39  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}","cmd":"1003"}
+[INFO ] 11-03 10:40:00  receive req, [data]= eyJjb2RlIjoiMDIzYVQ4TFMwNUgzd1kxMGpMSVMwRFkwTFMwYVQ4THQifQ==,[s] = 029d875885f89a02e143de2fff4f7c05,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 10:40:00  Cache loaded for o7C_m5TRFwGJG2puV8u-qGREPp_U
+[INFO ] 11-03 10:40:00  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 10:40:00  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 10:40:00  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 10:40:00  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 10:40:00  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 10:40:00  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 10:40:00  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 10:40:00  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 10:44:18  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 10:44:18  send data ==> {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}"}
+[INFO ] 11-03 10:44:18  {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 10:44:18  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 0,[cmd] = 1004
+[INFO ] 11-03 10:44:18  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 10:44:18  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 10:44:18  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 0,[cmd] = 1003
+[INFO ] 11-03 10:44:18  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}"}
+[INFO ] 11-03 10:44:18  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"0\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":10}","cmd":"1003"}
+[INFO ] 11-03 10:45:19  receive req, [data]= eyJjb2RlIjoiMDMzS2lHbWMyeWJFQ0UwTHExa2MyTWc2bmMyS2lHbW0ifQ==,[s] = d82a466f2a7e62b7cc9e2ba1187ddd6d,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 10:45:19  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 10:45:19  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 10:45:19  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 10:45:19  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 10:45:19  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 10:45:19  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 10:45:19  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 10:45:19  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 11:02:44  receive req, [data]= eyJjb2RlIjoiMDMzWDZwWTMwYWZwa0MxcG51MDQwSHd6WTMwWDZwWTIifQ==,[s] = eea3a7334f5e0c0758d488fa206534be,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 11:02:44  Cache loaded for o7C_m5TRFwGJG2puV8u-qGREPp_U
+[INFO ] 11-03 11:02:44  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 11:02:44  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 11:02:44  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 11:02:44  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 11:02:44  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 11:02:44  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 11:02:44  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 11:02:44  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 11:12:48  receive req, [data]= eyJjb2RlIjoiMDIzWnN6dTMxRzZBTU4xbUt2dDMxNFFzdTMxWnN6dTQifQ==,[s] = 7bc3252d1fc976c06ab8d5f1c2592a7b,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 11:12:48  Cache loaded for o7C_m5TRFwGJG2puV8u-qGREPp_U
+[INFO ] 11-03 11:12:48  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 11:12:48  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 11:12:48  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 11:12:48  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 11:12:48  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 11:12:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 11:12:48  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 11:12:48  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 11:16:34  receive req, [data]= eyJjb2RlIjoiMDMzZlo5MncxbW42aGEwdnRSNXcxdW5LMXcxZlo5Mk8ifQ==,[s] = 864f0d711a31f7822c295c79dfd3c182,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 11:16:34  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 11:16:34  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 11:16:34  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 11:16:34  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 11:16:34  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 11:16:35  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 11:16:35  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 11:16:35  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 11:24:42  receive req, [data]= eyJjb2RlIjoiMDIzR2cwYkMwektCT2UyMTJnOEMwWmhOYUMwR2cwYmwifQ==,[s] = e2595e72ebee593d971b2e7dd1113c27,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 11:24:42  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 11:24:42  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 11:24:42  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 11:24:42  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 11:24:42  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 11:24:42  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 11:24:42  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 11:24:42  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 11:31:50  receive req, [data]= eyJjb2RlIjoiMDIzVTMxR0ExMXZXWmUwSENMRkExcVdTRkExVTMxR0QifQ==,[s] = a3d745f313543bc9e2a35938b681a50a,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 11:31:51  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 11:31:51  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 11:31:51  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 11:31:51  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 11:31:51  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 11:31:51  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 11:31:51  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 11:31:51  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 11:38:49  receive req, [data]= eyJjb2RlIjoiMDIzVk05c3owTlFOZGcxeWg2cnowS0pXcnowVk05c2QifQ==,[s] = acea39be70efb91e1242ffb086998999,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 11:38:49  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 11:38:49  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 11:38:49  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 11:38:49  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 11:38:49  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 11:38:50  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 11:38:50  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 11:38:50  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 12:03:45  receive req, [data]= eyJjb2RlIjoiMDMzUzhpWjgxRTFrNFIxbVRkWTgxWG83WjgxUzhpWlIifQ==,[s] = ee26d23983346e1753c2096b76f9a601,[openId] = 0,[cmd] = 1001
+[INFO ] 11-03 12:03:45  Cache loaded for o7C_m5TRFwGJG2puV8u-qGREPp_U
+[INFO ] 11-03 12:03:45  send data ==> {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}"}
+[INFO ] 11-03 12:03:45  {"code":"200","data":"{\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-03 12:03:45  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvQnUyazRNTkE0a0p3UlZYemQzMWN3YXBkNmxpYktUd0ZERUNVaWFWRDVqT29tb2cyYmpWY1BJakppYUVQajNvRWZ4Qlh1SnpRWlF3QmQzSVQ3clhRVXJQaWNnLzEzMiJ9,[s] = 7ac3c3ab07fea37a6cc9dc6c217db602,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1004
+[INFO ] 11-03 12:03:45  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-03 12:03:45  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-03 12:03:45  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 1003
+[INFO ] 11-03 12:03:45  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-03 12:03:45  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"o7C_m5TRFwGJG2puV8u-qGREPp_U\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-03 13:51:22  receive req, [data]= eyJmcm9tSW5kZXgiOjAsInRvSW5kZXgiOjUwfQ==,[s] = ab96942e63b1312bf330f548048ec86b,[openId] = o7C_m5TRFwGJG2puV8u-qGREPp_U,[cmd] = 3001
+[INFO ] 11-03 13:51:22  send data ==> {"code":"200","data":"{\"selfRank\":10,\"rankVOList\":[{\"openId\":\"o7C_m5fuA2A2Mas-U9SCTa2eVavQ\",\"nickName\":\"葱小林\",\"avatarUrl\":\"\",\"level\":1},{\"openId\":\"0\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}"}
+[INFO ] 11-03 13:51:22  {"code":"200","data":"{\"selfRank\":10,\"rankVOList\":[{\"openId\":\"o7C_m5fuA2A2Mas-U9SCTa2eVavQ\",\"nickName\":\"葱小林\",\"avatarUrl\":\"\",\"level\":1},{\"openId\":\"0\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}","cmd":"3001"}

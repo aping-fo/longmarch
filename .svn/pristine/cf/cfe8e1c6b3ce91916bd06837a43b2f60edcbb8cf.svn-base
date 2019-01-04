@@ -1,0 +1,146 @@
+package com.game.domain.family;
+
+import com.game.sdk.proto.vo.FamilyGroupVO;
+import com.game.sdk.proto.vo.PlayerRankVO;
+import com.game.util.JsonUtils;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.function.Supplier;
+
+/**
+ * Created by lucky on 2018/11/8.
+ */
+public class Family {
+    private String id;
+    private String ownerId;
+    private int score;
+    private int totalScore;
+    private Map<String, FamilyMember> members = new ConcurrentHashMap<>();
+    private String memberJson;
+    private String name;
+    public static final ThreadLocal<ReentrantLock> lockGet = ThreadLocal.withInitial(new Supplier() {
+        @Override
+        public Object get() {
+            return new ReentrantLock();
+        }
+    });
+
+    public int getTotalScore() {
+        return totalScore;
+    }
+
+    public void setTotalScore(int totalScore) {
+        this.totalScore = totalScore;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getOwnerId() {
+        return ownerId;
+    }
+
+    public void setOwnerId(String ownerId) {
+        this.ownerId = ownerId;
+    }
+
+    public String getMemberJson() {
+        return memberJson;
+    }
+
+    public void setMemberJson(String memberJson) {
+        this.memberJson = memberJson;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public Map<String, FamilyMember> getMembers() {
+        return members;
+    }
+
+    public void setMembers(Map<String, FamilyMember> members) {
+        this.members = members;
+    }
+
+    public void add(FamilyMember member, int score) {
+        ReentrantLock lock = lockGet.get();
+        try {
+            lock.lock();
+            members.put(member.getOpenid(), member);
+            memberJson = JsonUtils.map2String(members);
+            this.score += score;
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public void remove(String openid) {
+        ReentrantLock lock = lockGet.get();
+        try {
+            lock.lock();
+
+            int dec = score / members.size();
+            score -= dec;
+
+            members.remove(openid);
+            memberJson = JsonUtils.map2String(members);
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public int getScorePerMember(){
+        if(members.size() == 0){
+            return score;
+        }
+        return score / members.size();
+    }
+
+    public int getTotalScorePerMember(){
+        if(members.size() == 0){
+            return totalScore;
+        }
+
+        return totalScore / members.size();
+    }
+
+    public FamilyGroupVO toProto() {
+        FamilyGroupVO vo = new FamilyGroupVO();
+        vo.setCreatorOpenId(ownerId);
+        vo.setName(name);
+        vo.setId(id);
+        vo.setScore(score);
+
+        for (FamilyMember member : members.values()) {
+            PlayerRankVO playerRankVO = new PlayerRankVO();
+            playerRankVO.setAvatarUrl(member.getIconUrl());
+            playerRankVO.setScore(member.getLevel());
+            playerRankVO.setNickName(member.getName());
+            playerRankVO.setOpenId(member.getOpenid());
+
+            vo.getGroupMembers().add(playerRankVO);
+        }
+        return vo;
+    }
+}

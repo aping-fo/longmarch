@@ -1,0 +1,180 @@
+[INFO ] 11-15 14:22:16  begin init server...
+[INFO ] 11-15 14:22:16  load game config...
+[INFO ] 11-15 14:22:16  Load Config GlobalConfig
+[INFO ] 11-15 14:22:16  Load Config IntegrationMallCfg
+[INFO ] 11-15 14:22:16  Load Config LevelCfg
+[INFO ] 11-15 14:22:16  Load Config QuestionCfg
+[INFO ] 11-15 14:22:16  Load Config SelfTestCfg
+[INFO ] 11-15 14:22:16  Load Config SelfTestDescriptionCfg
+[INFO ] 11-15 14:22:16  Load Config SelfTestResultCfg
+[INFO ] 11-15 14:22:16  load spring cfg...
+[INFO ] 11-15 14:22:16  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@63440df3: startup date [Thu Nov 15 14:22:16 CST 2018]; root of context hierarchy
+[INFO ] 11-15 14:22:16  Loading XML bean definitions from file [F:\h5\server\config\application.xml]
+[INFO ] 11-15 14:22:16  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 11-15 14:22:17  [jade] starting ...
+[INFO ] 11-15 14:22:17  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 11-15 14:22:17  [classesFolder] start to found available classes folders ...
+[INFO ] 11-15 14:22:17  [classesFolder] found 1 classes folders: [/F:/h5/server/bin/[**]]
+[INFO ] 11-15 14:22:17  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 11-15 14:22:17  [jarFile] add jar resource: /F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 11-15 14:22:17  [jarFile] found 1 jar files: [/F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 11-15 14:22:17  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/server/bin/[**], /F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 11-15 14:22:17  [jade] found 1 jade urls: [file:/F:/h5/server/bin/]
+[INFO ] 11-15 14:22:17  [jade] call 'jade/find'
+[INFO ] 11-15 14:22:17  [jade] found 3 beanDefinition from 'file:/F:/h5/server/bin/'
+[INFO ] 11-15 14:22:17  [jade] exits
+[INFO ] 11-15 14:22:17  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2a3b5b47: defining beans [dataSource,logerDataSource,dataSource2,logerDataSource2,eventDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,chickenQuestService,mallService,masterMatchService,playerService,questBankService,questService,serverDataService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.FamilyDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO]; root of factory hierarchy
+[INFO ] 11-15 14:22:18  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@35e27e3a for com.game.dao.PlayerDAO#queryPlayerRank
+[INFO ] 11-15 14:22:19  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@19d32486 for com.game.dao.FamilyDAO#queryFamilyRank
+[INFO ] 11-15 14:24:21  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 111,[cmd] = 1001
+[INFO ] 11-15 14:24:21  Cache loaded for 111
+[INFO ] 11-15 14:24:21  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@35e27e3a for com.game.dao.PlayerDAO#queryPlayer
+[INFO ] 11-15 14:24:21  send data ==> {"code":"200","data":"{\"openId\":\"111\",\"hasRole\":true}"}
+[INFO ] 11-15 14:24:21  {"code":"200","data":"{\"openId\":\"111\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 11-15 14:24:21  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 111,[cmd] = 1004
+[INFO ] 11-15 14:24:21  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-15 14:24:21  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 11-15 14:24:24  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 111,[cmd] = 1003
+[INFO ] 11-15 14:24:24  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 111,[cmd] = 4000
+[INFO ] 11-15 14:24:24  send data ==> {"code":"200","data":"{\"info\":null}"}
+[INFO ] 11-15 14:24:24  {"code":"200","data":"{\"info\":null}","cmd":"4000"}
+[INFO ] 11-15 14:24:24  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"111\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-15 14:24:24  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"111\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-15 14:24:33  receive req, [data]= eyJuYW1lIjoiMTIzIn0=,[s] = e00960dce27afe17a2d44d86605ab5cd,[openId] = 111,[cmd] = 4001
+[INFO ] 11-15 14:24:55  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"a32334ea-0e79-4d44-873b-fa8c8530c6ec\",\"creatorOpenId\":\"111\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"111\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:24:55  {"code":"200","data":"{\"info\":{\"id\":\"a32334ea-0e79-4d44-873b-fa8c8530c6ec\",\"creatorOpenId\":\"111\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"111\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4001"}
+[INFO ] 11-15 14:24:55  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 111,[cmd] = 4000
+[INFO ] 11-15 14:24:55  Cache loaded for a32334ea-0e79-4d44-873b-fa8c8530c6ec
+[INFO ] 11-15 14:24:55  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@19d32486 for com.game.dao.FamilyDAO#queryFamily
+[INFO ] 11-15 14:26:15  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"a32334ea-0e79-4d44-873b-fa8c8530c6ec\",\"creatorOpenId\":\"111\",\"name\":\"123\",\"groupMembers\":[]}}"}
+[INFO ] 11-15 14:26:15  {"code":"200","data":"{\"info\":{\"id\":\"a32334ea-0e79-4d44-873b-fa8c8530c6ec\",\"creatorOpenId\":\"111\",\"name\":\"123\",\"groupMembers\":[]}}","cmd":"4000"}
+[INFO ] 11-15 14:26:32  begin init server...
+[INFO ] 11-15 14:26:32  load game config...
+[INFO ] 11-15 14:26:32  Load Config GlobalConfig
+[INFO ] 11-15 14:26:32  Load Config IntegrationMallCfg
+[INFO ] 11-15 14:26:32  Load Config LevelCfg
+[INFO ] 11-15 14:26:32  Load Config QuestionCfg
+[INFO ] 11-15 14:26:32  Load Config SelfTestCfg
+[INFO ] 11-15 14:26:32  Load Config SelfTestDescriptionCfg
+[INFO ] 11-15 14:26:32  Load Config SelfTestResultCfg
+[INFO ] 11-15 14:26:32  load spring cfg...
+[INFO ] 11-15 14:26:32  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@77f99a05: startup date [Thu Nov 15 14:26:32 CST 2018]; root of context hierarchy
+[INFO ] 11-15 14:26:32  Loading XML bean definitions from file [F:\h5\server\config\application.xml]
+[INFO ] 11-15 14:26:32  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 11-15 14:26:33  [jade] starting ...
+[INFO ] 11-15 14:26:33  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 11-15 14:26:33  [classesFolder] start to found available classes folders ...
+[INFO ] 11-15 14:26:33  [classesFolder] found 1 classes folders: [/F:/h5/server/bin/[**]]
+[INFO ] 11-15 14:26:33  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 11-15 14:26:33  [jarFile] add jar resource: /F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 11-15 14:26:33  [jarFile] found 1 jar files: [/F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 11-15 14:26:33  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/server/bin/[**], /F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 11-15 14:26:33  [jade] found 1 jade urls: [file:/F:/h5/server/bin/]
+[INFO ] 11-15 14:26:33  [jade] call 'jade/find'
+[INFO ] 11-15 14:26:33  [jade] found 3 beanDefinition from 'file:/F:/h5/server/bin/'
+[INFO ] 11-15 14:26:33  [jade] exits
+[INFO ] 11-15 14:26:33  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@351d00c0: defining beans [dataSource,logerDataSource,dataSource2,logerDataSource2,eventDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,chickenQuestService,mallService,masterMatchService,playerService,questBankService,questService,serverDataService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.FamilyDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO]; root of factory hierarchy
+[INFO ] 11-15 14:26:34  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@cadc619 for com.game.dao.PlayerDAO#queryPlayerRank
+[INFO ] 11-15 14:26:39  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@306d64d9 for com.game.dao.FamilyDAO#queryFamilyRank
+[INFO ] 11-15 14:27:00  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 111,[cmd] = 4000
+[INFO ] 11-15 14:27:00  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 111,[cmd] = 1003
+[INFO ] 11-15 14:27:00  Cache loaded for 111
+[INFO ] 11-15 14:27:00  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@cadc619 for com.game.dao.PlayerDAO#queryPlayer
+[INFO ] 11-15 14:27:00  Cache loaded for a32334ea-0e79-4d44-873b-fa8c8530c6ec
+[INFO ] 11-15 14:27:00  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@306d64d9 for com.game.dao.FamilyDAO#queryFamily
+[INFO ] 11-15 14:27:09  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"111\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-15 14:27:09  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"111\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-15 14:27:09  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"a32334ea-0e79-4d44-873b-fa8c8530c6ec\",\"creatorOpenId\":\"111\",\"name\":\"123\",\"groupMembers\":[]}}"}
+[INFO ] 11-15 14:27:09  {"code":"200","data":"{\"info\":{\"id\":\"a32334ea-0e79-4d44-873b-fa8c8530c6ec\",\"creatorOpenId\":\"111\",\"name\":\"123\",\"groupMembers\":[]}}","cmd":"4000"}
+[INFO ] 11-15 14:27:24  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 101,[cmd] = 1001
+[INFO ] 11-15 14:27:24  Cache loaded for 101
+[INFO ] 11-15 14:27:24  send data ==> {"code":"200","data":"{\"openId\":\"101\",\"hasRole\":false}"}
+[INFO ] 11-15 14:27:24  {"code":"200","data":"{\"openId\":\"101\",\"hasRole\":false}","cmd":"1001"}
+[INFO ] 11-15 14:27:24  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 101,[cmd] = 1002
+[INFO ] 11-15 14:27:30  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 11-15 14:27:30  {"code":"200","data":"\"ok\"","cmd":"1002"}
+[INFO ] 11-15 14:27:33  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 1003
+[INFO ] 11-15 14:27:33  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-15 14:27:33  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-15 14:27:33  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:27:33  send data ==> {"code":"200","data":"{\"info\":null}"}
+[INFO ] 11-15 14:27:33  {"code":"200","data":"{\"info\":null}","cmd":"4000"}
+[INFO ] 11-15 14:27:38  receive req, [data]= eyJuYW1lIjoiMTIzIn0=,[s] = e00960dce27afe17a2d44d86605ab5cd,[openId] = 101,[cmd] = 4001
+[INFO ] 11-15 14:27:40  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:27:40  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4001"}
+[INFO ] 11-15 14:27:41  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:27:41  Cache loaded for 549b6716-ba67-4bf7-9c6c-88389193732f
+[INFO ] 11-15 14:27:47  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:27:47  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:28:30  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 1003
+[INFO ] 11-15 14:28:30  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-15 14:28:30  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-15 14:28:30  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:28:30  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:28:30  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:28:31  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:28:31  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:28:31  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:28:32  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 1003
+[INFO ] 11-15 14:28:32  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:28:32  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:28:32  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:28:32  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-15 14:28:32  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-15 14:28:33  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:28:33  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:28:33  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:28:34  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 1003
+[INFO ] 11-15 14:28:34  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:28:34  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:28:34  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:28:34  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-15 14:28:34  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-15 14:28:35  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:28:35  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:28:35  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:28:39  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 1003
+[INFO ] 11-15 14:28:39  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-15 14:28:39  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-15 14:28:39  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:28:39  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:28:39  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:35:29  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:35:29  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:35:29  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:35:31  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 1003
+[INFO ] 11-15 14:35:31  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 101,[cmd] = 4000
+[INFO ] 11-15 14:35:31  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}"}
+[INFO ] 11-15 14:35:31  {"code":"200","data":"{\"info\":{\"id\":\"549b6716-ba67-4bf7-9c6c-88389193732f\",\"creatorOpenId\":\"101\",\"name\":\"123\",\"groupMembers\":[{\"openId\":\"101\",\"nickName\":\"测试\",\"avatarUrl\":\"\",\"level\":1}]}}","cmd":"4000"}
+[INFO ] 11-15 14:35:31  send data ==> {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}"}
+[INFO ] 11-15 14:35:31  {"code":"200","data":"{\"totalQuestions\":0,\"level\":1,\"openId\":\"101\",\"nickName\":\"测试\",\"levelUpExp\":15,\"answerSuccess\":0,\"exp\":0}","cmd":"1003"}
+[INFO ] 11-15 14:41:34  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO ] 11-15 14:41:34  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO ] 11-15 14:43:14  begin init server...
+[INFO ] 11-15 14:43:14  load game config...
+[INFO ] 11-15 14:43:14  Load Config GlobalConfig
+[INFO ] 11-15 14:43:14  Load Config IntegrationMallCfg
+[INFO ] 11-15 14:43:14  Load Config LevelCfg
+[INFO ] 11-15 14:43:14  Load Config QuestionCfg
+[INFO ] 11-15 14:43:14  Load Config SelfTestCfg
+[INFO ] 11-15 14:43:14  Load Config SelfTestDescriptionCfg
+[INFO ] 11-15 14:43:14  Load Config SelfTestResultCfg
+[INFO ] 11-15 14:43:14  load spring cfg...
+[INFO ] 11-15 14:43:14  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@77f99a05: startup date [Thu Nov 15 14:43:14 CST 2018]; root of context hierarchy
+[INFO ] 11-15 14:43:14  Loading XML bean definitions from file [F:\h5\server\config\application.xml]
+[INFO ] 11-15 14:43:14  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 11-15 14:43:14  [jade] starting ...
+[INFO ] 11-15 14:43:14  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 11-15 14:43:14  [classesFolder] start to found available classes folders ...
+[INFO ] 11-15 14:43:14  [classesFolder] found 1 classes folders: [/F:/h5/server/bin/[**]]
+[INFO ] 11-15 14:43:14  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 11-15 14:43:14  [jarFile] add jar resource: /F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 11-15 14:43:14  [jarFile] found 1 jar files: [/F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 11-15 14:43:14  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/server/bin/[**], /F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 11-15 14:43:14  [jade] found 1 jade urls: [file:/F:/h5/server/bin/]
+[INFO ] 11-15 14:43:14  [jade] call 'jade/find'
+[INFO ] 11-15 14:43:14  [jade] found 3 beanDefinition from 'file:/F:/h5/server/bin/'
+[INFO ] 11-15 14:43:14  [jade] exits
+[INFO ] 11-15 14:43:14  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@351d00c0: defining beans [dataSource,logerDataSource,dataSource2,logerDataSource2,eventDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,chickenQuestService,mallService,masterMatchService,playerService,questBankService,questService,serverDataService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.FamilyDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO]; root of factory hierarchy
+[INFO ] 11-15 14:43:15  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@7566965e for com.game.dao.PlayerDAO#queryPlayerRank
+[INFO ] 11-15 14:43:15  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@7b369d7 for com.game.dao.FamilyDAO#queryFamilyRank

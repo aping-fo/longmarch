@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<config>
+	<id>1001</id>
+	<needStep>10000</needStep>
+	<maxCount>10000</maxCount>
+	<reward></reward>
+</config>
+<config>
+	<id>1002</id>
+	<needStep>100000</needStep>
+	<maxCount>100000</maxCount>
+	<reward></reward>
+</config>
+</root>

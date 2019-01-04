@@ -1,0 +1,164 @@
+package com.game.service;
+
+import com.game.dao.ConsumeDAO;
+import com.game.dao.FamilyDAO;
+import com.game.dao.PlayerDAO;
+import com.game.dao.ServerDataDAO;
+import com.game.data.IntegrationMallCfg;
+import com.game.data.MallCfg;
+import com.game.domain.ServerData;
+import com.game.domain.consume.Consume;
+import com.game.domain.family.Family;
+import com.game.domain.mall.Mall;
+import com.game.domain.player.Player;
+import com.game.sdk.net.Result;
+import com.game.sdk.proto.IntegrationMallResp;
+import com.game.sdk.utils.ErrorCode;
+import com.game.util.ConfigData;
+import com.game.util.JsonUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import static java.nio.charset.StandardCharsets.UTF_8;
+
+/**
+ * 商城
+ */
+@Service
+public class MallService extends AbstractService{
+    @Autowired
+    private PlayerService playerService;
+    @Autowired
+    private ConsumeDAO consumeDAO;
+    @Autowired
+    private PlayerDAO playerDAO;
+    @Autowired
+    private FamilyDAO familyDAO;
+    @Autowired
+    private ServerDataDAO serverDataDAO;
+    private List<MallCfg> cfgList;
+
+    private ServerData serverData;
+
+
+    @Override
+    public void onStart() {
+        byte[] data = serverDataDAO.queryServerData();
+        if(data != null) {
+            String json = new String(data, UTF_8);
+            serverData = JsonUtils.string2Object(json, ServerData.class);
+        } else {
+            serverData = new ServerData();
+            String json = JsonUtils.object2String(serverData);
+            serverDataDAO.saveOrUpdate(888,json.getBytes(UTF_8));
+        }
+    }
+
+    /**
+     * 购买商品
+     * @param openId
+     * @param id
+     * @return
+     */
+    public Result buyItem(String openId,int id) {
+        Player player = playerService.getPlayer(openId);
+
+        Mall mall = serverData.getMallMap().get(id);
+        if(mall == null) {
+            mall = new Mall(id);
+        }
+
+        String errorCode = ErrorCode.OK;
+        if(mall.add(openId,mall.genCode(),1000)) {
+            errorCode = ErrorCode.MALL_MAX_COUNT;
+        }
+        return Result.valueOf(errorCode);
+    }
+
+
+    /**
+     * 获取IntegrationMall_ITEMS
+     */
+    public Result getIntegrationMallitems(String openId) {
+        IntegrationMallResp resp=new IntegrationMallResp();
+        if(cfgList == null)
+        {
+            initCfgList();
+        }
+
+        resp.setMallItems(cfgList);
+        return Result.valueOf(ErrorCode.OK, resp);
+    }
+    /**
+     * 消耗健康币兑换
+     */
+    public Result consume(String openId,String name,String phone,String address,int itemId)
+    {
+        int score;
+        Player player=playerService.getPlayer(openId);
+        Family family=playerService.getFamily(player.getFamilyId());
+
+        if(family != null)
+        {
+            score=family.getStep();
+        }
+        else
+        {
+            score=player.getStep();
+        }
+        if(cfgList == null)
+        {
+            initCfgList();
+        }
+        int needScore=getCfgById(itemId).pts;
+        if(needScore>score)
+        {
+            return Result.valueOf(ErrorCode.MALL_SCORE_NOT_ENOUGH, "");
+        }
+        Consume consume = new Consume();
+        consume.setOpenId(openId);
+        consume.setName(name);
+        consume.setPhone(phone);
+        consume.setAddress(address);
+        consume.setItemId(itemId);
+        consumeDAO.insert(consume);
+
+        if(family != null){
+            family.setStep(score - needScore);
+            playerService.updatePlayerScoreInFamily(family);
+            familyDAO.saveOrUpdate(family);
+        }else{
+            player.setStep(score - needScore);
+            playerDAO.saveOrUpdate(player);
+        }
+
+        return Result.valueOf(ErrorCode.OK, "ok");
+    }
+    private void initCfgList()
+    {
+        Collection<Object> configs = ConfigData.getConfigs(MallCfg.class);
+        Object[] array = configs.toArray();
+        cfgList=new ArrayList<>();
+        for(int i=0;i<array.length;i++)
+        {
+            cfgList.add((MallCfg) array[i]);
+        }
+    }
+    private MallCfg getCfgById(int id)
+    {
+        for(int i=0;i<cfgList.size();i++)
+        {
+            if(cfgList.get(i).id == id)
+            {
+                return cfgList.get(i);
+            }
+        }
+        return null;
+    }
+
+
+}

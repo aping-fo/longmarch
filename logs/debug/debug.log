@@ -1,0 +1,741 @@
+[INFO ] 01-04 15:39:03  begin init server...
+[INFO ] 01-04 15:39:03  load game config...
+[INFO ] 01-04 15:39:03  Load Config GlobalConfig
+[INFO ] 01-04 15:39:03  Load Config GroupCfg
+[INFO ] 01-04 15:39:03  Load Config GroupRecordCfg
+[INFO ] 01-04 15:39:03  Load Config IntegrationMallCfg
+[INFO ] 01-04 15:39:03  Load Config LevelCfg
+[INFO ] 01-04 15:39:03  Load Config MallCfg
+[INFO ] 01-04 15:39:03  Load Config MapCfg
+[INFO ] 01-04 15:39:03  Load Config QuestionCfg
+[INFO ] 01-04 15:39:03  load spring cfg...
+[INFO ] 01-04 15:39:03  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@4fb64261: startup date [Fri Jan 04 15:39:03 CST 2019]; root of context hierarchy
+[INFO ] 01-04 15:39:03  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 15:39:03  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 15:39:04  [jade] starting ...
+[INFO ] 01-04 15:39:04  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 15:39:04  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 15:39:04  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 15:39:04  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 15:39:04  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 15:39:04  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:39:04  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:39:04  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 15:39:04  [jade] call 'jade/find'
+[INFO ] 01-04 15:39:04  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 15:39:04  [jade] exits
+[INFO ] 01-04 15:39:04  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6771beb3: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 15:39:05  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@18e36d14 for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 15:39:05  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@3ee95142 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 15:50:15  begin init server...
+[INFO ] 01-04 15:50:15  load game config...
+[INFO ] 01-04 15:50:15  Load Config GlobalConfig
+[INFO ] 01-04 15:50:15  Load Config GroupCfg
+[INFO ] 01-04 15:50:15  Load Config GroupRecordCfg
+[INFO ] 01-04 15:50:15  Load Config IntegrationMallCfg
+[INFO ] 01-04 15:50:15  Load Config LevelCfg
+[INFO ] 01-04 15:50:15  Load Config MallCfg
+[INFO ] 01-04 15:50:15  Load Config MapCfg
+[INFO ] 01-04 15:50:15  Load Config QuestionCfg
+[INFO ] 01-04 15:50:15  load spring cfg...
+[INFO ] 01-04 15:50:15  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@18bf3d14: startup date [Fri Jan 04 15:50:15 CST 2019]; root of context hierarchy
+[INFO ] 01-04 15:50:15  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 15:50:15  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 15:50:15  [jade] starting ...
+[INFO ] 01-04 15:50:15  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 15:50:15  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 15:50:15  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 15:50:15  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 15:50:15  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 15:50:15  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:50:15  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:50:15  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 15:50:15  [jade] call 'jade/find'
+[INFO ] 01-04 15:50:15  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 15:50:15  [jade] exits
+[INFO ] 01-04 15:50:15  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e0e82ae: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 15:50:16  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@5082d622 for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 15:50:16  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@516fd370 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 15:51:04  begin init server...
+[INFO ] 01-04 15:51:04  load game config...
+[INFO ] 01-04 15:51:04  Load Config GlobalConfig
+[INFO ] 01-04 15:51:04  Load Config GroupCfg
+[INFO ] 01-04 15:51:04  Load Config GroupRecordCfg
+[INFO ] 01-04 15:51:04  Load Config IntegrationMallCfg
+[INFO ] 01-04 15:51:04  Load Config LevelCfg
+[INFO ] 01-04 15:51:04  Load Config MallCfg
+[INFO ] 01-04 15:51:04  Load Config MapCfg
+[INFO ] 01-04 15:51:04  Load Config QuestionCfg
+[INFO ] 01-04 15:51:04  load spring cfg...
+[INFO ] 01-04 15:51:04  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@18bf3d14: startup date [Fri Jan 04 15:51:04 CST 2019]; root of context hierarchy
+[INFO ] 01-04 15:51:04  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 15:51:04  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 15:51:04  [jade] starting ...
+[INFO ] 01-04 15:51:04  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 15:51:04  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 15:51:04  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 15:51:04  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 15:51:04  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 15:51:04  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:51:04  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:51:04  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 15:51:04  [jade] call 'jade/find'
+[INFO ] 01-04 15:51:04  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 15:51:04  [jade] exits
+[INFO ] 01-04 15:51:04  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e0e82ae: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 15:51:05  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@2235eaab for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 15:51:05  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@3d2ecfed for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 15:53:26  begin init server...
+[INFO ] 01-04 15:53:26  load game config...
+[INFO ] 01-04 15:53:26  Load Config GlobalConfig
+[INFO ] 01-04 15:53:26  Load Config GroupCfg
+[INFO ] 01-04 15:53:26  Load Config GroupRecordCfg
+[INFO ] 01-04 15:53:26  Load Config IntegrationMallCfg
+[INFO ] 01-04 15:53:26  Load Config LevelCfg
+[INFO ] 01-04 15:53:26  Load Config MallCfg
+[INFO ] 01-04 15:53:26  Load Config MapCfg
+[INFO ] 01-04 15:53:26  Load Config QuestionCfg
+[INFO ] 01-04 15:53:26  load spring cfg...
+[INFO ] 01-04 15:53:26  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@18bf3d14: startup date [Fri Jan 04 15:53:26 CST 2019]; root of context hierarchy
+[INFO ] 01-04 15:53:26  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 15:53:26  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 15:53:27  [jade] starting ...
+[INFO ] 01-04 15:53:27  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 15:53:27  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 15:53:27  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 15:53:27  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 15:53:27  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 15:53:27  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:53:27  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:53:27  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 15:53:27  [jade] call 'jade/find'
+[INFO ] 01-04 15:53:27  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 15:53:27  [jade] exits
+[INFO ] 01-04 15:53:27  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e0e82ae: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 15:53:27  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@2235eaab for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 15:53:28  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@63b4e62b for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 15:55:38  begin init server...
+[INFO ] 01-04 15:55:38  load game config...
+[INFO ] 01-04 15:55:38  Load Config GlobalConfig
+[INFO ] 01-04 15:55:38  Load Config GroupCfg
+[INFO ] 01-04 15:55:38  Load Config GroupRecordCfg
+[INFO ] 01-04 15:55:38  Load Config IntegrationMallCfg
+[INFO ] 01-04 15:55:38  Load Config LevelCfg
+[INFO ] 01-04 15:55:38  Load Config MallCfg
+[INFO ] 01-04 15:55:38  Load Config MapCfg
+[INFO ] 01-04 15:55:38  Load Config QuestionCfg
+[INFO ] 01-04 15:55:38  load spring cfg...
+[INFO ] 01-04 15:55:38  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@18bf3d14: startup date [Fri Jan 04 15:55:38 CST 2019]; root of context hierarchy
+[INFO ] 01-04 15:55:38  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 15:55:38  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 15:55:38  [jade] starting ...
+[INFO ] 01-04 15:55:38  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 15:55:38  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 15:55:38  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 15:55:38  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 15:55:38  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 15:55:38  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:55:38  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:55:38  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 15:55:38  [jade] call 'jade/find'
+[INFO ] 01-04 15:55:38  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 15:55:38  [jade] exits
+[INFO ] 01-04 15:55:39  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e0e82ae: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 15:55:39  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@418c5a9c for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 15:55:40  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@53ad9655 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 15:59:53  begin init server...
+[INFO ] 01-04 15:59:53  load game config...
+[INFO ] 01-04 15:59:53  Load Config GlobalConfig
+[INFO ] 01-04 15:59:53  Load Config GroupCfg
+[INFO ] 01-04 15:59:53  Load Config GroupRecordCfg
+[INFO ] 01-04 15:59:53  Load Config IntegrationMallCfg
+[INFO ] 01-04 15:59:53  Load Config LevelCfg
+[INFO ] 01-04 15:59:53  Load Config MallCfg
+[INFO ] 01-04 15:59:53  Load Config MapCfg
+[INFO ] 01-04 15:59:53  Load Config QuestionCfg
+[INFO ] 01-04 15:59:53  load spring cfg...
+[INFO ] 01-04 15:59:53  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@18bf3d14: startup date [Fri Jan 04 15:59:53 CST 2019]; root of context hierarchy
+[INFO ] 01-04 15:59:54  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 15:59:54  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 15:59:54  [jade] starting ...
+[INFO ] 01-04 15:59:54  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 15:59:54  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 15:59:54  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 15:59:54  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 15:59:54  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 15:59:54  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:59:54  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 15:59:54  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 15:59:54  [jade] call 'jade/find'
+[INFO ] 01-04 15:59:54  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 15:59:54  [jade] exits
+[INFO ] 01-04 15:59:54  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e0e82ae: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 15:59:54  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@418c5a9c for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 15:59:55  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@76e3ad65 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 16:06:24  begin init server...
+[INFO ] 01-04 16:06:24  load game config...
+[INFO ] 01-04 16:06:24  Load Config GlobalConfig
+[INFO ] 01-04 16:06:24  Load Config GroupCfg
+[INFO ] 01-04 16:06:24  Load Config GroupRecordCfg
+[INFO ] 01-04 16:06:24  Load Config IntegrationMallCfg
+[INFO ] 01-04 16:06:24  Load Config LevelCfg
+[INFO ] 01-04 16:06:24  Load Config MallCfg
+[INFO ] 01-04 16:06:24  Load Config MapCfg
+[INFO ] 01-04 16:06:24  Load Config QuestionCfg
+[INFO ] 01-04 16:06:24  load spring cfg...
+[INFO ] 01-04 16:06:24  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@18bf3d14: startup date [Fri Jan 04 16:06:24 CST 2019]; root of context hierarchy
+[INFO ] 01-04 16:06:24  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 16:06:24  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 16:06:24  [jade] starting ...
+[INFO ] 01-04 16:06:24  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 16:06:24  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 16:06:24  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 16:06:24  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 16:06:24  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 16:06:24  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:06:24  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:06:24  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 16:06:24  [jade] call 'jade/find'
+[INFO ] 01-04 16:06:24  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 16:06:24  [jade] exits
+[INFO ] 01-04 16:06:24  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5e0e82ae: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 16:06:25  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@418c5a9c for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 16:06:25  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@53ad9655 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 16:11:38  begin init server...
+[INFO ] 01-04 16:11:38  load game config...
+[INFO ] 01-04 16:11:38  Load Config GlobalConfig
+[INFO ] 01-04 16:11:38  Load Config GroupCfg
+[INFO ] 01-04 16:11:38  Load Config GroupRecordCfg
+[INFO ] 01-04 16:11:38  Load Config IntegrationMallCfg
+[INFO ] 01-04 16:11:38  Load Config LevelCfg
+[INFO ] 01-04 16:11:38  Load Config MallCfg
+[INFO ] 01-04 16:11:38  Load Config MapCfg
+[INFO ] 01-04 16:11:38  Load Config QuestionCfg
+[INFO ] 01-04 16:11:38  load spring cfg...
+[INFO ] 01-04 16:11:38  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 16:11:38 CST 2019]; root of context hierarchy
+[INFO ] 01-04 16:11:38  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 16:11:38  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 16:11:38  [jade] starting ...
+[INFO ] 01-04 16:11:38  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 16:11:38  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 16:11:38  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 16:11:38  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 16:11:38  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 16:11:38  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:11:38  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:11:38  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 16:11:38  [jade] call 'jade/find'
+[INFO ] 01-04 16:11:38  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 16:11:38  [jade] exits
+[INFO ] 01-04 16:11:39  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 16:11:39  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@20bd8be5 for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 16:11:39  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@323d2ace for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 16:14:24  begin init server...
+[INFO ] 01-04 16:14:24  load game config...
+[INFO ] 01-04 16:14:24  Load Config GlobalConfig
+[INFO ] 01-04 16:14:24  Load Config GroupCfg
+[INFO ] 01-04 16:14:24  Load Config GroupRecordCfg
+[INFO ] 01-04 16:14:24  Load Config IntegrationMallCfg
+[INFO ] 01-04 16:14:24  Load Config LevelCfg
+[INFO ] 01-04 16:14:24  Load Config MallCfg
+[INFO ] 01-04 16:14:24  Load Config MapCfg
+[INFO ] 01-04 16:14:24  Load Config QuestionCfg
+[INFO ] 01-04 16:14:24  load spring cfg...
+[INFO ] 01-04 16:14:24  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 16:14:24 CST 2019]; root of context hierarchy
+[INFO ] 01-04 16:14:24  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 16:14:24  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 16:14:25  [jade] starting ...
+[INFO ] 01-04 16:14:25  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 16:14:25  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 16:14:25  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 16:14:25  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 16:14:25  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 16:14:25  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:14:25  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:14:25  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 16:14:25  [jade] call 'jade/find'
+[INFO ] 01-04 16:14:25  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 16:14:25  [jade] exits
+[INFO ] 01-04 16:14:25  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 16:14:25  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@20bd8be5 for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 16:14:26  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@486a7d60 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 16:21:53  begin init server...
+[INFO ] 01-04 16:21:53  load game config...
+[INFO ] 01-04 16:21:53  Load Config GlobalConfig
+[INFO ] 01-04 16:21:53  Load Config GroupCfg
+[INFO ] 01-04 16:21:53  Load Config GroupRecordCfg
+[INFO ] 01-04 16:21:53  Load Config IntegrationMallCfg
+[INFO ] 01-04 16:21:53  Load Config LevelCfg
+[INFO ] 01-04 16:21:53  Load Config MallCfg
+[INFO ] 01-04 16:21:53  Load Config MapCfg
+[INFO ] 01-04 16:21:53  Load Config QuestionCfg
+[INFO ] 01-04 16:21:53  load spring cfg...
+[INFO ] 01-04 16:21:53  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 16:21:53 CST 2019]; root of context hierarchy
+[INFO ] 01-04 16:21:53  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 16:21:53  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 16:21:53  [jade] starting ...
+[INFO ] 01-04 16:21:53  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 16:21:53  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 16:21:53  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 16:21:53  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 16:21:53  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 16:21:53  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:21:53  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:21:53  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 16:21:53  [jade] call 'jade/find'
+[INFO ] 01-04 16:21:53  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 16:21:53  [jade] exits
+[INFO ] 01-04 16:21:53  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 16:21:54  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 16:21:54  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@6941fb71 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 16:44:37  begin init server...
+[INFO ] 01-04 16:44:37  load game config...
+[INFO ] 01-04 16:44:37  Load Config GlobalConfig
+[INFO ] 01-04 16:44:37  Load Config GroupCfg
+[INFO ] 01-04 16:44:37  Load Config GroupRecordCfg
+[INFO ] 01-04 16:44:37  Load Config IntegrationMallCfg
+[INFO ] 01-04 16:44:37  Load Config LevelCfg
+[INFO ] 01-04 16:44:37  Load Config MallCfg
+[INFO ] 01-04 16:44:37  Load Config MapCfg
+[INFO ] 01-04 16:44:37  Load Config QuestionCfg
+[INFO ] 01-04 16:44:37  load spring cfg...
+[INFO ] 01-04 16:44:37  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 16:44:37 CST 2019]; root of context hierarchy
+[INFO ] 01-04 16:44:37  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 16:44:37  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 16:44:37  [jade] starting ...
+[INFO ] 01-04 16:44:37  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 16:44:37  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 16:44:37  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 16:44:37  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 16:44:37  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 16:44:37  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:44:37  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:44:37  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 16:44:37  [jade] call 'jade/find'
+[INFO ] 01-04 16:44:37  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 16:44:37  [jade] exits
+[INFO ] 01-04 16:44:37  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 16:44:38  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 16:44:38  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@3ee95142 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 16:45:17  begin init server...
+[INFO ] 01-04 16:45:17  load game config...
+[INFO ] 01-04 16:45:17  Load Config GlobalConfig
+[INFO ] 01-04 16:45:17  Load Config GroupCfg
+[INFO ] 01-04 16:45:17  Load Config GroupRecordCfg
+[INFO ] 01-04 16:45:17  Load Config IntegrationMallCfg
+[INFO ] 01-04 16:45:17  Load Config LevelCfg
+[INFO ] 01-04 16:45:17  Load Config MallCfg
+[INFO ] 01-04 16:45:17  Load Config MapCfg
+[INFO ] 01-04 16:45:17  Load Config QuestionCfg
+[INFO ] 01-04 16:45:17  load spring cfg...
+[INFO ] 01-04 16:45:17  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 16:45:17 CST 2019]; root of context hierarchy
+[INFO ] 01-04 16:45:17  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 16:45:17  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 16:45:17  [jade] starting ...
+[INFO ] 01-04 16:45:17  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 16:45:17  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 16:45:17  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 16:45:17  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 16:45:17  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 16:45:17  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:45:17  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:45:17  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 16:45:17  [jade] call 'jade/find'
+[INFO ] 01-04 16:45:17  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 16:45:17  [jade] exits
+[INFO ] 01-04 16:45:17  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 16:45:18  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@20bd8be5 for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 16:45:18  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@27770456 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 16:48:46  receive req, [data]= eyJjb2RlIjoiMDIzZ0dMcEoxR3RQNDMwTzJucEoxT2NFcEoxZ0dMcDUifQ==,[s] = 0da08485c132b7eda13c71dc246bb8c1,[openId] = 0,[cmd] = 1001
+[INFO ] 01-04 16:48:47  Cache loaded for oYEe05MtxGwNUFA-KtR8mYtvFHms
+[INFO ] 01-04 16:48:47  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@12e6982b for com.game.dao.PlayerDAO#queryPlayer
+[INFO ] 01-04 16:48:47  send data ==> {"code":"200","data":"{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"hasRole\":true}"}
+[INFO ] 01-04 16:48:47  {"code":"200","data":"{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 01-04 16:48:47  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvYzZjMmF0c2g3TUNzRWZSVkpMYVJ0eGZ1ZHVzUmdpYlRxZmM5dkhIcW9vaWFpY1hCeGxvbXBlNjlyZXNCaWN1dG1NVXNudFlvOHNYYXhJMkRuQXJLQkxnOHpnLzEzMiJ9,[s] = a00ba8c4b054daac0b357fa187c58dd3,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1004
+[INFO ] 01-04 16:48:47  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 01-04 16:48:47  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 01-04 16:48:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1003
+[INFO ] 01-04 16:48:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1010
+[INFO ] 01-04 16:48:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4000
+[INFO ] 01-04 16:48:48  Cache loaded for fe42b0be-bde3-4dd3-b565-b3e4ffe5889b
+[INFO ] 01-04 16:48:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4011
+[INFO ] 01-04 16:48:48  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@27770456 for com.game.dao.GroupDAO#queryGroup
+[INFO ] 01-04 16:48:48  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@27770456 for com.game.dao.GroupDAO#queryGroup
+[INFO ] 01-04 16:48:48  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}"}
+[INFO ] 01-04 16:48:48  send data ==> {"code":"200","data":"[{\"id\":\"9e436fe3-a581-4768-bbf7-c1a066c6a096\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":30000},{\"id\":\"59a013d4-df0c-4230-a2b1-dc96a1a204b0\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3cee9684-f956-4b36-9f3d-1ef34327e16e\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"dc30b4ae-11d2-4b7b-80be-645baced1b62\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":5333600},{\"id\":\"402759e7-7b31-4d08-b7de-7ca4867121cb\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"7e13ee68-6d28-4f52-a416-2ef841a83d54\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15782},{\"id\":\"7f1d7283-63bb-45ed-b52b-708379190f83\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"2b5fb7c4-f9fe-4c29-8adb-55e826503e5d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e5400011-65aa-469d-b165-92e260612966\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"b424b4fa-f2df-434b-949f-5f6e592331b7\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"5beea361-4a73-4b14-b896-33f51e15eae4\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":17188},{\"id\":\"9a5f5e7b-31e9-4791-a570-2bdff7d5d82d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"2f4fe0a0-2eb8-4899-9250-1e04e8a6beca\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e9b22993-6e73-4264-9937-8c451d9adb41\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":14375},{\"id\":\"4a20503a-5831-42cc-b0bf-7c6bd385528f\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3e19d332-b502-4684-ab7b-8d22b3be360d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"e7c5b06a-9ac0-4ce0-90ad-60cca51ba89c\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"52c26e73-615b-4cb6-b67f-4893cb46544b\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"ee1a20eb-4373-40b1-b862-2ce8d72d8754\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":20000},{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"name\":\"Quik㊕⁶⁶⁶\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]"}
+[INFO ] 01-04 16:48:48  {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}","cmd":"4000"}
+[INFO ] 01-04 16:48:48  {"code":"200","data":"[{\"id\":\"9e436fe3-a581-4768-bbf7-c1a066c6a096\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":30000},{\"id\":\"59a013d4-df0c-4230-a2b1-dc96a1a204b0\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3cee9684-f956-4b36-9f3d-1ef34327e16e\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"dc30b4ae-11d2-4b7b-80be-645baced1b62\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":5333600},{\"id\":\"402759e7-7b31-4d08-b7de-7ca4867121cb\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"7e13ee68-6d28-4f52-a416-2ef841a83d54\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15782},{\"id\":\"7f1d7283-63bb-45ed-b52b-708379190f83\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"2b5fb7c4-f9fe-4c29-8adb-55e826503e5d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e5400011-65aa-469d-b165-92e260612966\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"b424b4fa-f2df-434b-949f-5f6e592331b7\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"5beea361-4a73-4b14-b896-33f51e15eae4\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":17188},{\"id\":\"9a5f5e7b-31e9-4791-a570-2bdff7d5d82d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"2f4fe0a0-2eb8-4899-9250-1e04e8a6beca\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e9b22993-6e73-4264-9937-8c451d9adb41\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":14375},{\"id\":\"4a20503a-5831-42cc-b0bf-7c6bd385528f\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3e19d332-b502-4684-ab7b-8d22b3be360d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"e7c5b06a-9ac0-4ce0-90ad-60cca51ba89c\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"52c26e73-615b-4cb6-b67f-4893cb46544b\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"ee1a20eb-4373-40b1-b862-2ce8d72d8754\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":20000},{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"name\":\"Quik㊕⁶⁶⁶\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]","cmd":"4011"}
+[INFO ] 01-04 16:48:48  send data ==> {"code":"200","data":"[]"}
+[INFO ] 01-04 16:48:48  {"code":"200","data":"[]","cmd":"1010"}
+[INFO ] 01-04 16:48:48  send data ==> {"code":"200","data":"{\"level\":1,\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"totalStep\":0,\"step\":0}"}
+[INFO ] 01-04 16:48:48  {"code":"200","data":"{\"level\":1,\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"totalStep\":0,\"step\":0}","cmd":"1003"}
+[INFO ] 01-04 16:48:48  receive req, [data]= eyJlbmNyeXB0ZWREYXRhIjoibTE5NnYvTlRCLzlhVEswc2dUT3l5UWdiSUorY1AyY0lDZDlvazdDVU5aTGY5eWZnUWtSd1d0NXBCSENDVERiS3h6eFg2SG5adUZQelFlSWNFc1h0TW5YTUtIVnZESXNjZkhQZmNqVTM4TWozV2U5ak5ZZHNMRzE2eU9MdDhOMzR3L1Y4eXlTQjdTQjVtbEJ4YndEbkYxT1ZHRC95N0luRlBwenJtV0g0U2Y4NTlER3kvcGpNRU5RazlERXlNL2N3eGFlcWJzV3hJalNDOGQrc0FFbFo3VjgwcWNZTnMwYS92OUxLZWhYNFdYV21abVk0WmpSMzFmZDluRFVQUENlT2lYZ2FLYmJ6VmRvRUJKcWE4b2hOODdabE43SExIdEZ5dXJQQVE0dnZxdFJMSVdUdC9tRkxPVVgwL0Jib0ZLVWhIQmFIT2wyOWg4S0szZE5DU0JjUHpadWhxRDBVT1BBOHJaNFVjQmJrdS9jZjlBakcrWlhDU1ZXVzNxY05wakNtQnl0Rm9sakJmVnZLQm1FbHZZclRNU1dZbFgzcDUyNmtNUE1ucGQzZlV3U3V0K3d6aE14aG04ME5GQ0IwMUxzQTdGWHRON0Vmcm1CVjMrSDBRU0t4V0FNRDVvTGFEWDM1d3JoRXp3OUxBOUlTaVZ6bzJYTUVURC96Mkl4Zy9uaDZGUlFWVzM1ci9KcTlPT1JINzNRbVpPSHpoYWJZUG9VeGNKOGtzcVVMdGFJbW1nZ0pLd0J1WEk1MGkyOExKNTJlS2ZYRkxSdVQ5bU03dWIyd2JjUWlOV3ZGNFZaV3E4eitKank4MEpNMTdlME03NWp2UkxnN3VtSXNkM05RWjhhREJCeVVEMUhhano3Vm5GY0ZsWnVtUG5Gd0kwNEhPZ1RKeGUwdnZKYWNQdTE0Zk9XVk5TYXlIQXZyaTd3M1FGYlR6SU1tQ0NIZ0JOK2FkMk5xa2hVVENSclQwVGFkTEhmVm4xdVB6M0JlTktpNXlkSUptczdKSXhaWDJtK0VuN1l5NzZlVzVvdUVYejF3ZWNmQzV6YUtKQ2Z6c2NhbEN1aUt2Q25yM2tHeG5iTnZDVWI3S0RRQ0RYU2I2QmFIMkNhVjNNMTQrVC9qK2xhcTJKdDV4N1hxQnROSUZIS2JaVlZEUnM0TzFWVEY3U0NZQXo4b0lmWWZiejJISU1ydUFHVUllSGR4R0d3ZUpJRXgyeEJob3E0UDhyS2FaeVBrUDUrbmZqbmJhNnJuQjNIdFdQcVBVdXI1RmZVcm5JUWRkbVExcTBOVFBGY0xkWFB3dnRJYjFuS1VhczBNeExtdld6QU1JQmdCTU16RGVkdGl0WHdVNnBtM2N5S2NBVzNDOXIxdVRaT2dhUWtIZ0oybWp1cUNkakNsdzRWQXl0d2VFb1l5eFlQRUV4K0FnUlQ4eUJpelZUSzhLalRqbEV0amFYZ3BydEYxM3JxTUhNZHJkWGxvL1dxS3RBWS96M1poTGxQL3ZZTkloMGpVVExHMkw3NEhJcDVzN05ITUl3UlJLTXFEdS8yek9ybWdYT25MVEFvd25LLzVmVVU4SW9UQ1lrTDR4STVobzgxUUpOMFVQUHFwL1JGdXFCdUdxangvS2djN20xY096d1BFWkF2ZllMdG9wSWE5NFdqaXlHVEMyeVNPanN3dnRrQW15L3Z6MzBleXYveXJNZGZxQ2dXR00wMEh4TDk3NHJYclRuVmVFUldjekdhWU9wOE1WTzc1ano3eUVXcUoreFNSUzdmTk40QmVZdTZwSEhpRTFjeWdiNnFmdWMvKzVlczlqOXVLaFNQdlh4WGcvenJCSlVxVDhDU0RWU3lwZlp2dGkreFhoQ1owbDZHL1BuTkZFNlYzeDlwMmJOSDIvTDRHYVd3WnpLU2Q4eDVIVWVQQXJ5QzZZejRZb28rSFZQZEdTT0MwaHgwTGVFNlgydmlReUVDVk1MZlNBZ1JWSVllajZyUXFTelZMUmFvNU1zRnFzTVFMTHJsc1h4ZHlYblJKOGZyTU1BVG12QnhmSWdOOHoyWXNCc09WSU5rWVdLNS9GdksyOXJaVnVjUzA5aG9yWXNSdkVmSnBQQXo3MXFOUU1uWkhNYzRoWWJMOE9qY0s2WGhxZ2lQdWo4OUpCUy9EY05lZlAwQjUwNFFDSElxRjY4ai9pMHJiQTJrZStuT2w1d0VYa2M5Vm1hbUltMGJXSXZFRTVJa0QiLCJpdiI6IjRnMnRVNmJVZEdKYXkvWktkMnNiL2c9PSJ9,[s] = e256164c1b33cc946fde01d0240eea19,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1007
+[INFO ] 01-04 16:48:49  send data ==> {"code":"200","data":"1976"}
+[INFO ] 01-04 16:48:49  {"code":"200","data":"1976","cmd":"1007"}
+[INFO ] 01-04 16:49:01  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4000
+[INFO ] 01-04 16:49:01  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}"}
+[INFO ] 01-04 16:49:01  {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}","cmd":"4000"}
+[INFO ] 01-04 16:49:01  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4001
+[INFO ] 01-04 16:49:01  send data ==> {"code":"200","data":"[]"}
+[INFO ] 01-04 16:49:01  {"code":"200","data":"[]","cmd":"4001"}
+[INFO ] 01-04 16:49:05  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1003
+[INFO ] 01-04 16:49:05  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1010
+[INFO ] 01-04 16:49:05  send data ==> {"code":"200","data":"[]"}
+[INFO ] 01-04 16:49:05  {"code":"200","data":"[]","cmd":"1010"}
+[INFO ] 01-04 16:49:05  send data ==> {"code":"200","data":"{\"level\":1,\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"totalStep\":0,\"step\":0}"}
+[INFO ] 01-04 16:49:05  {"code":"200","data":"{\"level\":1,\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"totalStep\":0,\"step\":0}","cmd":"1003"}
+[INFO ] 01-04 16:49:05  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4000
+[INFO ] 01-04 16:49:05  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}"}
+[INFO ] 01-04 16:49:05  {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}","cmd":"4000"}
+[INFO ] 01-04 16:49:05  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4011
+[INFO ] 01-04 16:49:05  send data ==> {"code":"200","data":"[{\"id\":\"9e436fe3-a581-4768-bbf7-c1a066c6a096\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":30000},{\"id\":\"59a013d4-df0c-4230-a2b1-dc96a1a204b0\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3cee9684-f956-4b36-9f3d-1ef34327e16e\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"dc30b4ae-11d2-4b7b-80be-645baced1b62\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":5333600},{\"id\":\"402759e7-7b31-4d08-b7de-7ca4867121cb\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"7e13ee68-6d28-4f52-a416-2ef841a83d54\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15782},{\"id\":\"7f1d7283-63bb-45ed-b52b-708379190f83\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"2b5fb7c4-f9fe-4c29-8adb-55e826503e5d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e5400011-65aa-469d-b165-92e260612966\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"b424b4fa-f2df-434b-949f-5f6e592331b7\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"5beea361-4a73-4b14-b896-33f51e15eae4\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":17188},{\"id\":\"9a5f5e7b-31e9-4791-a570-2bdff7d5d82d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"2f4fe0a0-2eb8-4899-9250-1e04e8a6beca\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e9b22993-6e73-4264-9937-8c451d9adb41\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":14375},{\"id\":\"4a20503a-5831-42cc-b0bf-7c6bd385528f\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3e19d332-b502-4684-ab7b-8d22b3be360d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"e7c5b06a-9ac0-4ce0-90ad-60cca51ba89c\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"52c26e73-615b-4cb6-b67f-4893cb46544b\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"ee1a20eb-4373-40b1-b862-2ce8d72d8754\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":20000},{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"name\":\"Quik㊕⁶⁶⁶\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]"}
+[INFO ] 01-04 16:49:05  {"code":"200","data":"[{\"id\":\"9e436fe3-a581-4768-bbf7-c1a066c6a096\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":30000},{\"id\":\"59a013d4-df0c-4230-a2b1-dc96a1a204b0\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3cee9684-f956-4b36-9f3d-1ef34327e16e\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"dc30b4ae-11d2-4b7b-80be-645baced1b62\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":5333600},{\"id\":\"402759e7-7b31-4d08-b7de-7ca4867121cb\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"7e13ee68-6d28-4f52-a416-2ef841a83d54\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15782},{\"id\":\"7f1d7283-63bb-45ed-b52b-708379190f83\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"2b5fb7c4-f9fe-4c29-8adb-55e826503e5d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e5400011-65aa-469d-b165-92e260612966\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"b424b4fa-f2df-434b-949f-5f6e592331b7\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"5beea361-4a73-4b14-b896-33f51e15eae4\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":17188},{\"id\":\"9a5f5e7b-31e9-4791-a570-2bdff7d5d82d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"2f4fe0a0-2eb8-4899-9250-1e04e8a6beca\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e9b22993-6e73-4264-9937-8c451d9adb41\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":14375},{\"id\":\"4a20503a-5831-42cc-b0bf-7c6bd385528f\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3e19d332-b502-4684-ab7b-8d22b3be360d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"e7c5b06a-9ac0-4ce0-90ad-60cca51ba89c\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"52c26e73-615b-4cb6-b67f-4893cb46544b\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"ee1a20eb-4373-40b1-b862-2ce8d72d8754\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":20000},{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"name\":\"Quik㊕⁶⁶⁶\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]","cmd":"4011"}
+[INFO ] 01-04 16:49:05  receive req, [data]= eyJlbmNyeXB0ZWREYXRhIjoibEx0VUhSL0JXQkVnNXp6bVB0SENoZktYWG1DQTR1d0g1TDZnbXM3cjZQTWJ0YWU0cnJDMS9XRjZzZVBEeEhZVGQ4TURKdExLaFpMaHJyT0NZZnRNWVRGc0FEWTBjNkNlUjU0ZDlSeVdSTDBJR0t6RDhWUGxhVEZKdENXOXZCVmQxVGJsenRERGxtK0VsRnlwMzB1K2ovZUszUW1peWlTbncyNHI1RHY5bERZdzZxcS9YLzBHQUdzZXRSdHZLYzduVDZKNHdLdUlzL2J2WW04WDhCYTExQWFXWFA0TlROZ1pCRWFoeldzT3ViRVNwN1ZyYzVNNWhlVFlwZTFIMHZEV0RWaHUzNVpEeU5KNG50UmJrekhXcGhhTGFnbHRSbk1CY3NMMXJ4R2EyNFJYZmdKQzNDRGNYRkhkamxCOElJVnorRDRsRCtXV0tzeGhuRjBsOUNwM2dxaW9DZUhobms1OWpEdkxaYjgrczBNWXZrdlg5NGVNUkhuMWI1Mk4remVzTHBCeDJmVm1qdUQ4TUs2TFo2Yk1IZm1qT1RUcXhrK0FucG1pT0p5anNQR25nUnpUYmgzS1FkUFdhcktiM09TZ1lSdDZ0QStVb1l5VDVRbE1hUGRSei8xcTUwbGdBTDlvaXJaOTloV2U2YmUveFVVSEJsZFRiZTExOWxHSkRWY0JqejdZeWkycWpjbHBzS3R4VlJnUHhzTXJsaHExd1NRMTBia2NHb1B2am50Mk43ZVdrQkFHWlYwSDNCdmxmMnBJbnJxcDZ1aWNFcHNPd3RvaTU2cjJhRDRyamduVWJ3WWVBd1V3dmhMTlRhWU9pQ251a2d1MUIwZXZuOXNjZWJBUWlBbWJ4RU1YRzc0K3NiS1BscURQOHEzMlNaRmwxWVZJd2F1K3RZM2ZtUzRmYlVSY1JINmxaZzVpRDRQL2x0TDkyYnRCWWl4a1lidmxvTUZ2cE9JdXdpZzdnRU1TRUI1Vkt4Uk1GWkNJUjNua0RTMy9PS2JHK2ZOaWpGOGlCZWxrdDdoRU1PL3huUGUrOUJ1RFI5eEhTU1NGbkpWNXVLWS9MUXRBZmNCN0krby9zdENJM2FnSHZ6WHV0VGRZbEtUQzFYUXBkbVpRL0Q4MGtaNzhoa0VOU2hhR3VGbjVDODB0U0ljMmRLSlVjZDdUSGs2eXBnYVFVa2RyMkRucWtyNVZ3TW5mQUFQM3ZmSTBlaFU2UlUrVi91ZXlzZVlFc3pFWFBIQ2hoQk5tZ3U0UzhObUFidHNoSkNyRmE2RHVobVJqVVcvaThlUHpWeVNQQ3RFbFF5S2pRQW40dDBsQUtIUzNLTWNOT05TRG96UHJNNUgrdUd3c2I5NlRzMGlFODV6LzVaWm0yZWFRdzAwYnJjdlVQdWR1ZVdlZGVPTHhpZkZFTjZrQkpwaDZ1RUNyV2dqTXloRHdvVmkwVmVxckUvSUJtaVVxODAxaG9SQnZSaFczaUxCZVFHTHByZ1lRYmRjWmwrTklyamV3aDZPbWd5NWI5Ritoa2hYcVE1RWtycjhiU2NnVlU3NjJtN2d3MUtMKzVUQWtpd2p0M2ozUVE1Q2owL1JLU21PNW1iY2hsanZpei95SDBoUWJZaG84OUFTSmpHcDRjbzBvRGw2K2tmMG1qQXl5OXJjdzFiYVdBblZpd3drYW1Wb1Bya0hxT3hFeURzMVJrYlRKajE0ZkgrM2EzVjVHdUpyajAwK1o1eWhrREQ4Sk9wL3VlNzkrcDhxMVVDS0lMOEFWeDFGSS9SajBiSzQxRW5mTy96Tjh2VHNYNlpRTjBuNnU3YWVHZWlWZlVxZDlyNUtHY2dEU2xXWVlvNm1PNytONmVrVzQ3MlRMSXc0Rko1eFRaRUVuckZWQVVlVFB1TnhyQ1c2b3JMVGFtUmg1QXpZMmI1a2RRWi9tUm4va0NkYjFGa05wN0p5ajIxM3pNdmY3K09Pc0I1UUJyNGRldWcxOEdZVjFZWUxWb2Z0NSszZWU2WjZ0NEV4QktyRmZWbzRFQ0xzM0dIdE9XVjBVSjh1ekxEMlcwemxSdnRUTjFCYmQyYzJPRG1UTG5xcDZRWkR5bDdKZ25zNGZjSXoyRW95TUdWdlEzOGh0WWx6VXRJcFNZazJudE1LTjdwaEhkVVYvTjJPN0wzMG9FeUJPa2hXWllZVDMyUHpDS0RvM1RjQllzb0FabEhFb1prN25CalJkWE1GNEZvN0giLCJpdiI6IkJOUUpmS0J1RkI5dnBHRWtwMExPdEE9PSJ9,[s] = 23b4ec99d7aa57455049f42c1c97d2fc,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1007
+[INFO ] 01-04 16:49:05  send data ==> {"code":"200","data":"1976"}
+[INFO ] 01-04 16:49:05  {"code":"200","data":"1976","cmd":"1007"}
+[INFO ] 01-04 16:49:20  receive req, [data]= eyJjb2RlIjoiMDIzZTMwN04xS1U2bDgxcVpPNk4xbURoN04xZTMwN00ifQ==,[s] = 9512cf925439b86aeb49fc1aad473f1b,[openId] = 0,[cmd] = 1001
+[INFO ] 01-04 16:49:21  send data ==> {"code":"200","data":"{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"hasRole\":true}"}
+[INFO ] 01-04 16:49:21  {"code":"200","data":"{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 01-04 16:49:21  receive req, [data]= eyJuaWNrTmFtZSI6IlF1aWvjipXigbbigbbigbYiLCJpY29uVXJsIjoiaHR0cHM6Ly93eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvYzZjMmF0c2g3TUNzRWZSVkpMYVJ0eGZ1ZHVzUmdpYlRxZmM5dkhIcW9vaWFpY1hCeGxvbXBlNjlyZXNCaWN1dG1NVXNudFlvOHNYYXhJMkRuQXJLQkxnOHpnLzEzMiJ9,[s] = a00ba8c4b054daac0b357fa187c58dd3,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1004
+[INFO ] 01-04 16:49:21  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 01-04 16:49:21  {"code":"200","data":"\"ok\"","cmd":"1004"}
+[INFO ] 01-04 16:49:21  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1003
+[INFO ] 01-04 16:49:21  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1010
+[INFO ] 01-04 16:49:21  send data ==> {"code":"200","data":"[]"}
+[INFO ] 01-04 16:49:21  {"code":"200","data":"[]","cmd":"1010"}
+[INFO ] 01-04 16:49:21  send data ==> {"code":"200","data":"{\"level\":1,\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"totalStep\":0,\"step\":0}"}
+[INFO ] 01-04 16:49:21  {"code":"200","data":"{\"level\":1,\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"levelUpExp\":15,\"totalStep\":0,\"step\":0}","cmd":"1003"}
+[INFO ] 01-04 16:49:21  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4000
+[INFO ] 01-04 16:49:21  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}"}
+[INFO ] 01-04 16:49:21  {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}","cmd":"4000"}
+[INFO ] 01-04 16:49:21  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4011
+[INFO ] 01-04 16:49:21  send data ==> {"code":"200","data":"[{\"id\":\"9e436fe3-a581-4768-bbf7-c1a066c6a096\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":30000},{\"id\":\"59a013d4-df0c-4230-a2b1-dc96a1a204b0\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3cee9684-f956-4b36-9f3d-1ef34327e16e\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"dc30b4ae-11d2-4b7b-80be-645baced1b62\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":5333600},{\"id\":\"402759e7-7b31-4d08-b7de-7ca4867121cb\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"7e13ee68-6d28-4f52-a416-2ef841a83d54\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15782},{\"id\":\"7f1d7283-63bb-45ed-b52b-708379190f83\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"2b5fb7c4-f9fe-4c29-8adb-55e826503e5d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e5400011-65aa-469d-b165-92e260612966\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"b424b4fa-f2df-434b-949f-5f6e592331b7\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"5beea361-4a73-4b14-b896-33f51e15eae4\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":17188},{\"id\":\"9a5f5e7b-31e9-4791-a570-2bdff7d5d82d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"2f4fe0a0-2eb8-4899-9250-1e04e8a6beca\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e9b22993-6e73-4264-9937-8c451d9adb41\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":14375},{\"id\":\"4a20503a-5831-42cc-b0bf-7c6bd385528f\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3e19d332-b502-4684-ab7b-8d22b3be360d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"e7c5b06a-9ac0-4ce0-90ad-60cca51ba89c\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"52c26e73-615b-4cb6-b67f-4893cb46544b\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"ee1a20eb-4373-40b1-b862-2ce8d72d8754\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":20000},{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"name\":\"Quik㊕⁶⁶⁶\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]"}
+[INFO ] 01-04 16:49:21  {"code":"200","data":"[{\"id\":\"9e436fe3-a581-4768-bbf7-c1a066c6a096\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":30000},{\"id\":\"59a013d4-df0c-4230-a2b1-dc96a1a204b0\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3cee9684-f956-4b36-9f3d-1ef34327e16e\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"dc30b4ae-11d2-4b7b-80be-645baced1b62\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":5333600},{\"id\":\"402759e7-7b31-4d08-b7de-7ca4867121cb\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"7e13ee68-6d28-4f52-a416-2ef841a83d54\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15782},{\"id\":\"7f1d7283-63bb-45ed-b52b-708379190f83\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"2b5fb7c4-f9fe-4c29-8adb-55e826503e5d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e5400011-65aa-469d-b165-92e260612966\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"b424b4fa-f2df-434b-949f-5f6e592331b7\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"5beea361-4a73-4b14-b896-33f51e15eae4\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":17188},{\"id\":\"9a5f5e7b-31e9-4791-a570-2bdff7d5d82d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"2f4fe0a0-2eb8-4899-9250-1e04e8a6beca\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"e9b22993-6e73-4264-9937-8c451d9adb41\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":14375},{\"id\":\"4a20503a-5831-42cc-b0bf-7c6bd385528f\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"3e19d332-b502-4684-ab7b-8d22b3be360d\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":15000},{\"id\":\"e7c5b06a-9ac0-4ce0-90ad-60cca51ba89c\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":0},{\"id\":\"52c26e73-615b-4cb6-b67f-4893cb46544b\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":16250},{\"id\":\"ee1a20eb-4373-40b1-b862-2ce8d72d8754\",\"name\":\"测试\",\"iconUrl\":\"\",\"step\":20000},{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"name\":\"Quik㊕⁶⁶⁶\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]","cmd":"4011"}
+[INFO ] 01-04 16:49:22  receive req, [data]= eyJlbmNyeXB0ZWREYXRhIjoiL2svcS9mYnJlNnlZR3o0UFBDSnFta2U5MlJRdEpsakhGOWJGcmNvMmMxU3dFK1VaNWxUUkVnZkVYaW9DOFFuVGJvUUhSS1N1Q0JrZWFDV2RKYnRYdzYxMkgvRWh5bS9PbFJxcWtwOER5RjN4ZVcwRm5FY1oyNk1qY2M4TVpWQjlRQ3VveFZNS0VXOHJpSFdUeEpvWkh3S2tDYW5xeldlOGNFemFmandQZjV1eWRBZUo4Ky9IaUdWell1UkNJYmd0bTQ2OG1HSmhHeE5GODNaamRsa2YwRDlmODdxd2NkVnJWaElWNXZ2K3kzWTVMZ3ZDODlDRlJBOE1Jdjgybnd2V0dSWEp6MklLTzFZeG1YSCtNQXlqQXZsTFphZEh4OFR0blFpZEJjblNRWkVyMUJyQWQ3aURid0VLS2pCd0RpdzRhOVBOalg3OXRZSkEyRlpFelJ1UlpFaUlGeWxZbzFraEhXLzFBaHIwanJWKzFZaEVYSVBhNW04NGVkZldiSUFqQ3YrMHdGeCsvM3krbWNvUnVDNkF1azd2NHpLUGZHQklid0Z3MXJiakJaMDcxVkRhd2I2RDlQRjdubXorcjNtcVRsZUJGbEJ3THBXVmR3bXhKMDBoM3c2ancxc0FqbWwyeFM0QjUvNTJoRVN3OTNVNmlWb1FWdFp2QUNJR21MTXhTTnZNaE5UcUtWcFdtamQ0YkYzUjZnWEJtQ09sZHpFSVdlWjVCYUUvWlZ0SFhvc0piMTg5cVN6NGMvM3hLWnRiTHFQK2RBOGQwNk0zSGxFdkxCcHJPN1E2MUNPMzhqbGhiZUdQa1VzUkZhenJIMVNFLzlucVI4a2tJZXVoc2VGeFY5Vk1Dc2h3Mnh6TlJEYmdKN1gxSGo0Y3gwMnFta3g2bFlSUDZCSnEzZzlTOEU0cWxGeDduUjdnbzRKUmpnK01hVzQzc1hjbW5LNWJ0U3ZubTMzVTQ0VUlhbkRENjQxaCtyTzU1OGF3ZGloRkFXREhxNnpaNm8xamlJVTgxWm0ydnNJSWM2aFhXQnNmanJvMVpDckxyVEtzMHptWDJaUlZoazAweFdtV01XM1NBeVFXQURJcnFsNmxGc1E2SlRiM0dVRDNuYXN2OFlQSHpDN2JZRVhhRHBwWGRORjdmcTRGUlhCTVcvTTVGeS9ydGk1QXlQU1lYYW5XdDFKRFdQMlJIMFdWYVBBZStKT29sdk1vemxkNHZZMEx1RjZaN0o3Vnc5R0JDdjc1MXRyQ0lMd1YzZmQ1ZmdzS1ZYSFE3eFhKbFlyWU9vaWlmT09raEpDUHdubEhISzlxU0NoYXE5aVBSTTcxR1NnNHdGTU02UFpKZjlSbVZVUkFQdVNjUmVhMW1rNUFkQzFTOTl1U2gwcXZuZU5iL1hId1JuWFFyMTFELytJRVlwTWRIT2F0V2pDTmlmWVBpdmdqZS9WclNWSkV4ejRDOU11K2lZRFh6d3NIVUpqdXBKalR0MUVHTjdtQUZmT1RobkZzVHYvN2FSdy9tSXN6MDlKWTgwVElpUXAzUndjU01pbDFzRENEbVJRcnZHd0lNc2FiN3BaMnlYY1laNmRhWVdTam5SMm9SNVBRaWhQTngrTlgrempRaTJtRVAxR0NGcjV2SGRxOFg4T0IxOEg5aVI1VUtDRkIvam9EcHppTFdoRWExR2V2WTlZZVJKR1JXNTdSL0hpZE8yd0lyeGdrQWxMOU9EVGtsK0FLeHR2ejE1VTJCRTJwNkgyekpTRlhMYnlyZ3ZVeG83TWg2M0JkQWZMejRla0RCaHllajVPVUt1bUhmU0x6VlFpdlRmYU5IWXRYTHAxc3hCODk2MEcxTGwvdWFvc2pyMTduV0U5U2MxdUtkN01YaG5VNWZ5QkVkSGtQbGNWdXo4VVN0dXBlNGEyd3J4ZGtJOTcwQUpreDRtc293V0prTGw0QlIvamxkSEwyL21JMUhpK0tZR1RJOFRpK1RzaFFnSmJZUDRJNkgvUjYwcmhRR3BjbXpOUFY4bXA5ZVNEOWpvUVllZVZtMEVUZlN4bXRnWlhTUWNVZjIrSmxrd0xqZi90VG03d3VwOUdiNUpnL0U4WVNpcmphQTVDcnIxRmZBaS8vM3UrMGFzWlVBRzlWL0czMjZ6M3FjdXJFRThXeVIzVCtQdFlIMEtQektoUEFPR1M5QWVCWmlERkcwTnF6eUsxTVJ6NDA0bHRQYmR5YzRJMnkiLCJpdiI6IjdrS3RoWGNPVjN6UzA1UDc4anVaRFE9PSJ9,[s] = ffd95d2d3258f466f3cfe1b363664d24,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 1007
+[INFO ] 01-04 16:49:22  send data ==> {"code":"200","data":"1976"}
+[INFO ] 01-04 16:49:22  {"code":"200","data":"1976","cmd":"1007"}
+[INFO ] 01-04 16:49:58  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4000
+[INFO ] 01-04 16:49:58  send data ==> {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}"}
+[INFO ] 01-04 16:49:58  {"code":"200","data":"{\"info\":{\"id\":\"fe42b0be-bde3-4dd3-b565-b3e4ffe5889b\",\"creatorOpenId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"iconUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"name\":\"Quik㊕⁶⁶⁶\",\"step\":0,\"level\":1,\"groupMembers\":[{\"openId\":\"oYEe05MtxGwNUFA-KtR8mYtvFHms\",\"nickName\":\"Quik㊕⁶⁶⁶\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/c6c2atsh7MCsEfRVJLaRtxfudusRgibTqfc9vHHqooiaicXBxlompe69resBicutmMUsntYo8sXaxI2DnArKBLg8zg/132\",\"step\":0}]},\"rank\":20}","cmd":"4000"}
+[INFO ] 01-04 16:49:58  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = oYEe05MtxGwNUFA-KtR8mYtvFHms,[cmd] = 4001
+[INFO ] 01-04 16:49:58  send data ==> {"code":"200","data":"[]"}
+[INFO ] 01-04 16:49:58  {"code":"200","data":"[]","cmd":"4001"}
+[INFO ] 01-04 16:53:32  begin init server...
+[INFO ] 01-04 16:53:32  load game config...
+[INFO ] 01-04 16:53:32  Load Config GlobalConfig
+[INFO ] 01-04 16:53:32  Load Config GroupCfg
+[INFO ] 01-04 16:53:32  Load Config GroupRecordCfg
+[INFO ] 01-04 16:53:32  Load Config IntegrationMallCfg
+[INFO ] 01-04 16:53:32  Load Config LevelCfg
+[INFO ] 01-04 16:53:32  Load Config MallCfg
+[INFO ] 01-04 16:53:32  Load Config MapCfg
+[INFO ] 01-04 16:53:32  Load Config QuestionCfg
+[INFO ] 01-04 16:53:32  load spring cfg...
+[INFO ] 01-04 16:53:32  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 16:53:32 CST 2019]; root of context hierarchy
+[INFO ] 01-04 16:53:32  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 16:53:32  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 16:53:33  [jade] starting ...
+[INFO ] 01-04 16:53:33  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 16:53:33  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 16:53:33  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 16:53:33  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 16:53:33  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 16:53:33  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:53:33  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 16:53:33  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 16:53:33  [jade] call 'jade/find'
+[INFO ] 01-04 16:53:33  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 16:53:33  [jade] exits
+[INFO ] 01-04 16:53:33  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 16:53:33  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 16:53:34  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@35d2cf05 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:00:03  begin init server...
+[INFO ] 01-04 17:00:03  load game config...
+[INFO ] 01-04 17:00:03  Load Config GlobalConfig
+[INFO ] 01-04 17:00:03  Load Config GroupCfg
+[INFO ] 01-04 17:00:03  Load Config GroupRecordCfg
+[INFO ] 01-04 17:00:03  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:00:03  Load Config LevelCfg
+[INFO ] 01-04 17:00:03  Load Config MallCfg
+[INFO ] 01-04 17:00:03  Load Config MapCfg
+[INFO ] 01-04 17:00:03  Load Config QuestionCfg
+[INFO ] 01-04 17:00:03  load spring cfg...
+[INFO ] 01-04 17:00:03  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:00:03 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:00:04  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:00:04  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:00:04  [jade] starting ...
+[INFO ] 01-04 17:00:04  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:00:04  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:00:04  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:00:04  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:00:04  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:00:04  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:00:04  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:00:04  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:00:04  [jade] call 'jade/find'
+[INFO ] 01-04 17:00:04  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:00:04  [jade] exits
+[INFO ] 01-04 17:00:04  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:00:05  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@730d2164 for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:00:06  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@7e7a07b3 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:01:52  begin init server...
+[INFO ] 01-04 17:01:52  load game config...
+[INFO ] 01-04 17:01:52  Load Config GlobalConfig
+[INFO ] 01-04 17:01:52  Load Config GroupCfg
+[INFO ] 01-04 17:01:52  Load Config GroupRecordCfg
+[INFO ] 01-04 17:01:52  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:01:52  Load Config LevelCfg
+[INFO ] 01-04 17:01:52  Load Config MallCfg
+[INFO ] 01-04 17:01:52  Load Config MapCfg
+[INFO ] 01-04 17:01:52  Load Config QuestionCfg
+[INFO ] 01-04 17:01:52  load spring cfg...
+[INFO ] 01-04 17:01:52  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:01:52 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:01:52  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:01:53  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:01:53  [jade] starting ...
+[INFO ] 01-04 17:01:53  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:01:53  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:01:53  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:01:53  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:01:53  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:01:53  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:01:53  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:01:53  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:01:53  [jade] call 'jade/find'
+[INFO ] 01-04 17:01:53  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:01:53  [jade] exits
+[INFO ] 01-04 17:01:53  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:01:54  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:01:55  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@6941fb71 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:11:06  begin init server...
+[INFO ] 01-04 17:11:06  load game config...
+[INFO ] 01-04 17:11:06  Load Config GlobalConfig
+[INFO ] 01-04 17:11:06  Load Config GroupCfg
+[INFO ] 01-04 17:11:06  Load Config GroupRecordCfg
+[INFO ] 01-04 17:11:06  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:11:06  Load Config LevelCfg
+[INFO ] 01-04 17:11:06  Load Config MallCfg
+[INFO ] 01-04 17:11:06  Load Config MapCfg
+[INFO ] 01-04 17:11:06  Load Config QuestionCfg
+[INFO ] 01-04 17:11:06  load spring cfg...
+[INFO ] 01-04 17:11:06  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:11:06 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:11:07  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:11:07  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:11:07  [jade] starting ...
+[INFO ] 01-04 17:11:07  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:11:07  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:11:07  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:11:07  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:11:07  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:11:07  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:11:07  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:11:07  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:11:07  [jade] call 'jade/find'
+[INFO ] 01-04 17:11:07  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:11:07  [jade] exits
+[INFO ] 01-04 17:11:07  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:11:08  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:11:08  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@6941fb71 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:11:36  begin init server...
+[INFO ] 01-04 17:11:36  load game config...
+[INFO ] 01-04 17:11:36  Load Config GlobalConfig
+[INFO ] 01-04 17:11:36  Load Config GroupCfg
+[INFO ] 01-04 17:11:36  Load Config GroupRecordCfg
+[INFO ] 01-04 17:11:36  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:11:36  Load Config LevelCfg
+[INFO ] 01-04 17:11:36  Load Config MallCfg
+[INFO ] 01-04 17:11:36  Load Config MapCfg
+[INFO ] 01-04 17:11:36  Load Config QuestionCfg
+[INFO ] 01-04 17:11:36  load spring cfg...
+[INFO ] 01-04 17:11:36  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:11:36 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:11:36  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:11:36  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:11:37  [jade] starting ...
+[INFO ] 01-04 17:11:37  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:11:37  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:11:37  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:11:37  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:11:37  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:11:37  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:11:37  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:11:37  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:11:37  [jade] call 'jade/find'
+[INFO ] 01-04 17:11:37  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:11:37  [jade] exits
+[INFO ] 01-04 17:11:37  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:11:37  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:11:38  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@44c18e0d for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:12:16  begin init server...
+[INFO ] 01-04 17:12:16  load game config...
+[INFO ] 01-04 17:12:16  Load Config GlobalConfig
+[INFO ] 01-04 17:12:16  Load Config GroupCfg
+[INFO ] 01-04 17:12:16  Load Config GroupRecordCfg
+[INFO ] 01-04 17:12:16  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:12:16  Load Config LevelCfg
+[INFO ] 01-04 17:12:16  Load Config MallCfg
+[INFO ] 01-04 17:12:16  Load Config MapCfg
+[INFO ] 01-04 17:12:16  Load Config QuestionCfg
+[INFO ] 01-04 17:12:16  load spring cfg...
+[INFO ] 01-04 17:12:16  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:12:16 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:12:17  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:12:17  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:12:17  [jade] starting ...
+[INFO ] 01-04 17:12:17  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:12:17  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:12:17  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:12:17  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:12:17  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:12:17  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:12:17  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:12:17  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:12:17  [jade] call 'jade/find'
+[INFO ] 01-04 17:12:18  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:12:18  [jade] exits
+[INFO ] 01-04 17:12:18  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:12:18  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@20bd8be5 for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:12:19  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@49d3ad53 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:13:42  begin init server...
+[INFO ] 01-04 17:13:42  load game config...
+[INFO ] 01-04 17:13:42  Load Config GlobalConfig
+[INFO ] 01-04 17:13:42  Load Config GroupCfg
+[INFO ] 01-04 17:13:42  Load Config GroupRecordCfg
+[INFO ] 01-04 17:13:42  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:13:42  Load Config LevelCfg
+[INFO ] 01-04 17:13:42  Load Config MallCfg
+[INFO ] 01-04 17:13:42  Load Config MapCfg
+[INFO ] 01-04 17:13:42  Load Config QuestionCfg
+[INFO ] 01-04 17:13:42  load spring cfg...
+[INFO ] 01-04 17:13:42  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:13:42 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:13:42  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:13:42  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:13:43  [jade] starting ...
+[INFO ] 01-04 17:13:43  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:13:43  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:13:43  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:13:43  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:13:43  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:13:43  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:13:43  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:13:43  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:13:43  [jade] call 'jade/find'
+[INFO ] 01-04 17:13:43  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:13:43  [jade] exits
+[INFO ] 01-04 17:13:43  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:13:43  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:13:44  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@1d8992cc for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:18:42  begin init server...
+[INFO ] 01-04 17:18:42  load game config...
+[INFO ] 01-04 17:18:42  Load Config GlobalConfig
+[INFO ] 01-04 17:18:42  Load Config GroupCfg
+[INFO ] 01-04 17:18:42  Load Config GroupRecordCfg
+[INFO ] 01-04 17:18:42  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:18:42  Load Config LevelCfg
+[INFO ] 01-04 17:18:42  Load Config MallCfg
+[INFO ] 01-04 17:18:42  Load Config MapCfg
+[INFO ] 01-04 17:18:42  Load Config QuestionCfg
+[INFO ] 01-04 17:18:42  load spring cfg...
+[INFO ] 01-04 17:18:42  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:18:42 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:18:42  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:18:43  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:18:43  [jade] starting ...
+[INFO ] 01-04 17:18:43  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:18:43  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:18:43  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:18:43  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:18:43  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:18:43  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:18:43  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:18:43  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:18:43  [jade] call 'jade/find'
+[INFO ] 01-04 17:18:43  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:18:43  [jade] exits
+[INFO ] 01-04 17:18:43  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:18:44  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:18:44  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@39bd0d44 for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:19:50  begin init server...
+[INFO ] 01-04 17:19:50  load game config...
+[INFO ] 01-04 17:19:50  Load Config GlobalConfig
+[INFO ] 01-04 17:19:50  Load Config GroupCfg
+[INFO ] 01-04 17:19:50  Load Config GroupRecordCfg
+[INFO ] 01-04 17:19:50  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:19:50  Load Config LevelCfg
+[INFO ] 01-04 17:19:50  Load Config MallCfg
+[INFO ] 01-04 17:19:50  Load Config MapCfg
+[INFO ] 01-04 17:19:50  Load Config QuestionCfg
+[INFO ] 01-04 17:19:50  load spring cfg...
+[INFO ] 01-04 17:19:50  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:19:50 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:19:50  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:19:50  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:19:51  [jade] starting ...
+[INFO ] 01-04 17:19:51  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:19:51  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:19:51  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:19:51  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:19:51  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:19:51  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:19:51  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:19:51  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:19:51  [jade] call 'jade/find'
+[INFO ] 01-04 17:19:51  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:19:51  [jade] exits
+[INFO ] 01-04 17:19:51  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:19:52  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@20bd8be5 for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:19:52  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@323d2ace for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:20:32  begin init server...
+[INFO ] 01-04 17:20:32  load game config...
+[INFO ] 01-04 17:20:32  Load Config GlobalConfig
+[INFO ] 01-04 17:20:32  Load Config GroupCfg
+[INFO ] 01-04 17:20:32  Load Config GroupRecordCfg
+[INFO ] 01-04 17:20:32  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:20:32  Load Config LevelCfg
+[INFO ] 01-04 17:20:32  Load Config MallCfg
+[INFO ] 01-04 17:20:32  Load Config MapCfg
+[INFO ] 01-04 17:20:32  Load Config QuestionCfg
+[INFO ] 01-04 17:20:32  load spring cfg...
+[INFO ] 01-04 17:20:32  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:20:32 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:20:32  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:20:32  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:20:33  [jade] starting ...
+[INFO ] 01-04 17:20:33  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:20:33  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:20:33  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:20:33  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:20:33  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:20:33  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:20:33  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:20:33  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:20:33  [jade] call 'jade/find'
+[INFO ] 01-04 17:20:33  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:20:33  [jade] exits
+[INFO ] 01-04 17:20:33  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:20:34  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:20:34  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@1d8992cc for com.game.dao.GroupDAO#queryGroupRank
+[INFO ] 01-04 17:27:47  begin init server...
+[INFO ] 01-04 17:27:47  load game config...
+[INFO ] 01-04 17:27:47  Load Config GlobalConfig
+[INFO ] 01-04 17:27:47  Load Config GroupCfg
+[INFO ] 01-04 17:27:47  Load Config GroupRecordCfg
+[INFO ] 01-04 17:27:47  Load Config IntegrationMallCfg
+[INFO ] 01-04 17:27:47  Load Config LevelCfg
+[INFO ] 01-04 17:27:47  Load Config MallCfg
+[INFO ] 01-04 17:27:47  Load Config MapCfg
+[INFO ] 01-04 17:27:47  Load Config QuestionCfg
+[INFO ] 01-04 17:27:47  load spring cfg...
+[INFO ] 01-04 17:27:47  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@42607a4f: startup date [Fri Jan 04 17:27:47 CST 2019]; root of context hierarchy
+[INFO ] 01-04 17:27:47  Loading XML bean definitions from file [F:\h5\longmarch\config\application.xml]
+[INFO ] 01-04 17:27:48  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 01-04 17:27:48  [jade] starting ...
+[INFO ] 01-04 17:27:48  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 01-04 17:27:48  [classesFolder] start to found available classes folders ...
+[INFO ] 01-04 17:27:48  [classesFolder] found 1 classes folders: [/F:/h5/longmarch/bin/[**]]
+[INFO ] 01-04 17:27:48  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 01-04 17:27:48  [jarFile] add jar resource: /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 01-04 17:27:48  [jarFile] found 1 jar files: [/F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:27:48  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/longmarch/bin/[**], /F:/h5/longmarch/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 01-04 17:27:48  [jade] found 1 jade urls: [file:/F:/h5/longmarch/bin/]
+[INFO ] 01-04 17:27:48  [jade] call 'jade/find'
+[INFO ] 01-04 17:27:48  [jade] found 5 beanDefinition from 'file:/F:/h5/longmarch/bin/'
+[INFO ] 01-04 17:27:48  [jade] exits
+[INFO ] 01-04 17:27:48  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51399530: defining beans [dataSource,logerDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,broadcastHandler,loginHandler,mallHandler,playerHandler,questHandler,adminService,broadcastService,chickenQuestService,mallService,playerService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.ConsumeDAO,com.game.dao.GroupDAO,com.game.dao.LoginLogDAO,com.game.dao.PlayerDAO,com.game.dao.ServerDataDAO]; root of factory hierarchy
+[INFO ] 01-04 17:27:48  using rowMapper org.springframework.jdbc.core.SingleColumnRowMapper@75d2da2d for com.game.dao.ServerDataDAO#queryServerData
+[INFO ] 01-04 17:27:49  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@39bd0d44 for com.game.dao.GroupDAO#queryGroupRank

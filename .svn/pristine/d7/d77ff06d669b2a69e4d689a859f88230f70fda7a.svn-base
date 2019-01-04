@@ -1,0 +1,2613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<config>
+	<id>1</id>
+	<content>吃饭前要先喝汤是对的吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>所谓饮食,并不只是吃饭那么简单,饮食饮食,先饮而后食,就是告诉我们在吃饭前要先喝汤,这才是正确的饮食顺序。在饭前喝一些汤,可以起到“润滑剂”的作用 ,让食物更顺利地进入胃,避免刺激到消化道黏膜。</explain>
+</config>
+<config>
+	<id>2</id>
+	<content>吃饭前先喝汤有利于节制饮食,这种说法是对的吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>对于要减肥或者保持身材的人来说,饭前喝汤还能产生饱腹感,减少接下来的进食量,起到节制饮食的作用。</explain>
+</config>
+<config>
+	<id>3</id>
+	<content>身体虚弱或者大病初愈的人需要及时大量进补吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>身体虚弱或者大病初愈的人,因为肠胃还比较虚弱,不适合吃一些过于滋腻或者不好消化的东西。</explain>
+</config>
+<config>
+	<id>4</id>
+	<content>多喝汤可以更好地吸收汤料的营养吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>汤品经过熬制,将食材中的很多营养都溶进了汤里,更有利于肠胃的消化吸收,能够很好地滋养身体,增强体质。</explain>
+</config>
+<config>
+	<id>5</id>
+	<content>个人体质可以通过适当的饮食来进行改变和调整</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>食物的温热寒凉可以用来纠正人体的失衡,正所谓“寒者热之,热者寒之”,凡寒性体质均适宜使用温热事物,热性体质则适宜食用寒凉食物。</explain>
+</config>
+<config>
+	<id>6</id>
+	<content>胃寒怕冷、容易拉稀便、不敢吃生冷食物可以适当食用羊肉来温中暖胃,改善症状。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>羊肉性温,功效为益气补虚,温中暖胃。</explain>
+</config>
+<config>
+	<id>7</id>
+	<content>平素怕冷,体质虚弱的人适合多吃鸭肉</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>鸭肉甘寒,体质虚弱、四肢逆冷、大便溏泻、月经量少者不宜多食。</explain>
+</config>
+<config>
+	<id>8</id>
+	<content>广东湿气较重,可以多吃薏米来祛湿。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>薏苡仁功效为健脾利水,利湿除痹,清热排脓,清利湿热。</explain>
+</config>
+<config>
+	<id>9</id>
+	<content>绿豆具有清热解毒的功效。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>绿豆功效为清热解暑、利尿、解毒</explain>
+</config>
+<config>
+	<id>10</id>
+	<content>冬瓜可以清热解暑,适合在夏天食用</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>冬瓜的功效为清热利水,清热解毒,下气消痰</explain>
+</config>
+<config>
+	<id>11</id>
+	<content>苦瓜可以清热祛暑,除烦解毒</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>苦瓜的功效为清暑除热、解毒</explain>
+</config>
+<config>
+	<id>12</id>
+	<content>枸杞叶和枸杞一样具有清肝明目的功效。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>枸杞叶性凉,功效为清退虚热,补肝明目,生津止渴</explain>
+</config>
+<config>
+	<id>13</id>
+	<content>脾胃虚弱,消化功能不好的人可以多吃萝卜来调整。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>白萝卜性凉,脾胃虚弱者不适合生食。</explain>
+</config>
+<config>
+	<id>14</id>
+	<content>脾胃虚弱,消化功能不好的人可以多吃淮山来改善症状。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>山药的功效是补脾益胃,益肺补肾</explain>
+</config>
+<config>
+	<id>15</id>
+	<content>百合具有润肺止咳的作用</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>百合的功效是润肺止咳,清心安神</explain>
+</config>
+<config>
+	<id>16</id>
+	<content>在干燥的秋天可以吃点沙参、玉竹来滋润机体。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>秋季万物收敛、燥气袭人,适宜选些滋润性质的中药,如沙参、百合、玉竹等。</explain>
+</config>
+<config>
+	<id>17</id>
+	<content>在寒冷的冬天适合食用温热类的食物如姜、羊肉等。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>冬季天寒地冻、万物伏餐,对应肾,此时适宜吃温阳补肾之品,如干姜、肉桂、杜仲等。</explain>
+</config>
+<config>
+	<id>18</id>
+	<content>一些补益类的药物可以长期食用。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>无论哪种药材都不适合长期服用,应根据自己身体和外界环境的变化而改变。</explain>
+</config>
+<config>
+	<id>19</id>
+	<content>中药黄芪具有补气的功效。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>1</catergory>
+	<difficulty>1</difficulty>
+	<explain>黄芪的功效是补气固表,利尿托毒,排脓,敛疮生肌。</explain>
+</config>
+<config>
+	<id>20</id>
+	<content>积食、食滞时可以吃点山楂来消食导滞。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>2</catergory>
+	<difficulty>1</difficulty>
+	<explain>山楂的功效是消食健脾,行气散瘀。</explain>
+</config>
+<config>
+	<id>21</id>
+	<content>当归具有补血调经、润肠通便的功效。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>2</catergory>
+	<difficulty>1</difficulty>
+	<explain>当归的功效是补血活血,调经止痛,润肠通便。</explain>
+</config>
+<config>
+	<id>22</id>
+	<content>北沙参具有清肺止咳的功效。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>2</catergory>
+	<difficulty>1</difficulty>
+	<explain>北沙参的功效是养阴清肺,益胃生津</explain>
+</config>
+<config>
+	<id>23</id>
+	<content>玉竹具有滋阴润肺的功效。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>2</catergory>
+	<difficulty>1</difficulty>
+	<explain>玉竹的功效是滋阴润肺,养胃生津</explain>
+</config>
+<config>
+	<id>24</id>
+	<content>老火汤要求煲的时间越长越好。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>2</catergory>
+	<difficulty>1</difficulty>
+	<explain>煲汤的时间长短与选择的食材有关,如果是煲猪蹄、母鸡和老鸭之类的肉汤,时间以40分钟至1小时为最佳,这样子既能保证口感,也能保证营养。</explain>
+</config>
+<config>
+	<id>25</id>
+	<content>煲鱼汤煲到汤色变白为适宜。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>2</catergory>
+	<difficulty>1</difficulty>
+	<explain>煲鱼汤时间相对更短,煮到汤发白就可以了,因为鱼肉比较细嫩,时间长了不但营养会被破坏,鱼肉也会变老变粗,口味不佳。</explain>
+</config>
+<config>
+	<id>26</id>
+	<content>体质偏热的人在煲汤时可以适当加入当归、党参等药材。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>煲汤添加中药要根据身体情况来选择,如体寒的人煲汤时可用加入当归、党参等温性中药</explain>
+</config>
+<config>
+	<id>27</id>
+	<content>煲汤时应该提早加盐以更好地入味。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>盐如果放太早会使得肉中的蛋白质凝固,不易溶解在汤中,煮出来的汤也会色泽发暗,浓度也不够。最好在快出锅时再放盐。</explain>
+</config>
+<config>
+	<id>28</id>
+	<content>煲汤时应该选择一直用大火。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>一般煲汤开始应该用大火将汤煮开,然后转为小火煲汤,使汤一直处于微微沸腾的状态。如果一直使用大火,会使得肉中的水分流失过快,导致口感变差,汤水也会很快蒸发。</explain>
+</config>
+<config>
+	<id>29</id>
+	<content>在春天人们应该多进补,以保证一年精力充沛。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>春天人体不需要过多的温热事物来补充能量,如果这时候还在过多地饮用滋补、肥腻的汤,加之运动不足、新陈代谢缓慢,很容易引起脂肪堆积。</explain>
+</config>
+<config>
+	<id>30</id>
+	<content>春天可以多喝点冷饮,有更好的口感。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>春末时节,气温回暖,中午热的时候贪凉,饮用冷的饮品,到了夜间,人体阴气重的时候,肠胃往往就会出现疼痛不适。</explain>
+</config>
+<config>
+	<id>31</id>
+	<content>春天应该注意养肝护肝。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>春属木,肝五行属木,春季养生的重点就是养肝护肝。</explain>
+</config>
+<config>
+	<id>32</id>
+	<content>对于视物昏花或有夜盲症的人可以食用枸杞子。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>枸杞子富含胡萝卜素、维生素A、维生素C及钙、铁等眼睛必需的营养物质。</explain>
+</config>
+<config>
+	<id>33</id>
+	<content>感冒时可以食用枸杞来补益以促进康复。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>枸杞子虽然具有很好的滋补作用,但是并不是每个人都适合服用。由于枸杞子温热身体的效果相当强,所以正在感冒发热或者身体有炎症及腹泻的人最好不要吃。</explain>
+</config>
+<config>
+	<id>34</id>
+	<content>容易口角长疮、长痘痘的人可以多吃绿豆。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>绿豆具有排毒美容、抗过敏的作用、容易口角长疮、溃烂,易长痘痘,常有过敏现象的人,可以多吃绿豆。</explain>
+</config>
+<config>
+	<id>35</id>
+	<content>陈皮放的时间越长,功效越好。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>陈皮放置时间越久药效越强,放在汤中同煮,能够通气健脾、燥湿化痰、解腻留香。</explain>
+</config>
+<config>
+	<id>36</id>
+	<content>食用猪肝可以养肝。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>猪肝,性甘、苦、温,归肝经能补肝明目、养血补血。而且从现代营养学角度看,猪肝中含有丰富的铁、磷,也是人体造血不可获取的原料</explain>
+</config>
+<config>
+	<id>37</id>
+	<content>贫血的人可以多食用菠菜。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>菠菜中含有大量的β胡萝卜素和铁,也是维生素B6、叶酸、铁和钾的极佳来源。其中丰富的铁对于改善贫血有良好的作用。</explain>
+</config>
+<config>
+	<id>38</id>
+	<content>煮猪肝前不适宜过多处理,可以直接烹饪。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>猪肝是猪体内的排毒器官,难免会有一些毒素残留,煮汤前,应该充分浸泡以去除毒素。</explain>
+</config>
+<config>
+	<id>39</id>
+	<content>煮菠菜前应该先焯水。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>菠菜富含草酸,草酸能够与人体的钙直接结合形成草酸钙沉淀,影响人体对钙的吸收。因此,在做汤时要先将菠菜放在沸水中焯水一遍,去掉菠菜大部分的草酸,这样子口感也会更好。</explain>
+</config>
+<config>
+	<id>40</id>
+	<content>高血压及冠心病病人应该多吃猪肝。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>猪肝的胆固醇含量较高,所以肝病、高血压和冠心病患者应该少吃。</explain>
+</config>
+<config>
+	<id>41</id>
+	<content>食用冬瓜能帮助减肥。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>冬瓜含有丙醇二酸物质,有助于抑制人体内糖类转化为脂肪,从而阻止体内脂肪堆积,对于防止发胖具有重要作用,因而都能过也是减肥佳品。</explain>
+</config>
+<config>
+	<id>42</id>
+	<content>长期便溏的人可以多吃冬瓜来调整。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>冬瓜性寒,所以脾胃气虚,经常腹泻便溏、胃寒疼痛的人要少食用。</explain>
+</config>
+<config>
+	<id>43</id>
+	<content>食用荷叶能帮助减肥。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>荷叶中的生物碱有降血脂的作用,服用后可以在人体肠壁上形成一层脂肪隔离膜,有效阻止脂肪的吸收</explain>
+</config>
+<config>
+	<id>44</id>
+	<content>在夏天时食用绿豆汤可以解暑。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>喝绿豆汤都可以祛除体内的暑热,预防中暑,中医还可以绿豆可解百毒,能帮助体内毒素的排泄,促进机体的正常代谢。</explain>
+</config>
+<config>
+	<id>45</id>
+	<content>食用番茄可以开胃、提高食欲。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>番茄具有生津止渴、健脾消食、清热解毒、凉血平肝、增进食欲的功效,对于食欲不振的很好的调理作用。</explain>
+</config>
+<config>
+	<id>46</id>
+	<content>金针菇不宜煮太久,否则营养会流失。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>2</difficulty>
+	<explain>金针菇含有秋水仙碱,所以一定要煮熟再吃。</explain>
+</config>
+<config>
+	<id>47</id>
+	<content>咳嗽痰多的人适合吃乌梅来化痰止咳。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>2</difficulty>
+	<explain>乌梅虽能开胃除烦,但也需要注意一些禁忌,感冒发热、咳嗽痰多者,患有痢疾、肠炎的人及女性生理期都要少吃乌梅。</explain>
+</config>
+<config>
+	<id>48</id>
+	<content>患有心脑血管疾病的患者适合吃鸭肉。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>2</difficulty>
+	<explain>鸭肉中的脂肪含量低,而且易于消化,不会使人发胖,煲汤使用,对于心脑血管疾病的患者也很适合。</explain>
+</config>
+<config>
+	<id>49</id>
+	<content>糖尿病患者适合食用玉竹。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>2</difficulty>
+	<explain>玉竹有养阴润燥、生津止渴的作用,最适合燥热咳嗽、咽干口渴的人及糖尿病患者食用。</explain>
+</config>
+<config>
+	<id>50</id>
+	<content>贫血的病人适合吃莲藕。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>2</difficulty>
+	<explain>鲜藕含有丰富的钙、磷、铁剂多种维生素,特别是含铁量较高,对于缺铁性贫血的患者颇为适合。</explain>
+</config>
+<config>
+	<id>51</id>
+	<content>糖尿病病人适合吃莲藕。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>2</difficulty>
+	<explain>莲藕的含糖量不算很高,但维生素C和膳食纤维含量较高,对于肝病、便秘、糖尿病等有虚弱之症的人都十分有益。</explain>
+</config>
+<config>
+	<id>52</id>
+	<content>烹煮莲藕时最好使用铁锅</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>2</difficulty>
+	<explain>烹煮莲藕时不要用铁锅,以防鲜藕变色</explain>
+</config>
+<config>
+	<id>53</id>
+	<content>产妇适合吃莲藕来安胎。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>3</difficulty>
+	<explain>莲藕具有凉血作用,所以产妇最好是要等到产后1-2周后再吃藕比较适合,以免影响恶露排出。</explain>
+</config>
+<config>
+	<id>54</id>
+	<content>贫血病人适合吃羊肉</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>1</difficulty>
+	<explain>羊肉中铁、磷等物质的含量比其他肉类高,适合于各类贫血病人食用。</explain>
+</config>
+<config>
+	<id>55</id>
+	<content>高血压病人适合吃羊肉</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>3</catergory>
+	<difficulty>3</difficulty>
+	<explain>羊肉性温,所以身体有内热的人,以及浮肿、牙病、疮疡等患者都不适合食用,高血压及肝火旺的人也不适合多吃。</explain>
+</config>
+<config>
+	<id>56</id>
+	<content>姜在白天食用效果比晚上食用好。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>4</catergory>
+	<difficulty>1</difficulty>
+	<explain>早上胃气有待升发,吃姜可以健脾暖胃,促进血液循环,使得全身温暖。晚上阳气收敛,阴气外盛,适合吃清热下气的事物,吃辛热的姜容易产生内热,伤阴助阳。</explain>
+</config>
+<config>
+	<id>57</id>
+	<content>冬天早晨吃姜可以预防感冒</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>4</catergory>
+	<difficulty>1</difficulty>
+	<explain>早晨起床后,先饮一杯白开水,然后将生姜去皮,切成薄片,取4-5片用开水烫一下,再将姜片放入嘴中至10分钟左右,咀嚼,坚持服用,可以预防感冒。</explain>
+</config>
+<config>
+	<id>58</id>
+	<content>红枣可以改善手脚冰冷</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>4</catergory>
+	<difficulty>1</difficulty>
+	<explain>红枣是益气补血的佳品,气血充盈,四肢得养,就能从根本上改善手脚冰凉的问题。</explain>
+</config>
+<config>
+	<id>59</id>
+	<content>吃白菜可以治疗便秘</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>4</catergory>
+	<difficulty>1</difficulty>
+	<explain>白菜富含膳食纤维,能够起到润肠通便的作用。</explain>
+</config>
+<config>
+	<id>60</id>
+	<content>冬吃萝卜夏吃姜,不劳医生开药方。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>4</catergory>
+	<difficulty>1</difficulty>
+	<explain>人们在冬天吃得到动得少,体内容易生热生痰,尤其是中老年人,这种情况跟普遍。经常吃萝卜,可以消谷食、去痰癖、治咳嗽、通利脏腑之气。而且萝卜属土,根据中医五行入五脏理论,萝卜可以利脾胃、补益中气。</explain>
+</config>
+<config>
+	<id>61</id>
+	<content>鲫鱼可以防治高血压、冠心病</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>4</catergory>
+	<difficulty>1</difficulty>
+	<explain>鲫鱼具有健脾、开胃、益气、利水、通乳、除湿的功效,还能降低胆固醇。鲫鱼所含的蛋白质质忧、齐全,且易消化吸收,常吃可以增强抗病能力,防治高血压、动脉硬化、冠心病等疾病,也是非常好的蛋白质来源。</explain>
+</config>
+<config>
+	<id>62</id>
+	<content>鲫鱼具有美容养颜的功效</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>5</catergory>
+	<difficulty>3</difficulty>
+	<explain>局域富含优质蛋白质,能够强化肌肤的弹力纤维。</explain>
+</config>
+<config>
+	<id>63</id>
+	<content>喝鲫鱼汤可以通乳下奶</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>5</catergory>
+	<difficulty>5</difficulty>
+	<explain>鲫鱼具有健脾、开胃、益气、利水、通乳、除湿的功效,产后女性和鲫鱼汤可以通乳下奶。</explain>
+</config>
+<config>
+	<id>64</id>
+	<content>鸡肉属于温性食物</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>5</catergory>
+	<difficulty>4</difficulty>
+	<explain>鸡肉性温,有温中益气、补虚填精、健脾胃、活血脉的作用。</explain>
+</config>
+<config>
+	<id>65</id>
+	<content>腹泻时可以食用莲子来辅助治疗,改善症状。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>5</catergory>
+	<difficulty>4</difficulty>
+	<explain>莲子可以补脾止泻,益肾涩清,养心安神。</explain>
+</config>
+<config>
+	<id>66</id>
+	<content>喝鸡汤要连同汤表面的油脂一同喝掉保证营养全面吸收。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>5</catergory>
+	<difficulty>6</difficulty>
+	<explain>鸡汤虽补,但是注意喝鸡汤不要喝上面的油脂,特别是胃酸过多、胆囊炎和胆石症经常发作的人,及高血压、高血脂的人,如果喝入过多的油脂,可能会导致症状加重。</explain>
+</config>
+<config>
+	<id>67</id>
+	<content>莴笋可以治疗便秘</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>5</catergory>
+	<difficulty>5</difficulty>
+	<explain>莴笋可以开通疏利,消积下气,宽肠通便,上班族久坐少动,肠胃蠕动慢,容易便秘,食用莴笋是很合适的。</explain>
+</config>
+<config>
+	<id>68</id>
+	<content>丝瓜可以美容</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>5</catergory>
+	<difficulty>5</difficulty>
+	<explain>丝瓜富含B族维生素和维生素C,能够延缓皮肤衰老、消除斑块,使皮肤结拜、细嫩,是不可多得的美容佳品。</explain>
+</config>
+<config>
+	<id>69</id>
+	<content>常用眼的人群可以适当食用鳝鱼维持视力。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>2</difficulty>
+	<explain>鳝鱼可以为大脑提供丰富的卵磷脂和DHA,还含有维生素A,对于维护视力很有好处</explain>
+</config>
+<config>
+	<id>70</id>
+	<content>吃黄豆可以补铁</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>3</difficulty>
+	<explain>黄豆富含铁质,且容易被人体吸收利用,对于预防缺铁性贫血十分有益处。</explain>
+</config>
+<config>
+	<id>71</id>
+	<content>女性多吃乌鸡可以调补气色</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>2</difficulty>
+	<explain>女人以血为养,气血充盈,人才会面色红润,头发亮润。乌鸡补中益气、延缓衰老,最适宜女性补气养血之用。</explain>
+</config>
+<config>
+	<id>72</id>
+	<content>视物模糊、眼睛干涩时可以喝菊花枸杞水</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>3</difficulty>
+	<explain>视物模糊、眼睛干涩等现象就是因为肝血虚耗、肝阴不足,而养肝明目的最好方法莫过于饮用菊花枸杞茶了。</explain>
+</config>
+<config>
+	<id>73</id>
+	<content>老鸭属于温性食物</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>1</difficulty>
+	<explain>鸭子是在水中生活的,性凉,是凉补的最佳选择</explain>
+</config>
+<config>
+	<id>74</id>
+	<content>嫩鸭的滋补效果比老鸭好</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>2</difficulty>
+	<explain>与嫩鸭不同,老鸭经过一个冬天的成长,不仅营养丰富,而且滋补效果更佳,民间有“嫩鸭湿毒、老鸭滋阴”之说。</explain>
+</config>
+<config>
+	<id>75</id>
+	<content>容易上火的人做好不要多喝酒</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>3</difficulty>
+	<explain>阳盛体质的人要少吃燥热辛辣的事物,最好不要喝酒,因为酒性辛热。</explain>
+</config>
+<config>
+	<id>76</id>
+	<content>容易上火便秘的人可以多喝菊花茶或者苦丁茶</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>1</difficulty>
+	<explain>阳盛体质的人容易上火、便秘,可以常喝些菊花茶或者苦丁茶。</explain>
+</config>
+<config>
+	<id>77</id>
+	<content>经常口干的人可以用麦冬煲汤改善症状。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>4</difficulty>
+	<explain>若是经常口干舌燥的人,可用麦冬煲汤</explain>
+</config>
+<config>
+	<id>78</id>
+	<content>适当食用黑木耳可以改善血液循环。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory>6</catergory>
+	<difficulty>1</difficulty>
+	<explain>黑木耳能清除血管上的淤积。</explain>
+</config>
+<config>
+	<id>79</id>
+	<content>适当饮用葡萄酒可以改善血液循环</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>适当饮用葡萄酒可以扩张血管,改善血液循环</explain>
+</config>
+<config>
+	<id>80</id>
+	<content>适当喝醋可以降低血脂、血黏度</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>山楂或醋等酸性食物能降低血脂、血黏度,又能健胃消食。</explain>
+</config>
+<config>
+	<id>81</id>
+	<content>适当吃田七可以改善血液循环</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>常吃田七可以化瘀血</explain>
+</config>
+<config>
+	<id>82</id>
+	<content>容易口干烦躁的人可以吃乌鸡汤进补</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>乌鸡汤虽然味道鲜美,但是阴虚火旺的人最好别吃,因为会加重烦躁、口干舌苦的症状。</explain>
+</config>
+<config>
+	<id>83</id>
+	<content>体质湿热的人不宜食用冬瓜水鸭汤。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>冬瓜可以清热利水,水鸭能养阴清热,尤其在夏季暑热湿气重的时候,这道汤可以帮助全家人祛湿除热。</explain>
+</config>
+<config>
+	<id>84</id>
+	<content>湿热体质的人不适合吃牛肉</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>湿热体质的人应该忌食辣椒、大蒜、狗肉、牛肉等甘温滋腻的食物及火锅、烹炸、烧烤等辛温助热的食物。</explain>
+</config>
+<config>
+	<id>85</id>
+	<content>吃白萝卜可以顺气理气</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>白萝卜可以顺气,是很好的疏肝理气的食物。</explain>
+</config>
+<config>
+	<id>86</id>
+	<content>吃萝卜需要先把皮削掉再吃。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>有些人在池萝卜时习惯把外面的皮削掉,其实萝卜皮的营养很丰富,还可以入药,比如用萝卜皮煮水就有很好的止咳效果,所以吃萝卜的时候最好连皮一起吃。</explain>
+</config>
+<config>
+	<id>87</id>
+	<content>吃柑橘子可以止咳</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为柑橘具有很好的顺气、止咳、健脾、化痰、疏肝理气等多种作用。</explain>
+</config>
+<config>
+	<id>88</id>
+	<content>吃橘子连同橘络一起吃有好处</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>橘络可以通络化痰、顺气活血,所以吃橘子时最好不要把橘络扯下来,而是应该连着橘瓣一起吃掉。</explain>
+</config>
+<config>
+	<id>89</id>
+	<content>吃红枣可以抗过敏</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>红枣富含环磷酸腺苷,这是一种效果良好的抗过敏物质,可以有效地阻止过敏反应的发生。长期坚持吃红枣,容易过敏的现象也会明显减少。</explain>
+</config>
+<config>
+	<id>90</id>
+	<content>常吃黄花菜可以抗衰老</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>黄花菜中含有的卵磷脂可以健脑、抗衰老</explain>
+</config>
+<config>
+	<id>91</id>
+	<content>蜂蜜可以安神</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>蜂蜜中的葡萄糖、镁、磷、钙等能调节神经系统,缓解精神紧张。</explain>
+</config>
+<config>
+	<id>92</id>
+	<content>经常便秘的人适合多喝汤水</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>对于便秘患者来说,多喝汤绝对是缓解和治疗的最有效的途径,因为大便燥结难下,最主要的原因是身体缺水了,汤水正好能够为身体补水,滋润肠道。</explain>
+</config>
+<config>
+	<id>93</id>
+	<content>黄瓜具有清肠排毒的作用</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>黄瓜有清热解毒、生津止渴,排毒、清肠、养颜的效果,所含的黄瓜酸能促进人体新陈代谢,排除毒素。</explain>
+</config>
+<config>
+	<id>94</id>
+	<content>黄瓜可以美白</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>黄瓜含有丰富的维生素,能够美白皮肤,抑制黑色素的形成。</explain>
+</config>
+<config>
+	<id>95</id>
+	<content>蜂蜜可以排毒养颜</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>蜂蜜味甘性平,自古就是排毒养颜的佳品,含有多种人体所需的氨基酸和维生素。</explain>
+</config>
+<config>
+	<id>96</id>
+	<content>常常便秘的人可适当食用蜂蜜</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>蜂蜜可以润肠通便</explain>
+</config>
+<config>
+	<id>97</id>
+	<content>常常便秘的人可适当食用粗粮以促进排便。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex></answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>粗粮中含有丰富的食物纤维对于通便排毒很有帮助。</explain>
+</config>
+<config>
+	<id>98</id>
+	<content>常常便秘的人可多吃香蕉</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>很多人都认为吃香蕉可以缓解便秘,其实香蕉性味寒凉,比较适合燥热内结引起的便秘,如果便秘不是因此引起的,那么香蕉则没有通便效果,反而加重症状。</explain>
+</config>
+<config>
+	<id>99</id>
+	<content>多吃香蕉能够缓解便秘。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>要注意食用成熟的香蕉才能通便,未成熟的香蕉反而会有收涩作用,会加重便秘。</explain>
+</config>
+<config>
+	<id>100</id>
+	<content>吃赤小豆可以减肥</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>赤小豆可以利水消肿、健脾胃,经常吃可以减肥。</explain>
+</config>
+<config>
+	<id>101</id>
+	<content>孕妇可以适当食用薏米</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>薏米微寒而且有滑利作用,孕妇不适合食用。</explain>
+</config>
+<config>
+	<id>102</id>
+	<content>喝西洋参水可以去心火</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>去心火处理注意饮食之外,还可以泡西洋参水喝。西洋参味甘、微苦,性凉,归心、肺、肾经,可以补气养阴、清热生津。</explain>
+</config>
+<config>
+	<id>103</id>
+	<content>喝西洋参水可以静心凝神、消除疲劳</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>喝西洋参水可以静心凝神、消除疲劳,增强记忆力,对失眠、烦躁、记忆力衰退及老年痴呆等症状有一定的改善作用。</explain>
+</config>
+<config>
+	<id>104</id>
+	<content>黑豆具有补肾的作用</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>豆被古人誉为肾之谷,对肾有一定的补养功效,而其中以黑豆补肾效果尤为明显。</explain>
+</config>
+<config>
+	<id>105</id>
+	<content>长白头发可以适当食用黑豆来辅助进行乌发</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>黑豆还有很好的乌发黑发及延年益寿的作用。</explain>
+</config>
+<config>
+	<id>106</id>
+	<content>食用猪肚可以补脾胃</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>猪肚性味甘温,有补虚、健脾胃的作用。</explain>
+</config>
+<config>
+	<id>107</id>
+	<content>吃百合可以治疗失眠</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>百合可以治疗气阴不足引起的虚烦惊悸、失眠及心神不宁等症状。</explain>
+</config>
+<config>
+	<id>108</id>
+	<content>生姜可以祛寒气</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>生姜性辛温,助阳散寒的绣工非常好。</explain>
+</config>
+<config>
+	<id>109</id>
+	<content>米酒炖肉可以散寒祛风</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>米酒炖肉可以使得肉质更加鲜嫩,易于消化,同时能解表散寒、祛风通窍。</explain>
+</config>
+<config>
+	<id>110</id>
+	<content>白萝卜具有消食导滞的功效</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>白萝卜有消积化痰、消食利膈的作用,不仅能够消积食,对慢性气管炎、咳嗽多痰、胸闷气喘也有很好的换届作用。</explain>
+</config>
+<config>
+	<id>111</id>
+	<content>白胡椒可以治疗胃寒</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>白胡椒有散寒、祛腥、解油腻、助消化的作用可以治疗胃寒。</explain>
+</config>
+<config>
+	<id>112</id>
+	<content>每顿饭应该尽量吃饱</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>要想避免积食,就要做到每顿只吃七八分饱</explain>
+</config>
+<config>
+	<id>113</id>
+	<content>脾胃虚弱的人可以饭后吃些山楂片帮助消化</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>脾胃虚弱的人可以饭后吃些山楂片,助消化</explain>
+</config>
+<config>
+	<id>114</id>
+	<content>容易水肿的人可以多吃冬瓜以利水消肿</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>容易水肿的人,还应该多吃具有利水消肿的事物,如冬瓜、红豆、薏米。</explain>
+</config>
+<config>
+	<id>115</id>
+	<content>多吃薏米可以使得皮肤变得光滑</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>薏米中的B族维生素和纤维素含量丰富,可以润泽皮肤、行气活血,舍得肌肤变得光滑。</explain>
+</config>
+<config>
+	<id>116</id>
+	<content>平素便秘的人可以适当吃些地瓜以润肠通便</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>地瓜和银耳都有改善肠道、润泽皮肤的作用。</explain>
+</config>
+<config>
+	<id>117</id>
+	<content>黑糖具有暖身体的作用</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>黑糖具有暖身体的作用,有助于促进血液循环、健脾暖胃、祛除水肿。</explain>
+</config>
+<config>
+	<id>118</id>
+	<content>女性吃黑糖能够改善痛经？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>女性食用黑糖可以帮助活血化瘀,改善痛经。</explain>
+</config>
+<config>
+	<id>119</id>
+	<content>薏苡仁具有健脾祛湿的功效,日常可以多食无妨。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>薏米所含的糖类黏性较高,吃太多会妨碍消化。</explain>
+</config>
+<config>
+	<id>120</id>
+	<content>女性月经期饮食不需要可以节制,冷饮、燥热类药物都可以食用。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>不管是否患有痛经,经期对于女性来说都是特殊时期,不要吃冷饮和刺激性食物,不要饮酒或咖啡。</explain>
+</config>
+<config>
+	<id>121</id>
+	<content>排尿涩痛时可以尝试喝绿豆粥辅助改善疗效。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>经常食用绿豆粥,对膀胱有热、排尿涩痛者尤为适宜。</explain>
+</config>
+<config>
+	<id>122</id>
+	<content>小便不通可以吃车前子</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>车前子为利水渗湿药物,可以利水清热、明目祛痰,常用于治疗小便不利、淋浊、尿血、湿痹等症。</explain>
+</config>
+<config>
+	<id>123</id>
+	<content>前列腺疾病患者仍可以适当饮酒抽烟</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>前列腺疾病患者必须忌烟酒、辛辣食物和含咖啡因的饮品,因为这些都对前列腺血管有扩张作用。</explain>
+</config>
+<config>
+	<id>124</id>
+	<content>低血压患者也要主要低钠、低胆固醇饮食</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>与高血压相反,低血压患者宜适当选择高钠、高胆固醇饮食,使得血压上升。</explain>
+</config>
+<config>
+	<id>125</id>
+	<content>黄芪可以治疗低血压</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>黄芪、党参都是补气药,对于低血压、晕厥等症有调养功效。</explain>
+</config>
+<config>
+	<id>126</id>
+	<content>冠心病患者要少吃动物性脂肪</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>从中医角度看,冠心病体质多痰湿偏重,所以平日饮食宜清淡,尽量少食或者避免食用动物性脂肪、高胆固醇的事物,如肥肉、猪油、动物内脏等。</explain>
+</config>
+<config>
+	<id>127</id>
+	<content>食用黑木耳可以辅助预防血栓形成</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>黑木耳、洋葱、青椒、香菇等有抑制血小板凝集、防止血栓形成的作用。</explain>
+</config>
+<config>
+	<id>128</id>
+	<content>紫菜、海带会升高血脂</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>紫菜、海带具有降血脂的作用。</explain>
+</config>
+<config>
+	<id>129</id>
+	<content>高血脂患者要不宜多饮水</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>高血脂患者要注意多喝水,有助于稀释血液,降低血液粘稠度,理想的稀释水是25度左右的白开水。</explain>
+</config>
+<config>
+	<id>130</id>
+	<content>酗酒也会导致脂肪堆积</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>酒精进入肝脏,会使得其代谢发生障碍,导致脂肪酸分解减少,甘油三酯合成增加,从而导致肝内脂肪堆积。</explain>
+</config>
+<config>
+	<id>131</id>
+	<content>盲目减肥、营养不良时脂肪肝也会随之消失</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>过分限制肉类等脂类物质,摄入蛋白质不足,导致肝脏大量合成脂蛋白,致使脂质增多,加上葡萄糖利用不足,就会使得脂肪主治释放出过量的脂肪酸进入肝脏,脂肪肝就形成了。</explain>
+</config>
+<config>
+	<id>132</id>
+	<content>芹菜具有保护肝脏的作用</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>芹菜含有多种氨基酸、挥发油、水芹素等,具有保护肝脏的作用,不仅能降血压、降血脂,还能预防动脉粥样硬化。</explain>
+</config>
+<config>
+	<id>133</id>
+	<content>芹菜可以降血压、降血脂</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>芹菜含有多种氨基酸、挥发油、水芹素等,具有保护肝脏的作用,不仅能降血压、降血脂,还能预防动脉粥样硬化。</explain>
+</config>
+<config>
+	<id>134</id>
+	<content>多吃芹菜可以预防动脉粥样硬化</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>芹菜含有多种氨基酸、挥发油、水芹素等,具有保护肝脏的作用,不仅能降血压、降血脂,还能预防动脉粥样硬化。</explain>
+</config>
+<config>
+	<id>135</id>
+	<content>多吃海带可以预防脂肪肝、高脂血症</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>海带含有丰富的牛磺酸,可以降低血液及胆汁中的胆固醇,还含有食物纤维褐藻酸,可以抑制胆固醇的吸收,并促进其排泄,对于防治脂肪肝、高脂血症均有良好的作用。</explain>
+</config>
+<config>
+	<id>136</id>
+	<content>多吃燕麦可以降血脂</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>燕麦含有丰富的亚油酸和皂苷素,可以降低血清胆固醇。</explain>
+</config>
+<config>
+	<id>137</id>
+	<content>多吃玉米可以降血脂</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>玉米富含钙、卵磷脂、维生素E,可以有效降低血清胆固醇。</explain>
+</config>
+<config>
+	<id>138</id>
+	<content>胡萝卜具有降脂,改善血循环的作用。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>胡萝卜中含有大量的生物钾,钾进入血管后可以将血液中的血脂乳化,溶解脂肪,排除体外,达到降脂、清洁血管、增加血管弹性、改善微循环的作用。</explain>
+</config>
+<config>
+	<id>139</id>
+	<content>多吃红薯可以降脂排毒</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>红素含有丰富的纤维素,有通便作用,并可以将肠道内过多的脂肪、糖、毒素排除体外,起到降脂的作用。</explain>
+</config>
+<config>
+	<id>140</id>
+	<content>脂肪肝的患者不宜饮用绿茶</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>绿茶提取物茶多酚可降低组织中过氧化脂类达到含量,降低血浆中总胆固醇的水平,对脂肪肝有一定的防治作用</explain>
+</config>
+<config>
+	<id>141</id>
+	<content>胃病病人不宜多吃猴头菇</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>猴头菇能帮助消化、利五脏,凡患有消化不良、胃溃疡、十二指肠溃疡等病的人都可以食用。</explain>
+</config>
+<config>
+	<id>142</id>
+	<content>慢性肠炎的病人要要注意少喝水</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>慢性肠炎发生腹泻如伴有脱水现象时,应该及时服用淡盐水、菜汤等以补充水、盐和维生素的缺失。</explain>
+</config>
+<config>
+	<id>143</id>
+	<content>骨质疏松的患者不宜多吃豆制品</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>骨质疏松应该多吃含钙食物,如豆浆及豆制品。</explain>
+</config>
+<config>
+	<id>144</id>
+	<content>骨质疏松的患者可以适当吃鱼肝油</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>想要预防骨质疏松,还要多摄取维生素D ,可以多吃鱼肝油、沙丁鱼。</explain>
+</config>
+<config>
+	<id>145</id>
+	<content>骨质疏松的患者可以适当饮酒抽烟</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>吸烟、过度饮酒都易应发骨质疏松</explain>
+</config>
+<config>
+	<id>146</id>
+	<content>贫血要多吃绿色蔬菜和含铁量高的 食物</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>贫血要多吃绿色蔬菜和含铁量高的食物</explain>
+</config>
+<config>
+	<id>147</id>
+	<content>贫血的病人不建议饮茶</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>茶中的鞣酸会阻碍铁质的吸收</explain>
+</config>
+<config>
+	<id>148</id>
+	<content>贫血的病人可以适当吃阿胶</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>阿胶具有止血、补血及滋阴润燥的作用,经常食用可以提高体内红细胞及血红蛋白含量,以维持及促进骨髓造血功能。</explain>
+</config>
+<config>
+	<id>149</id>
+	<content>贫血病人可以多吃黑木耳</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>木耳有很高的含铁量,是猪肝的7倍,可以改善缺铁性贫血。</explain>
+</config>
+<config>
+	<id>150</id>
+	<content>贫血病人可以多吃葡萄干</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>葡萄干含铁量很高,还含有很多矿物质、维生素和氨基酸,对改善贫血非常有效。</explain>
+</config>
+<config>
+	<id>151</id>
+	<content>老年人适合常做太极拳运动吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>太极拳是适合老年人的保健运动</explain>
+</config>
+<config>
+	<id>152</id>
+	<content>老年人适合常做八段锦运动吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>八段锦是适合老年人的保健运动</explain>
+</config>
+<config>
+	<id>153</id>
+	<content>老年人适合常做五禽戏运动吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>五禽戏是适合老年人的保健运动</explain>
+</config>
+<config>
+	<id>154</id>
+	<content>老年人适合常常常去散步运动吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>散步是适合老年人的保健运动</explain>
+</config>
+<config>
+	<id>155</id>
+	<content>散步应在选择在中午进行</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>散步时间可选择在早晨或晚饭后</explain>
+</config>
+<config>
+	<id>156</id>
+	<content>散步运动的时间越长越好</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>散步时间以每次以20-40分钟为宜,以不感觉疲劳为佳</explain>
+</config>
+<config>
+	<id>157</id>
+	<content>一般而言,40-50岁以后肌肉会逐渐退化</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>随着年龄增长,40-50岁以后,若没有适当保健、锻炼,肌肉会逐渐发生退化</explain>
+</config>
+<config>
+	<id>158</id>
+	<content>在中医理论中,脾为肌肉关系密切</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为,脾主肌肉</explain>
+</config>
+<config>
+	<id>159</id>
+	<content>在中医理论中,肝为筋关系密切</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为,肝主筋</explain>
+</config>
+<config>
+	<id>160</id>
+	<content>运动前应该进行适量的热身活动</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>每次做大的较剧烈的运动前,必须先做准备活动,即所谓“热身”,以使各部肌肉关节有所适应</explain>
+</config>
+<config>
+	<id>161</id>
+	<content>选择感觉舒适的姿势进行活动能够长时间持续而不劳累</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>肌肉的承受牵拉、扭转有一定限度,如反复的持续用力,或姿势不正持续时间久,将会使肌肉产生劳损</explain>
+</config>
+<config>
+	<id>162</id>
+	<content>伏案工作易导致颈部肌肉疲劳</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>伏案工作者,须持续工作半小时许,即应作头颈伸屈、旋转活动,否则颈肌容易劳损</explain>
+</config>
+<config>
+	<id>163</id>
+	<content>站立时背部应该挺直,头部应该抬高</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>保护背部肌肉,要注意改善身体姿态,如站立时,背部应挺直,头微前倾。</explain>
+</config>
+<config>
+	<id>164</id>
+	<content>坐着时适合在腰背部放一靠垫支撑</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>保护背部肌肉,要注意改善身体姿态,如坐时,工作台应高低适中,腰部要挺直,腰背部放一枕头样靠垫,以支撑腰部。</explain>
+</config>
+<config>
+	<id>165</id>
+	<content>活动时爆发用力能够更加轻松、省力</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>搬运、抬物、运动等,不可突然用力太猛,以防肌肉突然收缩拉伤、撕裂等。</explain>
+</config>
+<config>
+	<id>166</id>
+	<content>适当的颈部活动锻炼可以减轻颈椎劳损</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>颈椎的活动锻炼（如颈部按摩、颈部旋转运动）可延缓颈椎的蜕变衰老。</explain>
+</config>
+<config>
+	<id>167</id>
+	<content>适当的腰部活动锻炼可以减轻腰椎劳损</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>腰椎锻炼（如腰部旋转运动）可延缓腰椎关节及椎间盘的蜕变老化,及腰椎脱位。</explain>
+</config>
+<config>
+	<id>168</id>
+	<content>广播体操、健身操、跳舞、打拳等活动可以锻炼全身关节,延缓关节蜕变老化。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>广播体操、健身操、跳舞、打拳等活动可以锻炼全身关节,延缓关节蜕变老化。</explain>
+</config>
+<config>
+	<id>169</id>
+	<content>体力劳动容易劳累,不适合多做</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>适当的体力劳动可促使心肌收缩力加强,增加血液供给,改善血液循环。</explain>
+</config>
+<config>
+	<id>170</id>
+	<content>适当的体力劳动能够促进食欲。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>体力劳动能使胃肠道分泌和蠕动增强,从而促进食欲。</explain>
+</config>
+<config>
+	<id>171</id>
+	<content>适当的体力劳动有助睡眠。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>体力劳动能改善神经系统功能,体力劳动所致的轻度疲劳可解除神经紧张,有助睡眠。</explain>
+</config>
+<config>
+	<id>172</id>
+	<content>适当的体力劳动可提高关节灵动性。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>体力劳动可保持肌肉、关节的正常运动,提高其灵动性。</explain>
+</config>
+<config>
+	<id>173</id>
+	<content>适当的体力劳动可延缓器官衰老</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>体力劳动可促进整个机体新陈代谢,推迟各器官的衰老。</explain>
+</config>
+<config>
+	<id>174</id>
+	<content>人体需要进行锻炼,锻炼越多效果越好</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>我国东汉时名医华佗指出:“人体欲得劳动,但不当使极耳。”说明人需要锻炼,但不能过度。</explain>
+</config>
+<config>
+	<id>175</id>
+	<content>活动后稍觉劳累是适合的活动量</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>唐代的养生名家孙思邈提出:“养生之道,常欲小劳,但莫大疲及强所不能堪耳。”意在说明体力劳动应当适度。</explain>
+</config>
+<config>
+	<id>176</id>
+	<content>体力劳动应当适度量力而行。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>体力劳动应当适度,尤其是老年人,要做到量力而行,劳作有度。</explain>
+</config>
+<config>
+	<id>177</id>
+	<content>体力劳动适度的基本标准是:劳动后不觉劳累,仍有体力</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>体力劳动适度的基本标准是:劳动后经过短暂休息可恢复体力。</explain>
+</config>
+<config>
+	<id>178</id>
+	<content>脑力劳动的锻炼和体力劳动锻炼一样重要</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>体力劳动的同时也要注意加强脑力劳动的锻炼。</explain>
+</config>
+<config>
+	<id>179</id>
+	<content>人体内经常使用的器官易保持健康发达</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>生物学告诉我们,人体内经常使用的器官健康发达,少用者就会逐渐衰弱蜕变。</explain>
+</config>
+<config>
+	<id>180</id>
+	<content>经常用脑能够延缓脑细胞的衰老</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>如果能经常用脑,输入大脑的血液和氧气就充足,促进脑细胞的发育,活力增强,脑力衰老的速度就减慢。科学家们认为,晚年用脑不仅能保护和维持原有脑功能,而且能积极地改善和增强脑功能;人的大脑受到信息的刺激愈少,衰老就愈快,而信息刺激愈多,脑细胞愈发达旺盛,衰老就愈慢。</explain>
+</config>
+<config>
+	<id>181</id>
+	<content>中医学认为运动有益于延年益寿。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医学认为运动可使人全身气血流通,经脉通畅,脏腑功能活动正常,从而有益于延年。</explain>
+</config>
+<config>
+	<id>182</id>
+	<content>经常坐着或躺着能够节省体力,保持健康。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>《医学入门》记载“终日屹屹端坐,最是生病,人徒知久行久立之伤人,而不知久卧久坐之尤伤人也”意在说明久坐久卧同样有害身体健康。</explain>
+</config>
+<config>
+	<id>183</id>
+	<content>脑力劳动者要加强体力劳动锻炼</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>《中外卫生要旨》强调“劳心者,不可不劳手足”,意在说明脑力劳动者要加强体力劳动锻炼。</explain>
+</config>
+<config>
+	<id>184</id>
+	<content>运动后食欲增加,情绪放松说明运动过量了</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>如果运动后,锻炼者食欲增进,睡眠良好,情绪轻松,精力充沛,这是运动量适宜的表现。</explain>
+</config>
+<config>
+	<id>185</id>
+	<content>运动后食欲减退,自觉劳累汗多,说明运动量过大,应适当减少。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>如运动后食欲减退,头昏头痛,自觉劳累汗多,精神倦怠,说明运动量过大,应适当减少。</explain>
+</config>
+<config>
+	<id>186</id>
+	<content>正常成年人的运动量,以每分钟心率（或脉率）增加20-40次最为合适</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>一般认为,正常成年人的运动量,以每分钟心率（或脉率）增加20-40次最为合适。</explain>
+</config>
+<config>
+	<id>187</id>
+	<content>正常健康老年人运动后的最高心率不要超过（170减年龄）</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>正常健康老年人运动后的最高心率不要超过170减年龄,（如60岁老人不要超过170-60=110次）</explain>
+</config>
+<config>
+	<id>188</id>
+	<content>养生运动除了活动以外也要静养</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医养生学认为,养生运动要注意动静结合。</explain>
+</config>
+<config>
+	<id>189</id>
+	<content>养生运动在下午进行最合适</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医养生学认为,运动时间以早晨为佳。</explain>
+</config>
+<config>
+	<id>190</id>
+	<content>运动的选择要因人因时因地制宜</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医养生学认为,运动的选择要因人因时因地制宜。</explain>
+</config>
+<config>
+	<id>191</id>
+	<content>八段锦运动具有强身健体、延年益寿的功效</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>八段锦是由八种不同动作组成的中国传统健身术,其练习不受环境场地限制,随时随地可做,术式简单易学易记,运动量适中,老少皆宜,具有强身益寿的作用。</explain>
+</config>
+<config>
+	<id>192</id>
+	<content>易筋经能达到“伸筋拔骨”的锻炼效果</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>易筋经是活动肌肉、筋骨,使全身经络、气血通畅,从而增进健康祛病延年的一种传统健身法。能达到“伸筋拔骨”的锻炼效果。</explain>
+</config>
+<config>
+	<id>193</id>
+	<content>易筋经适合老年人锻炼,青年人不适合做</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>青少年练习易筋经可以纠正身体的不良姿态,促进肌肉、骨骼的生长发育。</explain>
+</config>
+<config>
+	<id>194</id>
+	<content>年老体弱者常练易筋经对慢性疾病的恢复以及延缓衰老均很有益处</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>年老体弱者常练易筋经,可以防止老年性肌肉萎缩,促进血液循环,调整和加强全身的营养和吸收,对慢性疾病的恢复以及延缓衰老均很有益处。</explain>
+</config>
+<config>
+	<id>195</id>
+	<content>在饭前锻炼后可以马上用餐。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>在饭前锻炼,至少要0.5h后才能用餐。</explain>
+</config>
+<config>
+	<id>196</id>
+	<content>饭后稍作休息就可以马上开始运动</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>饭后至少要休息1.5h以上才能锻炼。</explain>
+</config>
+<config>
+	<id>197</id>
+	<content>睡觉前进行运动有助于睡眠</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>为了避免锻炼后过度兴奋而影响入睡,应该在临睡前2h左右结束锻炼。</explain>
+</config>
+<config>
+	<id>198</id>
+	<content>运动的理想环境是空气清新的场所</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>运动的理想环境是空气清新的场所。若能在室外林木繁茂、空气新鲜的地方则更为理想。</explain>
+</config>
+<config>
+	<id>199</id>
+	<content>运动养生不仅是身体的锻炼,也是意志力和毅力的锻炼。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>“流水不腐,户枢不蠹。”这句话一方面说明了“动则不衰”的道理,另一方面也强调了锻炼应持之以恒、坚持不懈,才能收到健身效果,三天打鱼两天晒网是不会达到锻炼目的的。运动养生不仅是身体的锻炼,也是意志力和毅力的锻炼。</explain>
+</config>
+<config>
+	<id>200</id>
+	<content>运动锻炼强度应该逐步增大,不宜一次运动太过。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>年老体弱者,运动开始应有一个“试探”阶段,一般为7~10天。这期间,运动强度以心率的增加不超过运动前心率的50%为宜。试探阶段过后,锻炼强度可适当增大。</explain>
+</config>
+<config>
+	<id>201</id>
+	<content>轻微运动就感到胸部疼痛的中度或重度冠状动脉疾病患者运动要慎重</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>轻微运动就感到胸部疼痛的中度或重度冠状动脉疾病患者,应该禁止运动或在医生的监督指导下才可进行运动。</explain>
+</config>
+<config>
+	<id>202</id>
+	<content>在3个月内有过心绞痛发作的患者禁止运动</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>在3个月内有过心绞痛发作的患者,应该禁止运动或在医生的监督指导下才可进行运动。</explain>
+</config>
+<config>
+	<id>203</id>
+	<content>重症心瓣膜病患者应该禁止运动</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>风湿热后遗症的重症心瓣膜病患者,应该禁止运动或在医生的监督指导下才可进行运动。</explain>
+</config>
+<config>
+	<id>204</id>
+	<content>心脏肥大的患者应该禁止运动</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>因高血压或其他进行性心脏病引起心脏肥大的患者,应该禁止运动或在医生的监督指导下才可进行运动。</explain>
+</config>
+<config>
+	<id>205</id>
+	<content>心律不齐患者运动应该严格控制</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>需要频繁用药物控制的心律不齐患者,应该禁止运动或在医生的监督指导下才可进行运动。</explain>
+</config>
+<config>
+	<id>206</id>
+	<content>高血糖或低血糖激烈变动的糖尿病患者运动应该慎重</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>糖尿病患者处在高血糖或低血糖激烈变动的患者,应该禁止运动或在医生的监督指导下才可进行运动。</explain>
+</config>
+<config>
+	<id>207</id>
+	<content>血压过高的患者应该禁止运动</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>用药物后血压仍在180/110mmHg以上的高血压患者,应该禁止运动或在医生的监督指导下才可进行运动。</explain>
+</config>
+<config>
+	<id>208</id>
+	<content>太极拳、八段锦、五禽戏、慢跑等运动适合病后进行</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>太极拳、八段锦、五禽戏、慢跑都是适合病后锻炼的运动项目。（应遵循适度、循序渐进、安全原则）</explain>
+</config>
+<config>
+	<id>209</id>
+	<content>自然界的运动变化会影响到人体健康</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>“人以天地之气生,四时之法成”,说的是自然界的运动变化无疑会直接或间接地影响人体。</explain>
+</config>
+<config>
+	<id>210</id>
+	<content>睡眠时间随着四季变化而不同</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>“人与四时相适应”是中医的养生宗旨,早起早睡也要随四季的交替而变化。</explain>
+</config>
+<config>
+	<id>211</id>
+	<content>春天和夏天应该早睡早起</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>春天和夏天可以晚点睡,早点起,即“夜卧早起”。</explain>
+</config>
+<config>
+	<id>212</id>
+	<content>冬天应该晚睡早起</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>冬天应“早卧晚起,以待日光”,即冬天要早点睡,晚点起。</explain>
+</config>
+<config>
+	<id>213</id>
+	<content>秋天应该早睡早起</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>秋季应“早卧早起,与鸡俱兴”,早睡以顺应阴精的收敛,早起以适应阳气的舒长。</explain>
+</config>
+<config>
+	<id>214</id>
+	<content>夏季中午应当适当午睡</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>在炎热的夏季,昼长夜短,中午适宜小憩片刻,以保存精力。</explain>
+</config>
+<config>
+	<id>215</id>
+	<content>春天时应该控制情绪,少生气</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>春天要注意保持心胸开阔,情绪乐观,不要烦恼生气。</explain>
+</config>
+<config>
+	<id>216</id>
+	<content>春天适合在室内静养</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>春季适合锻炼,有利于人吐故纳新,怡情养性。</explain>
+</config>
+<config>
+	<id>217</id>
+	<content>春天时气温回升,应该减少衣物穿着</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>春天气候多变,易寒易暖,要注意防风御寒,养阳敛阴,衣着方面“不可顿去棉衣……时备夹衣,遇暖易之,一重渐减一重,不可暴去”。</explain>
+</config>
+<config>
+	<id>218</id>
+	<content>夏天应该保持情绪平和</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>夏季应做到内心静,神清气和,切忌发怒,要尽量保持情绪外向,心胸开畅。</explain>
+</config>
+<config>
+	<id>219</id>
+	<content>夏天气候炎热,睡觉时适合吹风纳凉</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>夏季宜防暴晒,降室温,注意室内通风,谨防“中暑”,但又忌当风而眠,眠中风袭。</explain>
+</config>
+<config>
+	<id>220</id>
+	<content>秋天时应该保持情绪高昂兴奋</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>秋季气候渐凉,秋风劲急,地气肃清,以生收杀,秋应于肺,养神要做到内心宁静,神志安宁,不要悲伤忧虑。</explain>
+</config>
+<config>
+	<id>221</id>
+	<content>秋天气温干燥,要及时补充身体水分</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>秋季气候干燥,空气湿度小、风力大,常易使人皮肤干裂,因此居室内应保持一定的湿度,并注意补充体内的水分,避免大汗淋漓以伤津液。</explain>
+</config>
+<config>
+	<id>222</id>
+	<content>秋天气温多变,要及时增减衣物</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>秋季气温亦多变,早晚温差较大,应注意随时增减衣着。</explain>
+</config>
+<config>
+	<id>223</id>
+	<content>冬天应当积极进行运动以御寒</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>冬季万物凋零,内应于肾,养神应注意安静,含而不露,尤要避寒保暖养藏阳气。</explain>
+</config>
+<config>
+	<id>224</id>
+	<content>日常起居要遵循一定的规律</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医养生讲究“起居有常”,起居主要指生活作息,起居有常即为生活有规律。</explain>
+</config>
+<config>
+	<id>225</id>
+	<content>健康的起居习惯要顺应季节时间的变化</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为人体气血受日月、星辰、四时的影响而发生周期性的盛衰,故养生也必须起居有常,顺应阴阳之变化,要顺应一日、四时乃至年气的变化。</explain>
+</config>
+<config>
+	<id>226</id>
+	<content>人体的状态也随着自然昼夜时间变化而产生变化</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>一日四时,天有白昼、黑夜的阴阳交替,人与之相应也有阴阳消长的不断转化。（现代时间生物学的论述与中医的人体昼夜阴阳气血消长观基本一致）</explain>
+</config>
+<config>
+	<id>227</id>
+	<content>一般来说早晨至中午是精力最充沛的时刻</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>一般来说,早晨至中午,人身阳气生长,阴气内守,精力充沛,工作效率较高。</explain>
+</config>
+<config>
+	<id>228</id>
+	<content>中午到黄昏人体的活力继续增强</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中午至黄昏,阳气渐消,阴气渐长,仍有较强的活动能力,但逐渐感到疲惫。</explain>
+</config>
+<config>
+	<id>229</id>
+	<content>入夜之后人体活力下降,应该睡眠休息</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>入夜后阳气潜藏,阴气布于全身,需要合眼休眠。</explain>
+</config>
+<config>
+	<id>230</id>
+	<content>凌晨2-4点的时候身体的活力最低</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>以人的活动能力来说,2-4点,身体大部分功能处于抑制状态,是通宵工作者的效率最低阶段。</explain>
+</config>
+<config>
+	<id>231</id>
+	<content>一般来说早上10点时工作效率最高。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>早上10点,人的注意力和记忆力最好,工作效率高。</explain>
+</config>
+<config>
+	<id>232</id>
+	<content>13-14点人容易感到疲倦</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>13-14点,体内激素变化,人感到疲倦。</explain>
+</config>
+<config>
+	<id>233</id>
+	<content>22点时人体人保持有较高的活力</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>22点,体内多功能处于低潮,要准备休息。</explain>
+</config>
+<config>
+	<id>234</id>
+	<content>应按照时令、时辰和人体的变化规律调节起居,才符合养生之道</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>应按照时令、时辰和人体的变化规律调节起居,才符合养生之道。</explain>
+</config>
+<config>
+	<id>235</id>
+	<content>人的生命活动与自然界密切相关</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>《素问・保命全形论》说:“人生于地,悬命于天,天地合气,命之曰人。”意为人是由天地化生,是物质世界的组成部分,体现了天人相应观。</explain>
+</config>
+<config>
+	<id>236</id>
+	<content>在春天时违反养生规律容易伤肝</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为,肝与春时相应,违背春天的养生之道则伤肝气。</explain>
+</config>
+<config>
+	<id>237</id>
+	<content>在夏天时违反养生规律容易伤心</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为,心与夏时相应,违背夏季的养生之道则伤心气。</explain>
+</config>
+<config>
+	<id>238</id>
+	<content>四季的起居不慎均可伤及脾胃。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为,脾与长夏及四时相应,四季的起居不慎均可伤及脾胃。</explain>
+</config>
+<config>
+	<id>239</id>
+	<content>在秋天时违反养生规律容易伤肺</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为,肺与秋季相应,违背秋天的养生之道则伤肺气。</explain>
+</config>
+<config>
+	<id>240</id>
+	<content>在冬天时违反养生规律容易伤肾</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>中医认为,肾与冬季相应,违背冬季的养生之道则伤肾气。</explain>
+</config>
+<config>
+	<id>241</id>
+	<content>白天开始活动能够使气血运行舒畅</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>日出而作,筋脉舒展,气血畅行。</explain>
+</config>
+<config>
+	<id>242</id>
+	<content>晚上按时睡点能够使肝血得养</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>日入而息,血归于肝,目瞑神潜。</explain>
+</config>
+<config>
+	<id>243</id>
+	<content>夏天容易产生心烦、口渴等症状</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>夏季起居不慎,暑热最易伤心,常造成发热、心烦、口渴、胸闷、疲乏等症。</explain>
+</config>
+<config>
+	<id>244</id>
+	<content>春天气候偏温、夏天炎热、秋天干燥、冬天寒冷。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>春温、夏热、长夏湿、秋燥、冬寒。</explain>
+</config>
+<config>
+	<id>245</id>
+	<content>春夏气血容易趋向于表。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>春夏季节阳气发泄,气血容易趋向于表。</explain>
+</config>
+<config>
+	<id>246</id>
+	<content>秋冬气血容易趋向于里。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>秋冬季阳气收藏,气血容易趋向于里。</explain>
+</config>
+<config>
+	<id>247</id>
+	<content>自然界原本正常的气候变化太过都可以成为有害的因素</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>风、寒、暑、湿、燥、火是中医的六气,常分别于一定的季节出现,六气太过则伤人,称为六淫。</explain>
+</config>
+<config>
+	<id>248</id>
+	<content>春天时多见风气盛</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>风、寒、暑、湿、燥、火是中医的六气,常分别于一定的季节出现,风为春季主气。</explain>
+</config>
+<config>
+	<id>249</id>
+	<content>夏天时多有气候干燥</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>风、寒、暑、湿、燥、火是中医的六气,常分别于一定的季节出现,暑为夏季主气。</explain>
+</config>
+<config>
+	<id>250</id>
+	<content>秋天时多见气候潮湿</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>风、寒、暑、湿、燥、火是中医的六气,常分别于一定的季节出现,燥为秋季主气。</explain>
+</config>
+<config>
+	<id>251</id>
+	<content>冬天时多见气候寒冷</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>风、寒、暑、湿、燥、火是中医的六气,常分别于一定的季节出现,寒为冬季主气。</explain>
+</config>
+<config>
+	<id>252</id>
+	<content>成人睡眠一般每天需要5-6小时</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>不同人群所需的睡眠时间不同,成人一般需7～9小时。</explain>
+</config>
+<config>
+	<id>253</id>
+	<content>新生儿每天一般需要睡眠10小时</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>不同人群所需的睡眠时间不同,新生儿一般需18～20小时。</explain>
+</config>
+<config>
+	<id>254</id>
+	<content>儿童每天一般需要睡眠12-14小时</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>不同人群所需的睡眠时间不同,儿童一般需12～14小时。</explain>
+</config>
+<config>
+	<id>255</id>
+	<content>老年人每天一般需睡眠5～7小时</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>不同人群所需的睡眠时间不同,老年人一般需5～7小时。</explain>
+</config>
+<config>
+	<id>256</id>
+	<content>一般而言,睡眠时间越长人体越得到休息,有利于保持健康</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>正常情况下,超过10小时以上的睡眠称为多眠,对人体有害。</explain>
+</config>
+<config>
+	<id>257</id>
+	<content>一般而言少于6小时的睡眠对人体有害。</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>正常情况下,少于6小时的睡眠称为少眠,对人体有害。</explain>
+</config>
+<config>
+	<id>258</id>
+	<content>一般睡眠入睡需要20-30分钟</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>10-15分钟即可入睡是睡眠质量好的表现。</explain>
+</config>
+<config>
+	<id>259</id>
+	<content>各类人所需要的睡眠时间大致一样</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>1</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>不同人群所需的睡眠时间不同,体力劳动者略多于脑力劳动者。</explain>
+</config>
+<config>
+	<id>260</id>
+	<content>体质弱者一般需要更多的睡眠时间</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>不同人群所需的睡眠时间不同,体质弱者略多于体质强壮者。</explain>
+</config>
+<config>
+	<id>261</id>
+	<content>男性睡眠时间一半多于女性</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[正确,错误]</options>
+	<answerIndex>0</answerIndex>
+	<catergory></catergory>
+	<difficulty></difficulty>
+	<explain>不同人群所需的睡眠时间不同,男性略多于女性。</explain>
+</config>
+</root>

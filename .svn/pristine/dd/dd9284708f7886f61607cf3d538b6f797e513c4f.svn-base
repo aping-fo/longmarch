@@ -1,0 +1,97 @@
+/*
+ Navicat MySQL Data Transfer
+
+ Source Server         : 200-medicine
+ Source Server Type    : MySQL
+ Source Server Version : 50173
+ Source Host           : 192.168.0.200:3306
+ Source Schema         : longmarch
+
+ Target Server Type    : MySQL
+ Target Server Version : 50173
+ File Encoding         : 65001
+
+ Date: 13/12/2018 10:33:52
+*/
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for t_log_login
+-- ----------------------------
+DROP TABLE IF EXISTS `t_log_login`;
+CREATE TABLE `t_log_login`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `openid` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `loginTime` datetime NULL DEFAULT NULL COMMENT '登录日志',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Table structure for t_u_consume
+-- ----------------------------
+DROP TABLE IF EXISTS `t_u_consume`;
+CREATE TABLE `t_u_consume`  (
+  `openId` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `address` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `itemId` bigint(255) NOT NULL,
+  PRIMARY KEY (`openId`) USING BTREE
+) ENGINE = MyISAM CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for t_u_family
+-- ----------------------------
+DROP TABLE IF EXISTS `t_u_family`;
+CREATE TABLE `t_u_family`  (
+  `id` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `step` int(11) NULL DEFAULT NULL COMMENT '步数',
+  `memberJson` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `ownerId` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `totalStep` int(11) NULL DEFAULT 0 COMMENT '总步数',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = MyISAM CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for t_u_player
+-- ----------------------------
+DROP TABLE IF EXISTS `t_u_player`;
+CREATE TABLE `t_u_player`  (
+  `openId` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户ID',
+  `nickName` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '用户昵称',
+  `level` int(11) NULL DEFAULT NULL COMMENT '等级',
+  `totalQuestions` int(11) NULL DEFAULT NULL COMMENT '总答题数',
+  `answerSuccess` int(11) NULL DEFAULT NULL COMMENT '总正确数',
+  `historyCatergorysStr` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '历史答题类型记录',
+  `historyQuestionsStr` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '历史答题ID',
+  `score` int(11) NULL DEFAULT NULL COMMENT '经验',
+  `iconUrl` varchar(500) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '头像',
+  `createTime` bigint(20) NULL DEFAULT NULL COMMENT '创角时间',
+  `loginTime` bigint(20) NULL DEFAULT NULL,
+  `historyRaceStr` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '排位赛记录',
+  `familyId` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '群ID',
+  `invitationFamilysStr` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '邀请群列表',
+  `signTime` bigint(20) NULL DEFAULT NULL COMMENT '签到时间',
+  `totalScore` int(11) NULL DEFAULT 0 COMMENT '总积分',
+  `toolCount` int(11) NULL DEFAULT 0 COMMENT '道具数量',
+  `limitScore` int(11) NULL DEFAULT NULL,
+  `totalLimitScore` int(11) NULL DEFAULT NULL,
+  `signTimeActivity` bigint(20) NULL DEFAULT NULL COMMENT '专场签到时间',
+  PRIMARY KEY (`openId`) USING BTREE,
+  UNIQUE INDEX `idx_opend_id`(`openId`) USING BTREE
+) ENGINE = MyISAM CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for t_u_serverdata
+-- ----------------------------
+DROP TABLE IF EXISTS `t_u_serverdata`;
+CREATE TABLE `t_u_serverdata`  (
+  `id` int(11) NOT NULL,
+  `server_data` longblob NULL COMMENT '服务器全局数据',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = MyISAM CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+SET FOREIGN_KEY_CHECKS = 1;

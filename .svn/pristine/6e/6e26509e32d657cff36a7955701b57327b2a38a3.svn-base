@@ -1,0 +1,122 @@
+package com.game.sdk.handler;
+
+import com.game.sdk.annotation.Command;
+import com.game.sdk.annotation.Handler;
+import com.game.sdk.net.Cmd;
+import com.game.sdk.net.Result;
+import com.game.sdk.proto.*;
+import com.game.service.PlayerService;
+import org.springframework.beans.factory.annotation.Autowired;
+
+/**
+ * Created by lucky on 2018/10/11.
+ */
+@Handler
+public class PlayerHandler {
+
+    @Autowired
+    private PlayerService playerService;
+
+    @Command(cmd = Cmd.GET_OPENID, description = "请求OPENID")
+    public Result getOpenID(String openId, OpenIDReq req) throws Exception {
+        Result result = playerService.getOpenID(openId, req.getCode());
+        return result;
+    }
+
+
+    @Command(cmd = Cmd.CREATE_ROLE, description = "请求创角色")
+    public Result createRole(String openId, CreateRoleReq req) throws Exception {
+        Result result = playerService.createPlayer(openId, req.getNickName(), req.getIconUrl());
+        return result;
+    }
+
+    @Command(cmd = Cmd.GET_ROLE, description = "请求角色信息")
+    public Result getRole(String openId) throws Exception {
+        Result result = playerService.getRole(openId);
+        return result;
+    }
+
+    @Command(cmd = Cmd.GET_RANK_INFO, description = "请求排行榜")
+    public Result getRankInfo(String openId, RankInfoReq req) throws Exception {
+        Result result = playerService.getRankInfo(openId, req);
+        return result;
+    }
+
+    @Command(cmd = Cmd.UPDATE_ROLE, description = "更新角色信息")
+    public Result updateRoleInfo(String openId, UpdateRoleReq req) throws Exception {
+        Result result = playerService.updateRole(openId, req.getNickName(), req.getIconUrl());
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_INFO, description = "家庭群查询")
+    public Result getFamilyGroupInfo(String openId) throws Exception {
+        Result result = playerService.getFamilyGroupInfo(openId);
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_CREATE, description = "家庭群创建")
+    public Result createFamilyGroup(String openId, FamilyGroupCreateReq req) throws Exception {
+        Result result = playerService.createFamilyGroup(openId, req.getName());
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_ADD_MEMBER, description = "家庭群成员加入")
+    public Result familyGroupAddMember(String openId, FamilyGroupMemberAddReq req) throws Exception {
+        Result result = playerService.familyGroupMemberAdd(openId, req.getId());
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_REMOVE_MEMBER, description = "家庭群移除成员")
+    public Result familyGroupRemoveMember(String openId, FamilyGroupMemberRemoveReq req) throws Exception {
+        Result result = playerService.familyGroupMemberRemove(openId, req.getMemberOpenId());
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_CHANGENAME, description = "修改群名字")
+    public Result familyGroupChangeName(String openId, FamilyGroupChangeNameReq req) throws Exception {
+        Result result = playerService.familyGroupChangeName(openId, req.getName());
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_INVITATION, description = "邀请")
+    public Result InvitationJoinFamilyGroup(String openId, FamilyGroupMemberAddReq req) throws Exception {
+        Result result = playerService.invitationJoinFamilyGroup(openId, req.getId());
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_RANK, description = "排行榜")
+    public Result getFamilyRank(String openId) throws Exception {
+        Result result = playerService.getFamilyRank(openId);
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_EXIT, description = "退出")
+    public Result familyMemberExit(String openId) throws Exception {
+        Result result = playerService.familyMemberExit(openId);
+        return result;
+    }
+
+    @Command(cmd = Cmd.FAMILYGROUP_DIS, description = "解散")
+    public Result dismissFamilyGroup(String openId) throws Exception {
+        Result result = playerService.dismissFamilyGroup(openId);
+        return result;
+    }
+
+    @Command(cmd = Cmd.SIGN, description = "签到")
+    public Result sign(String openId) throws Exception {
+        Result result = playerService.sign(openId);
+        return result;
+    }
+
+    @Command(cmd = Cmd.GET_RUN_DATA, description = "跑步")
+    public Result getRunData(String openId,RunDataReq req) throws Exception {
+        Result result = playerService.getRunData(openId,req.getEncryptedData(),req.getIv());
+        return result;
+    }
+
+    @Command(cmd = Cmd.TRANSFER_RUN_DATA, description = "跑步")
+    public Result transferRunData(String openId, int step) throws Exception {
+        Result result = playerService.transStep(openId, step);
+        return result;
+    }
+}

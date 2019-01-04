@@ -1,0 +1,909 @@
+[INFO ] 10-25 14:28:20  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 0,[cmd] = 1001
+[INFO ] 10-25 14:28:43  Cache loaded for 0
+[INFO ] 10-25 14:28:43  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@66a23eb1 for com.game.dao.PlayerDAO#queryPlayer
+[INFO ] 10-25 14:28:43  send data ==> {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}"}
+[INFO ] 10-25 14:28:43  {"code":"200","data":"{\"openId\":\"0\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 10-25 14:28:43  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 0,[cmd] = 1004
+[INFO ] 10-25 14:28:43  {"code":"503","data":"","cmd":"0"}
+[INFO ] 10-25 14:32:45  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 112,[cmd] = 1001
+[INFO ] 10-25 14:32:45  Cache loaded for 112
+[INFO ] 10-25 14:32:45  send data ==> {"code":"200","data":"{\"openId\":\"112\",\"hasRole\":false}"}
+[INFO ] 10-25 14:32:45  {"code":"200","data":"{\"openId\":\"112\",\"hasRole\":false}","cmd":"1001"}
+[INFO ] 10-25 14:32:45  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 112,[cmd] = 1002
+[INFO ] 10-25 14:32:45  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 10-25 14:32:45  {"code":"200","data":"\"ok\"","cmd":"1002"}
+[INFO ] 10-25 14:32:47  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSJ9,[s] = 72eca8ed9f5ad5e7541377765fe59fc0,[openId] = 112,[cmd] = 2001
+[INFO ] 10-25 14:32:47  send data ==> {"code":"200","data":"\"ok\""}
+[INFO ] 10-25 14:32:47  {"code":"200","data":"\"ok\"","cmd":"2001"}
+[INFO ] 10-25 14:32:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:48  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:48  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:48  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:48  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:49  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:49  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:49  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:49  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:49  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:49  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:50  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:50  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:50  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:50  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:50  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:50  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:51  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:51  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:51  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:51  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:51  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:51  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:52  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:52  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:52  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:52  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:52  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:52  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:53  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:53  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:53  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:53  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:53  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:53  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:54  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:54  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:54  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:54  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:54  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:54  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:55  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:55  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:55  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:55  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:55  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:55  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:56  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:56  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:56  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:57  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:57  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:57  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:57  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:57  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:57  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:58  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:58  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:58  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:58  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:58  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:58  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:59  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:59  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:59  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:32:59  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:32:59  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:32:59  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:33:00  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:33:00  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:33:00  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:33:00  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:33:00  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:33:00  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:33:01  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:33:01  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:33:01  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:33:01  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:33:01  send data ==> {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}"}
+[INFO ] 10-25 14:33:01  {"code":"200","data":"{\"matchSuccess\":false,\"roles\":[]}","cmd":"2003"}
+[INFO ] 10-25 14:33:02  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2003
+[INFO ] 10-25 14:33:02  send data ==> {"code":"200","data":"{\"matchSuccess\":true,\"roles\":[{\"openId\":\"112\",\"nickName\":\"测试\",\"roomId\":100,\"robot\":false},{\"openId\":\"1244aeb4-a0d9-4f35-abe4-4fc2be6f8eaf\",\"nickName\":\"ABC\",\"roomId\":100,\"robot\":false}]}"}
+[INFO ] 10-25 14:33:02  {"code":"200","data":"{\"matchSuccess\":true,\"roles\":[{\"openId\":\"112\",\"nickName\":\"测试\",\"roomId\":100,\"robot\":false},{\"openId\":\"1244aeb4-a0d9-4f35-abe4-4fc2be6f8eaf\",\"nickName\":\"ABC\",\"roomId\":100,\"robot\":false}]}","cmd":"2003"}
+[INFO ] 10-25 14:33:03  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:03  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:03  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:04  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:04  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:04  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:04  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2004
+[INFO ] 10-25 14:33:04  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:04  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:04  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:04  send data ==> {"code":"200","data":"{\"questionCategorys\":[4,4,3,1,1,5,6,2,6]}"}
+[INFO ] 10-25 14:33:04  {"code":"200","data":"{\"questionCategorys\":[4,4,3,1,1,5,6,2,6]}","cmd":"2004"}
+[INFO ] 10-25 14:33:04  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2005
+[INFO ] 10-25 14:33:04  send data ==> {"code":"200","data":"\"0\""}
+[INFO ] 10-25 14:33:04  {"code":"200","data":"\"0\"","cmd":"2005"}
+[INFO ] 10-25 14:33:05  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:05  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:05  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:05  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:05  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:05  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:06  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:06  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:06  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:06  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:06  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:06  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:07  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:07  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:07  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:07  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:07  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:07  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:08  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:08  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:08  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:08  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2008
+[INFO ] 10-25 14:33:08  send data ==> {"code":"200","data":"{\"result\":true,\"question\":{\"id\":348,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到387个左右题目的范围内348+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案349\",\"8字符以内答案351\",\"8字符以内答案350\",\"8字符以内答案352\"],\"answer\":0,\"category\":4,\"difficulty\":3,\"index\":0}}"}
+[INFO ] 10-25 14:33:08  {"code":"200","data":"{\"result\":true,\"question\":{\"id\":348,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到387个左右题目的范围内348+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案349\",\"8字符以内答案351\",\"8字符以内答案350\",\"8字符以内答案352\"],\"answer\":0,\"category\":4,\"difficulty\":3,\"index\":0}}","cmd":"2008"}
+[INFO ] 10-25 14:33:08  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:08  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:08  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:09  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:09  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:09  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:09  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:09  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:09  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:10  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:10  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:10  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:10  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:10  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:10  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:11  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:11  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:11  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:11  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:11  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:11  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:12  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:12  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:12  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:12  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:12  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:12  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:13  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:13  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:13  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:13  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:13  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:13  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:14  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:14  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:14  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:14  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:14  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:14  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:15  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:15  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:15  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:15  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:15  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:15  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:16  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:16  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:16  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:16  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:16  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:16  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:17  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:17  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:17  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:17  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:17  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:17  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:18  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:18  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:18  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:18  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:18  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:18  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:19  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:19  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:19  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:19  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:19  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:19  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:20  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:20  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:20  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:20  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:20  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:20  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:21  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:21  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:21  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:21  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:21  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:21  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:22  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:22  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:22  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:22  receive req, [data]= eyJhbnN3ZXIiOjB9,[s] = 2ad4c4d9b77368d66d696be7e187ff72,[openId] = 112,[cmd] = 2006
+[INFO ] 10-25 14:33:22  send data ==> {"code":"200","data":"{\"result\":true}"}
+[INFO ] 10-25 14:33:22  {"code":"200","data":"{\"result\":true}","cmd":"2006"}
+[INFO ] 10-25 14:33:22  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2009
+[INFO ] 10-25 14:33:22  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:22  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:22  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:22  send data ==> {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":348,\"result\":true}]}"}
+[INFO ] 10-25 14:33:22  {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":348,\"result\":true}]}","cmd":"2009"}
+[INFO ] 10-25 14:33:23  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:23  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:23  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:24  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:24  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:24  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:24  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:24  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:24  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:25  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:25  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:25  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:25  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:25  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:25  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:26  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2005
+[INFO ] 10-25 14:33:26  send data ==> {"code":"200","data":"\"0\""}
+[INFO ] 10-25 14:33:26  {"code":"200","data":"\"0\"","cmd":"2005"}
+[INFO ] 10-25 14:33:26  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:26  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:26  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:26  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:26  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:26  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:27  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:27  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:27  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:27  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:27  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:27  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:28  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:28  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:28  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:28  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:28  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:28  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:29  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:29  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:29  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:29  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:29  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:29  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:30  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:30  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:30  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:30  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:30  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:30  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:31  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:31  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:31  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:31  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:31  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:31  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:32  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:32  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:32  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:32  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:32  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:32  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:33  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2008
+[INFO ] 10-25 14:33:33  send data ==> {"code":"200","data":"{\"result\":true,\"question\":{\"id\":301,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到340个左右题目的范围内301+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案302\",\"8字符以内答案304\",\"8字符以内答案303\",\"8字符以内答案305\"],\"answer\":0,\"category\":4,\"difficulty\":1,\"index\":0}}"}
+[INFO ] 10-25 14:33:33  {"code":"200","data":"{\"result\":true,\"question\":{\"id\":301,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到340个左右题目的范围内301+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案302\",\"8字符以内答案304\",\"8字符以内答案303\",\"8字符以内答案305\"],\"answer\":0,\"category\":4,\"difficulty\":1,\"index\":0}}","cmd":"2008"}
+[INFO ] 10-25 14:33:33  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:33  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:33  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:33  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:33  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:33  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:34  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:34  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:34  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:34  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:34  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:34  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:35  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:35  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:35  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:35  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:35  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:35  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:36  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:36  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:36  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:36  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:36  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:36  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:37  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:37  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:37  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:37  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:37  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:37  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:38  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:38  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:38  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:38  receive req, [data]= eyJhbnN3ZXIiOjB9,[s] = 2ad4c4d9b77368d66d696be7e187ff72,[openId] = 112,[cmd] = 2006
+[INFO ] 10-25 14:33:38  send data ==> {"code":"200","data":"{\"result\":true}"}
+[INFO ] 10-25 14:33:38  {"code":"200","data":"{\"result\":true}","cmd":"2006"}
+[INFO ] 10-25 14:33:38  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2009
+[INFO ] 10-25 14:33:38  send data ==> {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}"}
+[INFO ] 10-25 14:33:38  {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}","cmd":"2009"}
+[INFO ] 10-25 14:33:38  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:38  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:38  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:39  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:39  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:39  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:39  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:39  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:39  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:40  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:40  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:40  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:40  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:40  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:40  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:41  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:41  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:41  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:41  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2005
+[INFO ] 10-25 14:33:41  send data ==> {"code":"200","data":"\"5\""}
+[INFO ] 10-25 14:33:41  {"code":"200","data":"\"5\"","cmd":"2005"}
+[INFO ] 10-25 14:33:41  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:41  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:41  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:42  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:42  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:42  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:43  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:43  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:43  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:43  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:43  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:43  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:44  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:44  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:44  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:44  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:44  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:44  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:45  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:45  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:45  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:45  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:45  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:45  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:46  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:46  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:46  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:46  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:46  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:46  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:47  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:47  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:47  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:47  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:47  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:47  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:48  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:48  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2008
+[INFO ] 10-25 14:33:48  send data ==> {"code":"200","data":"{\"result\":true,\"question\":{\"id\":427,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到466个左右题目的范围内427+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案428\",\"8字符以内答案430\",\"8字符以内答案429\",\"8字符以内答案431\"],\"answer\":0,\"category\":5,\"difficulty\":2,\"index\":5}}"}
+[INFO ] 10-25 14:33:48  {"code":"200","data":"{\"result\":true,\"question\":{\"id\":427,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到466个左右题目的范围内427+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案428\",\"8字符以内答案430\",\"8字符以内答案429\",\"8字符以内答案431\"],\"answer\":0,\"category\":5,\"difficulty\":2,\"index\":5}}","cmd":"2008"}
+[INFO ] 10-25 14:33:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:48  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:48  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:49  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:49  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:49  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:49  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:49  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:49  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:50  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:50  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:50  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:50  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:50  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:50  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:51  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:51  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:51  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:51  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:51  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:51  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:52  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:52  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:52  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:52  receive req, [data]= eyJhbnN3ZXIiOjB9,[s] = 2ad4c4d9b77368d66d696be7e187ff72,[openId] = 112,[cmd] = 2006
+[INFO ] 10-25 14:33:52  send data ==> {"code":"200","data":"{\"result\":true}"}
+[INFO ] 10-25 14:33:52  {"code":"200","data":"{\"result\":true}","cmd":"2006"}
+[INFO ] 10-25 14:33:52  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2009
+[INFO ] 10-25 14:33:52  send data ==> {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}"}
+[INFO ] 10-25 14:33:52  {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}","cmd":"2009"}
+[INFO ] 10-25 14:33:52  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:52  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:52  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:53  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:53  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:53  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:53  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:53  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:53  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:54  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:54  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:54  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:54  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:54  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:54  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:55  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:55  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:55  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:55  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2005
+[INFO ] 10-25 14:33:55  send data ==> {"code":"200","data":"\"8\""}
+[INFO ] 10-25 14:33:55  {"code":"200","data":"\"8\"","cmd":"2005"}
+[INFO ] 10-25 14:33:55  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:55  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:55  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:56  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:56  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:56  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:56  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:56  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:56  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:57  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:57  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:57  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:57  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:57  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:57  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:58  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:58  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:58  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:58  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:58  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:58  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:59  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:59  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:59  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:33:59  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:33:59  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:33:59  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:00  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:00  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:00  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:00  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:00  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:00  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:01  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:01  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:01  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:01  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:01  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:01  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:02  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:02  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:02  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:02  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2008
+[INFO ] 10-25 14:34:02  send data ==> {"code":"200","data":"{\"result\":true,\"question\":{\"id\":596,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到635个左右题目的范围内596+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案597\",\"8字符以内答案599\",\"8字符以内答案598\",\"8字符以内答案600\"],\"answer\":0,\"category\":6,\"difficulty\":5,\"index\":8}}"}
+[INFO ] 10-25 14:34:02  {"code":"200","data":"{\"result\":true,\"question\":{\"id\":596,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到635个左右题目的范围内596+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案597\",\"8字符以内答案599\",\"8字符以内答案598\",\"8字符以内答案600\"],\"answer\":0,\"category\":6,\"difficulty\":5,\"index\":8}}","cmd":"2008"}
+[INFO ] 10-25 14:34:02  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:02  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:02  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:03  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:03  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:03  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:03  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:03  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:03  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:04  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:04  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:04  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:04  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:04  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:04  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:05  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:05  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:05  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:06  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:06  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:06  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:06  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:06  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:06  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:07  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:07  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:07  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:07  receive req, [data]= eyJhbnN3ZXIiOjB9,[s] = 2ad4c4d9b77368d66d696be7e187ff72,[openId] = 112,[cmd] = 2006
+[INFO ] 10-25 14:34:07  send data ==> {"code":"200","data":"{\"result\":true}"}
+[INFO ] 10-25 14:34:07  {"code":"200","data":"{\"result\":true}","cmd":"2006"}
+[INFO ] 10-25 14:34:07  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2009
+[INFO ] 10-25 14:34:07  send data ==> {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":596,\"result\":true},{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}"}
+[INFO ] 10-25 14:34:07  {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":596,\"result\":true},{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}","cmd":"2009"}
+[INFO ] 10-25 14:34:07  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:07  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:07  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:08  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:08  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:08  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:08  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:08  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:08  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:09  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:09  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:09  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:09  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:09  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:09  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:10  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:10  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:10  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:10  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2005
+[INFO ] 10-25 14:34:10  send data ==> {"code":"200","data":"\"7\""}
+[INFO ] 10-25 14:34:10  {"code":"200","data":"\"7\"","cmd":"2005"}
+[INFO ] 10-25 14:34:10  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:10  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:10  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:11  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:11  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:11  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:11  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:11  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:11  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:12  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:12  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:12  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:12  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:12  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:12  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:13  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:13  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:13  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:13  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:13  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:13  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:14  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:14  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:14  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:14  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:14  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:14  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:15  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:15  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:15  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:15  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:15  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:15  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:16  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:16  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:16  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:16  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:16  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:16  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:16  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2008
+[INFO ] 10-25 14:34:16  send data ==> {"code":"200","data":"{\"result\":true,\"question\":{\"id\":187,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到226个左右题目的范围内187+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案188\",\"8字符以内答案190\",\"8字符以内答案189\",\"8字符以内答案191\"],\"answer\":0,\"category\":2,\"difficulty\":5,\"index\":7}}"}
+[INFO ] 10-25 14:34:16  {"code":"200","data":"{\"result\":true,\"question\":{\"id\":187,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到226个左右题目的范围内187+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案188\",\"8字符以内答案190\",\"8字符以内答案189\",\"8字符以内答案191\"],\"answer\":0,\"category\":2,\"difficulty\":5,\"index\":7}}","cmd":"2008"}
+[INFO ] 10-25 14:34:17  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:17  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:17  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:17  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:17  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:17  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:18  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:18  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:18  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:18  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:18  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:18  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:19  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:19  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:19  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:19  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:19  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:19  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:20  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:20  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:20  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:20  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:20  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:20  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:20  receive req, [data]= eyJhbnN3ZXIiOjB9,[s] = 2ad4c4d9b77368d66d696be7e187ff72,[openId] = 112,[cmd] = 2006
+[INFO ] 10-25 14:34:20  send data ==> {"code":"200","data":"{\"result\":true}"}
+[INFO ] 10-25 14:34:20  {"code":"200","data":"{\"result\":true}","cmd":"2006"}
+[INFO ] 10-25 14:34:20  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2009
+[INFO ] 10-25 14:34:20  send data ==> {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":596,\"result\":true},{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":187,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}"}
+[INFO ] 10-25 14:34:20  {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":596,\"result\":true},{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":187,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}","cmd":"2009"}
+[INFO ] 10-25 14:34:21  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:21  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:21  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:21  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:21  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:21  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:22  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:22  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:22  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:22  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:22  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:22  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:23  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:23  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:23  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:23  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:23  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:23  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:23  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2005
+[INFO ] 10-25 14:34:23  send data ==> {"code":"200","data":"\"3\""}
+[INFO ] 10-25 14:34:23  {"code":"200","data":"\"3\"","cmd":"2005"}
+[INFO ] 10-25 14:34:24  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:24  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:24  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:24  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:24  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:24  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:25  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:25  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:25  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:25  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:25  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:25  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:26  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:26  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:26  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:26  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:26  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:26  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:27  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:27  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:27  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:27  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:27  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:27  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:28  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:28  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:28  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:28  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:28  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:28  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:29  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:29  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:29  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:30  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:30  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:30  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:30  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2008
+[INFO ] 10-25 14:34:30  send data ==> {"code":"200","data":"{\"result\":true,\"question\":{\"id\":24,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到63个左右题目的范围内24+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案25\",\"8字符以内答案27\",\"8字符以内答案26\",\"8字符以内答案28\"],\"answer\":0,\"category\":1,\"difficulty\":2,\"index\":3}}"}
+[INFO ] 10-25 14:34:30  {"code":"200","data":"{\"result\":true,\"question\":{\"id\":24,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到63个左右题目的范围内24+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案25\",\"8字符以内答案27\",\"8字符以内答案26\",\"8字符以内答案28\"],\"answer\":0,\"category\":1,\"difficulty\":2,\"index\":3}}","cmd":"2008"}
+[INFO ] 10-25 14:34:30  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:30  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:30  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:31  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:31  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:31  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:31  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:31  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:31  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:32  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:32  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:32  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:32  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:32  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:32  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:33  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:33  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:33  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:33  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:33  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:33  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:34  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:34  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:34  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:34  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:34  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:34  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:34  receive req, [data]= eyJhbnN3ZXIiOjB9,[s] = 2ad4c4d9b77368d66d696be7e187ff72,[openId] = 112,[cmd] = 2006
+[INFO ] 10-25 14:34:34  send data ==> {"code":"200","data":"{\"result\":true}"}
+[INFO ] 10-25 14:34:34  {"code":"200","data":"{\"result\":true}","cmd":"2006"}
+[INFO ] 10-25 14:34:34  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2009
+[INFO ] 10-25 14:34:34  send data ==> {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":596,\"result\":true},{\"openid\":\"112\",\"cfgid\":24,\"result\":true},{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":187,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}"}
+[INFO ] 10-25 14:34:34  {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":596,\"result\":true},{\"openid\":\"112\",\"cfgid\":24,\"result\":true},{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":187,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}","cmd":"2009"}
+[INFO ] 10-25 14:34:35  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:35  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:35  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:35  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:35  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:35  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:36  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:36  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:36  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:36  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:36  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:36  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:37  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:37  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:37  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:37  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2005
+[INFO ] 10-25 14:34:37  send data ==> {"code":"200","data":"\"4\""}
+[INFO ] 10-25 14:34:37  {"code":"200","data":"\"4\"","cmd":"2005"}
+[INFO ] 10-25 14:34:37  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:37  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:37  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:38  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:38  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:38  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:38  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:38  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:38  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:39  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:39  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:39  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:39  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:39  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:39  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:40  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:40  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:40  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:40  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:40  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:40  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:41  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:41  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:41  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:41  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:41  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:41  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:42  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:42  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:42  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:42  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:42  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:42  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:43  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:43  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:43  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:43  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:43  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:43  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:44  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:44  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:44  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:44  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:44  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:44  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:44  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2008
+[INFO ] 10-25 14:34:44  send data ==> {"code":"200","data":"{\"result\":true,\"question\":{\"id\":20,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到59个左右题目的范围内20+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案21\",\"8字符以内答案23\",\"8字符以内答案22\",\"8字符以内答案24\"],\"answer\":0,\"category\":1,\"difficulty\":1,\"index\":4}}"}
+[INFO ] 10-25 14:34:44  {"code":"200","data":"{\"result\":true,\"question\":{\"id\":20,\"title\":null,\"content\":\"前面一堆无用的字都是在凑数,为的是把字数凑到59个左右题目的范围内20+1=\",\"contentImgUrl\":null,\"options\":[\"8字符以内答案21\",\"8字符以内答案23\",\"8字符以内答案22\",\"8字符以内答案24\"],\"answer\":0,\"category\":1,\"difficulty\":1,\"index\":4}}","cmd":"2008"}
+[INFO ] 10-25 14:34:45  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:45  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:45  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:45  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:45  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:45  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:46  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:46  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:46  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:46  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:46  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:46  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:47  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:47  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:47  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:47  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:47  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:47  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:48  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:48  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:48  receive req, [data]= eyJhbnN3ZXIiOjB9,[s] = 2ad4c4d9b77368d66d696be7e187ff72,[openId] = 112,[cmd] = 2006
+[INFO ] 10-25 14:34:48  send data ==> {"code":"200","data":"{\"result\":true}"}
+[INFO ] 10-25 14:34:48  {"code":"200","data":"{\"result\":true}","cmd":"2006"}
+[INFO ] 10-25 14:34:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2009
+[INFO ] 10-25 14:34:48  send data ==> {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":596,\"result\":true},{\"openid\":\"112\",\"cfgid\":20,\"result\":true},{\"openid\":\"112\",\"cfgid\":24,\"result\":true},{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":187,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}"}
+[INFO ] 10-25 14:34:48  {"code":"200","data":"{\"answerVOS\":[{\"openid\":\"112\",\"cfgid\":596,\"result\":true},{\"openid\":\"112\",\"cfgid\":20,\"result\":true},{\"openid\":\"112\",\"cfgid\":24,\"result\":true},{\"openid\":\"112\",\"cfgid\":427,\"result\":true},{\"openid\":\"112\",\"cfgid\":187,\"result\":true},{\"openid\":\"112\",\"cfgid\":348,\"result\":true},{\"openid\":\"112\",\"cfgid\":301,\"result\":true}]}","cmd":"2009"}
+[INFO ] 10-25 14:34:48  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:48  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:48  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:49  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:49  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:49  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:49  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:49  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:49  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:50  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:50  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:50  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:50  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:50  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:50  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:51  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:51  send data ==> {"code":"200","data":"{\"result\":false}"}
+[INFO ] 10-25 14:34:51  {"code":"200","data":"{\"result\":false}","cmd":"2011"}
+[INFO ] 10-25 14:34:51  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2010
+[INFO ] 10-25 14:34:51  send data ==> {"code":"200","data":"{\"result\":true}"}
+[INFO ] 10-25 14:34:51  {"code":"200","data":"{\"result\":true}","cmd":"2010"}
+[INFO ] 10-25 14:34:51  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:51  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:51  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:34:52  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:52  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:52  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:34:52  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:52  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:52  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:34:53  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:53  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:53  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:34:54  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:54  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:54  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:34:54  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:54  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:54  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:34:55  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:55  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:55  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:34:55  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:55  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:55  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:34:56  receive req, [data]= e30=,[s] = f2a8bee8a8f38f803a5c42a3b564db3a,[openId] = 112,[cmd] = 2011
+[INFO ] 10-25 14:34:56  send data ==> {"code":"504","data":"\"0\""}
+[INFO ] 10-25 14:34:56  {"code":"504","data":"\"0\"","cmd":"2011"}
+[INFO ] 10-25 14:35:07  receive req, [data]= eyJmcm9tIjowLCJ0byI6NX0=,[s] = 84d1a9fba3302af9006514cdab825dbf,[openId] = 112,[cmd] = 3000
+[INFO ] 10-25 14:35:07  {"code":"503","data":"","cmd":"0"}
+[INFO ] 10-25 14:35:54  receive req, [data]= eyJjb2RlIjoiIn0=,[s] = c41cc750b0b6a9e9b1f26c8629c65bee,[openId] = 11,[cmd] = 1001
+[INFO ] 10-25 14:35:54  Cache loaded for 11
+[INFO ] 10-25 14:35:54  send data ==> {"code":"200","data":"{\"openId\":\"11\",\"hasRole\":true}"}
+[INFO ] 10-25 14:35:54  {"code":"200","data":"{\"openId\":\"11\",\"hasRole\":true}","cmd":"1001"}
+[INFO ] 10-25 14:35:54  receive req, [data]= eyJuaWNrTmFtZSI6Iua1i+ivlSIsImljb25VcmwiOiIifQ==,[s] = 4cad3674a4257e560ac87f54c3eaa773,[openId] = 11,[cmd] = 1004
+[INFO ] 10-25 14:35:54  {"code":"503","data":"","cmd":"0"}
+[INFO ] 10-25 14:56:15  begin init server...
+[INFO ] 10-25 14:56:15  load game config...
+[INFO ] 10-25 14:56:15  Load Config GlobalConfig
+[INFO ] 10-25 14:56:15  Load Config LevelCfg
+[INFO ] 10-25 14:56:15  Load Config QuestionCfg
+[INFO ] 10-25 14:56:15  Load Config SelfTestCfg
+[INFO ] 10-25 14:56:15  Load Config SelfTestResultCfg
+[INFO ] 10-25 14:56:15  load spring cfg...
+[INFO ] 10-25 14:56:15  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@44c8afef: startup date [Thu Oct 25 14:56:15 CST 2018]; root of context hierarchy
+[INFO ] 10-25 14:56:15  Loading XML bean definitions from file [F:\h5\server\config\application.xml]
+[INFO ] 10-25 14:56:16  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 10-25 14:56:43  begin init server...
+[INFO ] 10-25 14:56:43  load game config...
+[INFO ] 10-25 14:56:43  Load Config GlobalConfig
+[INFO ] 10-25 14:56:43  Load Config LevelCfg
+[INFO ] 10-25 14:56:43  Load Config QuestionCfg
+[INFO ] 10-25 14:56:43  Load Config SelfTestCfg
+[INFO ] 10-25 14:56:43  Load Config SelfTestResultCfg
+[INFO ] 10-25 14:56:43  load spring cfg...
+[INFO ] 10-25 14:56:43  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@44c8afef: startup date [Thu Oct 25 14:56:43 CST 2018]; root of context hierarchy
+[INFO ] 10-25 14:56:43  Loading XML bean definitions from file [F:\h5\server\config\application.xml]
+[INFO ] 10-25 14:56:44  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[INFO ] 10-25 14:56:44  [jade] starting ...
+[INFO ] 10-25 14:56:44  [findFiles] start to found classes folders or rosed jar files by scope:null
+[INFO ] 10-25 14:56:44  [classesFolder] start to found available classes folders ...
+[INFO ] 10-25 14:56:44  [classesFolder] found 1 classes folders: [/F:/h5/server/bin/[**]]
+[INFO ] 10-25 14:56:44  [jarFile] start to found available jar files for rose to scanning...
+[INFO ] 10-25 14:56:44  [jarFile] add jar resource: /F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]
+[INFO ] 10-25 14:56:44  [jarFile] found 1 jar files: [/F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 10-25 14:56:44  [findFiles] found 2 classes folders or rosed jar files : [/F:/h5/server/bin/[**], /F:/h5/server/lib/paoding-rose-jade-1.0.1.jar[applicationContext]]
+[INFO ] 10-25 14:56:44  [jade] found 1 jade urls: [file:/F:/h5/server/bin/]
+[INFO ] 10-25 14:56:44  [jade] call 'jade/find'
+[INFO ] 10-25 14:56:44  [jade] found 1 beanDefinition from 'file:/F:/h5/server/bin/'
+[INFO ] 10-25 14:56:44  [jade] exits
+[INFO ] 10-25 14:56:44  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6cf0e0ba: defining beans [dataSource,logerDataSource,dataSource2,logerDataSource2,eventDataSource,jade.daoProcessor,jada.dataAccessProvider,jade.expressSQLInterpreter,defaultLogoutHandler,disposeHandler,loginAfterHandler,adminHandler,loginHandler,playerHandler,questHandler,adminService,masterMatchService,playerService,questBankService,questService,serverDataService,context,serverTimer,threadService,timerService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.game.dao.PlayerDAO]; root of factory hierarchy
+[INFO ] 10-25 14:56:45  using rowMapper net.paoding.rose.jade.core.BeanPropertyRowMapper@708da5e4 for com.game.dao.PlayerDAO#queryPlayerRank
+[INFO ] 10-25 14:58:38  begin init server...
+[INFO ] 10-25 14:58:38  load game config...
+[INFO ] 10-25 14:58:38  Load Config GlobalConfig
+[INFO ] 10-25 14:58:38  Load Config LevelCfg
+[INFO ] 10-25 14:58:38  Load Config QuestionCfg
+[INFO ] 10-25 14:58:38  Load Config SelfTestCfg
+[INFO ] 10-25 14:58:38  Load Config SelfTestResultCfg
+[INFO ] 10-25 14:58:38  load spring cfg...
+[INFO ] 10-25 14:58:38  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@44c8afef: startup date [Thu Oct 25 14:58:38 CST 2018]; root of context hierarchy
+[INFO ] 10-25 14:58:38  Loading XML bean definitions from file [F:\h5\server\config\application.xml]
+[INFO ] 10-25 14:58:38  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning

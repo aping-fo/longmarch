@@ -1,0 +1,21 @@
+package com.game.sdk.proto;
+
+import com.game.data.IntegrationMallCfg;
+import com.google.common.collect.Lists;
+
+import java.util.List;
+
+public class IntegrationMallResp {
+    /**
+     * 积分兑换列表
+     */
+    private List<IntegrationMallCfg> mallItemList = Lists.newArrayList();
+
+    public List<IntegrationMallCfg> getMallItems() {
+        return mallItemList;
+    }
+
+    public void setMallItems(List<IntegrationMallCfg> mallItemList) {
+        this.mallItemList = mallItemList;
+    }
+}

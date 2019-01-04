@@ -1,0 +1,16 @@
+package com.game.sdk.proto;
+
+import com.game.sdk.proto.vo.FamilyGroupVO;
+
+public class FamilyGroupInfoResp {
+    private FamilyGroupVO info;
+
+    public FamilyGroupVO getInfo() {
+        return info;
+    }
+
+    public void setInfo(FamilyGroupVO info) {
+        this.info = info;
+    }
+}
+

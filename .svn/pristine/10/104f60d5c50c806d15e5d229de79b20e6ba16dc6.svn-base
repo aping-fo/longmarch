@@ -1,0 +1,61 @@
+[WARN ] 10-29 17:51:51  rank .....
+[ERROR] 10-29 17:51:54  sdk server 启动失败
+java.io.IOException: Keystore was tampered with, or password was incorrect
+	at sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:772)
+	at sun.security.provider.JavaKeyStore$JKS.engineLoad(JavaKeyStore.java:55)
+	at java.security.KeyStore.load(KeyStore.java:1433)
+	at org.eclipse.jetty.util.security.CertificateUtils.getKeyStore(CertificateUtils.java:54)
+	at org.eclipse.jetty.util.ssl.SslContextFactory.loadKeyStore(SslContextFactory.java:1068)
+	at org.eclipse.jetty.util.ssl.SslContextFactory.load(SslContextFactory.java:259)
+	at org.eclipse.jetty.util.ssl.SslContextFactory.doStart(SslContextFactory.java:226)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:133)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:115)
+	at org.eclipse.jetty.server.SslConnectionFactory.doStart(SslConnectionFactory.java:72)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:133)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:115)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:278)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:81)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:238)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:397)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.game.sdk.SdkServer.start(SdkServer.java:68)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+Caused by: java.security.UnrecoverableKeyException: Password verification failed
+	at sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:770)
+	... 22 more
+[WARN ] 10-29 17:55:24  rank .....
+[ERROR] 10-29 17:55:27  sdk server 启动失败
+java.io.IOException: Keystore was tampered with, or password was incorrect
+	at sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:772)
+	at sun.security.provider.JavaKeyStore$JKS.engineLoad(JavaKeyStore.java:55)
+	at java.security.KeyStore.load(KeyStore.java:1433)
+	at org.eclipse.jetty.util.security.CertificateUtils.getKeyStore(CertificateUtils.java:54)
+	at org.eclipse.jetty.util.ssl.SslContextFactory.loadKeyStore(SslContextFactory.java:1068)
+	at org.eclipse.jetty.util.ssl.SslContextFactory.load(SslContextFactory.java:259)
+	at org.eclipse.jetty.util.ssl.SslContextFactory.doStart(SslContextFactory.java:226)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:133)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:115)
+	at org.eclipse.jetty.server.SslConnectionFactory.doStart(SslConnectionFactory.java:72)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:133)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:115)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:278)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:81)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:238)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:397)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.game.sdk.SdkServer.start(SdkServer.java:68)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+Caused by: java.security.UnrecoverableKeyException: Password verification failed
+	at sun.security.provider.JavaKeyStore.engineLoad(JavaKeyStore.java:770)
+	... 22 more
+[WARN ] 10-29 18:00:24  rank .....
+[WARN ] 10-29 18:00:30  rank .....
+[WARN ] 10-29 18:00:34  sdk server start on 8129

@@ -1,0 +1,1173 @@
+[WARN ] 11-02 11:37:16  rank .....
+[ERROR] 11-02 11:37:20  sdk server 启动失败
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.Net.bind(Net.java:428)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:334)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:302)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:238)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:397)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.game.sdk.SdkServer.start(SdkServer.java:68)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+[WARN ] 11-02 11:39:56  rank .....
+[WARN ] 11-02 11:39:59  sdk server start on 8129
+[ERROR] 11-02 11:40:14  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 34 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 43 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 42 more
+[ERROR] 11-02 11:40:31  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 34 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 43 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 42 more
+[WARN ] 11-02 11:42:02  rank .....
+[WARN ] 11-02 11:42:05  sdk server start on 8129
+[ERROR] 11-02 11:44:52  exector error
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:37)
+	at com.game.sdk.web.MessageHandlerServlet.doGet(MessageHandlerServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.io.ManagedSelector$$Lambda$19/739333799.run(Unknown Source)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 11-02 11:45:23  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 34 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 43 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 42 more
+[ERROR] 11-02 11:45:42  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 34 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 43 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 42 more
+[ERROR] 11-02 11:46:55  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 34 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 43 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 42 more
+[WARN ] 11-02 11:47:02  rank .....
+[WARN ] 11-02 11:49:00  rank .....
+[WARN ] 11-02 11:49:03  sdk server start on 8129
+[ERROR] 11-02 11:49:30  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.io.ManagedSelector$$Lambda$19/345887595.run(Unknown Source)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 33 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 42 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 41 more
+[ERROR] 11-02 11:50:08  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 34 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 43 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 42 more
+[WARN ] 11-02 11:50:33  rank .....
+[WARN ] 11-02 11:50:37  sdk server start on 8129
+[ERROR] 11-02 11:50:43  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 34 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 43 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 42 more
+[WARN ] 11-02 11:53:31  rank .....
+[WARN ] 11-02 11:53:34  sdk server start on 8129
+[ERROR] 11-02 11:53:48  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.io.ManagedSelector$$Lambda$19/948115224.run(Unknown Source)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 33 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 42 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 41 more
+[WARN ] 11-02 11:55:08  rank .....
+[WARN ] 11-02 11:55:12  sdk server start on 8129
+[ERROR] 11-02 11:56:57  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.io.ManagedSelector$$Lambda$19/89509666.run(Unknown Source)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 33 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 42 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 41 more
+[WARN ] 11-02 11:58:33  rank .....
+[WARN ] 11-02 11:58:41  sdk server start on 8129
+[ERROR] 11-02 11:59:12  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.io.ManagedSelector$$Lambda$19/345887595.run(Unknown Source)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: com.game.dao.PlayerDAO#insert; bad SQL grammar [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)]; nested exception is java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:39)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:93)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 33 more
+Caused by: java.sql.SQLSyntaxErrorException: com.game.dao.PlayerDAO#insert @SQL('insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(:player.openId,:player.nickName,:player.level,:player.totalQuestions,:player.answerSuccess,:player.historyCatergorysStr,:player.historyQuestionsStr,:player.exp,:player.iconUrl,:player.createTime,:player.loginTime,:player:historyRaceStr)')
+	... 42 more
+Caused by: java.lang.IllegalArgumentException: Variable 'historyRaceStr' not defined in DAO method
+	at net.paoding.rose.jade.exql.impl.ExprResolverImpl.executeExpr(ExprResolverImpl.java:171)
+	at net.paoding.rose.jade.exql.impl.ExprUnit.fill(ExprUnit.java:40)
+	at net.paoding.rose.jade.exql.impl.BunchUnit.fill(BunchUnit.java:47)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:94)
+	at net.paoding.rose.jade.exql.impl.ExqlPatternImpl.execute(ExqlPatternImpl.java:87)
+	at net.paoding.rose.jade.provider.jdbctemplate.ExpressSQLInterpreter.interpret(ExpressSQLInterpreter.java:35)
+	... 41 more
+[WARN ] 11-02 12:00:28  rank .....
+[WARN ] 11-02 12:00:34  sdk server start on 8129
+[ERROR] 11-02 12:00:49  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.io.ManagedSelector$$Lambda$19/345887595.run(Unknown Source)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [insert into t_u_player(openId,nickName,level,totalQuestions,answerSuccess,historyCatergorysStr,historyQuestionsStr,exp,iconUrl,createTime,loginTime,historyRaceStr) values(?,?,?,?,?,?,?,?,?,?,?,?)]; Duplicate entry '0' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:241)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:602)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:811)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:867)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:875)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.updateByJdbcTemplate(JdbcTemplateDataAccess.java:152)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.update(JdbcTemplateDataAccess.java:100)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.update(SQLThreadLocalWrapper.java:58)
+	at net.paoding.rose.jade.core.UpdateOperation.executeSignle(UpdateOperation.java:156)
+	at net.paoding.rose.jade.core.UpdateOperation.execute(UpdateOperation.java:74)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.insert(Unknown Source)
+	at com.game.service.PlayerService.createPlayer(PlayerService.java:119)
+	at com.game.sdk.handler.PlayerHandler.createRole(PlayerHandler.java:35)
+	... 33 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1015)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1959)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2109)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2648)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2077)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2362)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2280)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2265)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:817)
+	at org.springframework.jdbc.core.JdbcTemplate$2.doInPreparedStatement(JdbcTemplate.java:1)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:586)
+	... 45 more
+[WARN ] 11-02 12:04:45  rank .....
+[WARN ] 11-02 12:04:49  sdk server start on 8129
+[ERROR] 11-02 12:07:04  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.set(ArrayList.java:444)
+	at com.game.domain.player.Player.addHistoryRace(Player.java:178)
+	at com.game.service.QuestBankService.sumbitResult(QuestBankService.java:392)
+	at com.game.sdk.handler.QuestHandler.sumbitResult(QuestHandler.java:93)
+	... 34 more
+[WARN ] 11-02 12:09:45  rank .....
+[WARN ] 11-02 12:15:58  rank .....
+[WARN ] 11-02 12:16:02  sdk server start on 8129
+[ERROR] 11-02 12:18:51  exector error
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.set(ArrayList.java:444)
+	at com.game.domain.player.Player.addHistoryRace(Player.java:178)
+	at com.game.service.QuestBankService.null(Unknown Source)
+	at com.game.sdk.handler.QuestHandler.sumbitResult(QuestHandler.java:93)
+	... 34 more
+[WARN ] 11-02 12:22:56  rank .....
+[WARN ] 11-02 12:23:00  sdk server start on 8129
+[WARN ] 11-02 12:23:13  rank .....
+[WARN ] 11-02 12:23:17  sdk server start on 8129
+[WARN ] 11-02 12:28:13  rank .....
+[WARN ] 11-02 12:29:07  rank .....
+[WARN ] 11-02 12:29:12  sdk server start on 8129
+[ERROR] 11-02 12:29:14  将字符串转换为对象java.util.List时出现异常
+com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
+ at [Source: java.io.StringReader@73bc72d0; line: 1, column: 1]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:164)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:2839)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2781)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1956)
+	at com.game.util.JsonUtils.string2Object(JsonUtils.java:169)
+	at com.game.service.PlayerService$1.load(PlayerService.java:77)
+	at com.game.service.PlayerService$1.load(PlayerService.java:58)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3542)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2323)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2286)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3957)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4875)
+	at com.game.service.PlayerService.getOpenID(PlayerService.java:158)
+	at com.game.sdk.handler.PlayerHandler.getOpenID(PlayerHandler.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.game.sdk.net.Exector.invoke(Exector.java:24)
+	at com.game.sdk.web.MessageHandlerServlet.doPost(MessageHandlerServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:860)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.io.ManagedSelector$$Lambda$19/1806880779.run(Unknown Source)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ] 11-02 12:30:20  rank .....
+[WARN ] 11-02 12:30:25  sdk server start on 8129
+[WARN ] 11-02 12:35:20  rank .....
+[WARN ] 11-02 12:40:20  rank .....
+[WARN ] 11-02 12:45:20  rank .....
+[WARN ] 11-02 12:50:20  rank .....
+[WARN ] 11-02 12:55:20  rank .....
+[WARN ] 11-02 13:00:20  rank .....
+[WARN ] 11-02 13:05:20  rank .....
+[WARN ] 11-02 13:10:20  rank .....
+[WARN ] 11-02 13:15:20  rank .....
+[WARN ] 11-02 13:20:20  rank .....
+[WARN ] 11-02 13:25:20  rank .....
+[WARN ] 11-02 13:30:20  rank .....
+[WARN ] 11-02 13:35:20  rank .....
+[WARN ] 11-02 13:40:20  rank .....
+[WARN ] 11-02 13:45:20  rank .....
+[WARN ] 11-02 13:50:20  rank .....
+[WARN ] 11-02 13:55:20  rank .....
+[WARN ] 11-02 14:00:20  rank .....
+[WARN ] 11-02 14:05:20  rank .....
+[WARN ] 11-02 14:10:20  rank .....
+[WARN ] 11-02 14:15:20  rank .....
+[WARN ] 11-02 14:20:20  rank .....
+[WARN ] 11-02 14:25:20  rank .....
+[WARN ] 11-02 14:30:20  rank .....
+[WARN ] 11-02 14:35:20  rank .....
+[WARN ] 11-02 14:40:20  rank .....
+[WARN ] 11-02 14:45:20  rank .....
+[WARN ] 11-02 14:50:20  rank .....
+[WARN ] 11-02 14:55:20  rank .....
+[WARN ] 11-02 15:00:20  rank .....
+[WARN ] 11-02 15:05:20  rank .....
+[WARN ] 11-02 15:10:20  rank .....
+[WARN ] 11-02 15:15:20  rank .....
+[WARN ] 11-02 15:20:20  rank .....
+[WARN ] 11-02 15:25:20  rank .....
+[WARN ] 11-02 15:30:20  rank .....
+[WARN ] 11-02 15:35:20  rank .....
+[ERROR] 11-02 15:36:20  check timeout schedule error
+java.lang.NullPointerException
+	at com.game.service.QuestService.removeRoom(QuestService.java:282)
+	at com.game.service.QuestService.doCheckTimeOut(QuestService.java:187)
+	at com.game.service.QuestService.access$200(QuestService.java:27)
+	at com.game.service.QuestService$2.run(QuestService.java:63)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 11-02 15:38:20  check timeout schedule error
+java.lang.NullPointerException
+	at com.game.service.QuestService.removeRoom(QuestService.java:280)
+	at com.game.service.QuestService.doCheckTimeOut(QuestService.java:187)
+	at com.game.service.QuestService.access$200(QuestService.java:27)
+	at com.game.service.QuestService$2.run(QuestService.java:63)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ] 11-02 15:40:20  rank .....
+[ERROR] 11-02 15:40:20  check timeout schedule error
+java.lang.NullPointerException
+	at com.game.service.QuestService.removeRoom(QuestService.java:282)
+	at com.game.service.QuestBankService.sumbitResult(QuestBankService.java:388)
+	at com.game.service.QuestService.doCheckTimeOut(QuestService.java:186)
+	at com.game.service.QuestService.access$200(QuestService.java:27)
+	at com.game.service.QuestService$2.run(QuestService.java:63)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 11-02 15:41:20  check timeout schedule error
+java.lang.NullPointerException
+	at com.game.service.QuestService.removeRoom(QuestService.java:282)
+	at com.game.service.QuestBankService.sumbitResult(QuestBankService.java:388)
+	at com.game.service.QuestService.doCheckTimeOut(QuestService.java:186)
+	at com.game.service.QuestService.access$200(QuestService.java:27)
+	at com.game.service.QuestService$2.run(QuestService.java:63)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 11-02 15:42:20  check timeout schedule error
+java.lang.NullPointerException
+	at com.game.service.QuestService.removeRoom(QuestService.java:282)
+	at com.game.service.QuestBankService.sumbitResult(QuestBankService.java:388)
+	at com.game.service.QuestService.doCheckTimeOut(QuestService.java:186)
+	at com.game.service.QuestService.access$200(QuestService.java:27)
+	at com.game.service.QuestService$2.run(QuestService.java:63)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 11-02 15:43:20  check timeout schedule error
+java.lang.NullPointerException
+	at com.game.service.QuestService.removeRoom(QuestService.java:282)
+	at com.game.service.QuestBankService.sumbitResult(QuestBankService.java:388)
+	at com.game.service.QuestService.doCheckTimeOut(QuestService.java:186)
+	at com.game.service.QuestService.access$200(QuestService.java:27)
+	at com.game.service.QuestService$2.run(QuestService.java:63)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 11-02 15:44:20  check timeout schedule error
+java.lang.NullPointerException
+	at com.game.service.QuestService.removeRoom(QuestService.java:282)
+	at com.game.service.QuestBankService.sumbitResult(QuestBankService.java:388)
+	at com.game.service.QuestService.doCheckTimeOut(QuestService.java:186)
+	at com.game.service.QuestService.access$200(QuestService.java:27)
+	at com.game.service.QuestService$2.run(QuestService.java:63)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ] 11-02 15:45:20  rank .....
+[ERROR] 11-02 15:45:20  check timeout schedule error
+java.lang.NullPointerException
+	at com.game.service.QuestService.removeRoom(QuestService.java:282)
+	at com.game.service.QuestService.doCheckTimeOut(QuestService.java:187)
+	at com.game.service.QuestService.access$200(QuestService.java:27)
+	at com.game.service.QuestService$2.run(QuestService.java:63)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ] 11-02 15:50:20  rank .....
+[WARN ] 11-02 15:55:20  rank .....
+[WARN ] 11-02 16:00:20  rank .....
+[WARN ] 11-02 16:05:20  rank .....
+[WARN ] 11-02 16:10:20  rank .....
+[WARN ] 11-02 16:15:20  rank .....
+[WARN ] 11-02 16:20:20  rank .....
+[WARN ] 11-02 16:25:20  rank .....
+[WARN ] 11-02 16:30:20  rank .....
+[WARN ] 11-02 16:35:20  rank .....
+[WARN ] 11-02 16:40:20  rank .....
+[WARN ] 11-02 16:45:20  rank .....
+[WARN ] 11-02 16:50:20  rank .....
+[WARN ] 11-02 16:55:20  rank .....
+[WARN ] 11-02 17:00:20  rank .....
+[WARN ] 11-02 17:05:20  rank .....
+[WARN ] 11-02 17:10:20  rank .....
+[WARN ] 11-02 17:15:20  rank .....
+[WARN ] 11-02 17:20:20  rank .....
+[WARN ] 11-02 17:25:20  rank .....
+[WARN ] 11-02 17:30:20  rank .....
+[WARN ] 11-02 17:35:20  rank .....
+[WARN ] 11-02 17:40:20  rank .....
+[WARN ] 11-02 17:45:20  rank .....
+[WARN ] 11-02 17:50:20  rank .....
+[WARN ] 11-02 17:55:20  rank .....
+[WARN ] 11-02 18:00:20  rank .....
+[WARN ] 11-02 18:05:20  rank .....
+[WARN ] 11-02 18:10:20  rank .....
+[WARN ] 11-02 18:15:20  rank .....
+[WARN ] 11-02 18:20:20  rank .....
+[WARN ] 11-02 18:25:20  rank .....
+[WARN ] 11-02 18:30:20  rank .....
+[WARN ] 11-02 18:35:20  rank .....
+[WARN ] 11-02 18:40:20  rank .....
+[WARN ] 11-02 18:45:20  rank .....
+[WARN ] 11-02 18:50:20  rank .....
+[WARN ] 11-02 18:55:20  rank .....
+[WARN ] 11-02 19:00:20  rank .....
+[WARN ] 11-02 19:05:20  rank .....
+[WARN ] 11-02 19:10:20  rank .....
+[WARN ] 11-02 19:15:20  rank .....
+[WARN ] 11-02 19:20:20  rank .....
+[WARN ] 11-02 19:25:20  rank .....
+[WARN ] 11-02 19:30:20  rank .....
+[WARN ] 11-02 19:35:20  rank .....
+[WARN ] 11-02 19:40:20  rank .....
+[WARN ] 11-02 19:45:20  rank .....
+[WARN ] 11-02 19:50:20  rank .....
+[WARN ] 11-02 19:55:20  rank .....
+[WARN ] 11-02 20:00:20  rank .....
+[WARN ] 11-02 20:05:20  rank .....
+[WARN ] 11-02 20:10:20  rank .....
+[WARN ] 11-02 20:15:20  rank .....
+[WARN ] 11-02 20:20:20  rank .....
+[WARN ] 11-02 20:25:20  rank .....
+[WARN ] 11-02 20:30:20  rank .....
+[WARN ] 11-02 20:35:20  rank .....
+[WARN ] 11-02 20:40:20  rank .....
+[WARN ] 11-02 20:45:20  rank .....
+[WARN ] 11-02 20:50:20  rank .....
+[WARN ] 11-02 20:55:20  rank .....
+[WARN ] 11-02 21:00:20  rank .....
+[WARN ] 11-02 21:05:20  rank .....
+[WARN ] 11-02 21:10:20  rank .....
+[WARN ] 11-02 21:15:20  rank .....
+[WARN ] 11-02 21:20:20  rank .....
+[WARN ] 11-02 21:25:20  rank .....
+[WARN ] 11-02 21:30:20  rank .....
+[WARN ] 11-02 21:35:20  rank .....
+[WARN ] 11-02 21:40:20  rank .....
+[WARN ] 11-02 21:45:20  rank .....
+[WARN ] 11-02 21:50:20  rank .....
+[WARN ] 11-02 21:55:20  rank .....
+[WARN ] 11-02 22:00:20  rank .....
+[WARN ] 11-02 22:05:20  rank .....
+[WARN ] 11-02 22:10:20  rank .....
+[WARN ] 11-02 22:15:20  rank .....
+[WARN ] 11-02 22:20:20  rank .....
+[WARN ] 11-02 22:25:20  rank .....
+[WARN ] 11-02 22:30:20  rank .....
+[WARN ] 11-02 22:35:20  rank .....
+[WARN ] 11-02 22:40:20  rank .....
+[WARN ] 11-02 22:45:20  rank .....
+[WARN ] 11-02 22:50:20  rank .....
+[WARN ] 11-02 22:55:20  rank .....
+[WARN ] 11-02 23:00:20  rank .....
+[WARN ] 11-02 23:05:20  rank .....
+[WARN ] 11-02 23:10:20  rank .....
+[WARN ] 11-02 23:15:20  rank .....
+[WARN ] 11-02 23:20:20  rank .....
+[WARN ] 11-02 23:25:20  rank .....
+[WARN ] 11-02 23:30:20  rank .....
+[WARN ] 11-02 23:35:20  rank .....
+[WARN ] 11-02 23:40:20  rank .....
+[WARN ] 11-02 23:45:20  rank .....
+[WARN ] 11-02 23:50:20  rank .....
+[WARN ] 11-02 23:55:20  rank .....

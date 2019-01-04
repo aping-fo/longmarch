@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<config>
+	<id>1</id>
+	<content>(1)您容易疲乏吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>1</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>2</id>
+	<content>(2)您容易气短(呼吸短促,接不上气)吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>1</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>3</id>
+	<content>(3)您容易心慌吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>1</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>4</id>
+	<content>(4)您容易头晕或站起时晕眩吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>1</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>5</id>
+	<content>(5)您比别人容易患感冒吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>1</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>6</id>
+	<content>(6)您喜欢安静、懒得说话吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>1</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>7</id>
+	<content>(7)您说话声音低弱无力吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>1</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>8</id>
+	<content>(8)您活动量稍大就容易出虚汗吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>1</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>9</id>
+	<content>(1)您手脚发凉吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>2</catergory>
+	<score>[0,3.57,7.14,10.71,14.28]</score>
+</config>
+<config>
+	<id>10</id>
+	<content>(2)您胃脘部、背部或腰膝部怕冷吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>2</catergory>
+	<score>[0,3.57,7.14,10.71,14.29]</score>
+</config>
+<config>
+	<id>11</id>
+	<content>(3)您感到怕冷、衣服比别人穿得多吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>2</catergory>
+	<score>[0,3.57,7.14,10.71,14.30]</score>
+</config>
+<config>
+	<id>12</id>
+	<content>(4)您比一般人耐受不了寒冷(冬天的寒冷,夏天的冷空调、电扇等)吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>2</catergory>
+	<score>[0,3.57,7.14,10.71,14.31]</score>
+</config>
+<config>
+	<id>13</id>
+	<content>(5)您比别人容易患感冒吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>2</catergory>
+	<score>[0,3.57,7.14,10.71,14.32]</score>
+</config>
+<config>
+	<id>14</id>
+	<content>(6)您吃(喝)凉的东西会感到不舒服或者怕吃(喝)凉的东西吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>2</catergory>
+	<score>[0,3.57,7.14,10.71,14.33]</score>
+</config>
+<config>
+	<id>15</id>
+	<content>(7)您受凉或吃(喝)凉的东西后,容易腹泻(拉肚子)吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>2</catergory>
+	<score>[0,3.57,7.14,10.71,14.34]</score>
+</config>
+<config>
+	<id>16</id>
+	<content>(1) 您感到手脚心发热吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>3</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>17</id>
+	<content>(2)您感觉身体、脸上发热吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>3</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>18</id>
+	<content>(3)您皮肤或口唇干吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>3</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>19</id>
+	<content>(4)您口唇的颜色比一般人红吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>3</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>20</id>
+	<content>(5)您容易便秘或大便干燥吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>3</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>21</id>
+	<content>(6)您面部两颧潮红或偏红吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>3</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>22</id>
+	<content>(7)您感到眼睛干涩吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>3</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>23</id>
+	<content>(8)您感到口干咽燥、总想喝水吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>3</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>24</id>
+	<content>(1)您感到胸闷或腹部胀满吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>4</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>25</id>
+	<content>(2)您感到身体沉重不轻松或不爽快吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>4</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>26</id>
+	<content>(3)您腹部肥满松软吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>4</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>27</id>
+	<content>(4)您有额部油脂分泌多的现象吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>4</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>28</id>
+	<content>(5)您上眼睑比别人肿（上眼睑有轻微隆起的现象）吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>4</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>29</id>
+	<content>(6)您嘴里有黏黏的感觉吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>4</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>30</id>
+	<content>(7)您平时痰多,特别是咽喉部总感到有痰堵着吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>4</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>31</id>
+	<content>(8)您舌苔厚腻或有舌苔厚厚的感觉吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>4</catergory>
+	<score>[0,3.125,6.25,9.375,12.5]</score>
+</config>
+<config>
+	<id>32</id>
+	<content>(1)您面部或鼻部有油腻感或者油亮发光吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>5</catergory>
+	<score>[0,4.17,8.34,12.51,16.68]</score>
+</config>
+<config>
+	<id>33</id>
+	<content>(2)您易生痤疮或疮疖吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>5</catergory>
+	<score>[0,4.17,8.34,12.51,16.69]</score>
+</config>
+<config>
+	<id>34</id>
+	<content>(3)您感到口苦或嘴里有异味吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>5</catergory>
+	<score>[0,4.17,8.34,12.51,16.70]</score>
+</config>
+<config>
+	<id>35</id>
+	<content>(4)您大便黏滞不爽、有解不尽的感觉吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>5</catergory>
+	<score>[0,4.17,8.34,12.51,16.71]</score>
+</config>
+<config>
+	<id>36</id>
+	<content>(5)您小便时尿道有发热感、尿色浓(深)吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>5</catergory>
+	<score>[0,4.17,8.34,12.51,16.72]</score>
+</config>
+<config>
+	<id>37</id>
+	<content>(6)女/您带下色黄(白带颜色发黄)吗?// 男/您的阴囊部位潮湿吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>5</catergory>
+	<score>[0,4.17,8.34,12.51,16.73]</score>
+</config>
+<config>
+	<id>38</id>
+	<content>(1)您的皮肤在不知不觉中会出现青紫瘀斑(皮下出血)吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>6</catergory>
+	<score>[0,3.57,7.14,10.71,14.28]</score>
+</config>
+<config>
+	<id>39</id>
+	<content>(2)您两颧部有细微红丝吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>6</catergory>
+	<score>[0,3.57,7.14,10.71,14.29]</score>
+</config>
+<config>
+	<id>40</id>
+	<content>(3)您身体上有哪里疼痛吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>6</catergory>
+	<score>[0,3.57,7.14,10.71,14.30]</score>
+</config>
+<config>
+	<id>41</id>
+	<content>(4)您面色晦黯、或容易出现褐斑吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>6</catergory>
+	<score>[0,3.57,7.14,10.71,14.31]</score>
+</config>
+<config>
+	<id>42</id>
+	<content>(5)您容易有黑眼圈吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>6</catergory>
+	<score>[0,3.57,7.14,10.71,14.32]</score>
+</config>
+<config>
+	<id>43</id>
+	<content>(6)您容易忘事（健忘）吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>6</catergory>
+	<score>[0,3.57,7.14,10.71,14.33]</score>
+</config>
+<config>
+	<id>44</id>
+	<content>(7)您口唇颜色偏黯吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>6</catergory>
+	<score>[0,3.57,7.14,10.71,14.34]</score>
+</config>
+<config>
+	<id>45</id>
+	<content>(1)您感到闷闷不乐、情绪低沉吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>7</catergory>
+	<score>[0,3.57,7.14,10.71,14.28]</score>
+</config>
+<config>
+	<id>46</id>
+	<content>(2)您容易精神紧张、焦虑不安吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>7</catergory>
+	<score>[0,3.57,7.14,10.71,14.29]</score>
+</config>
+<config>
+	<id>47</id>
+	<content>(3)您多愁善感、感情脆弱吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>7</catergory>
+	<score>[0,3.57,7.14,10.71,14.30]</score>
+</config>
+<config>
+	<id>48</id>
+	<content>(4)您容易感到害怕或受到惊吓吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>7</catergory>
+	<score>[0,3.57,7.14,10.71,14.31]</score>
+</config>
+<config>
+	<id>49</id>
+	<content>(5)您胁肋部或乳房胀痛吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>7</catergory>
+	<score>[0,3.57,7.14,10.71,14.32]</score>
+</config>
+<config>
+	<id>50</id>
+	<content>(6)您无缘无故叹气吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>7</catergory>
+	<score>[0,3.57,7.14,10.71,14.33]</score>
+</config>
+<config>
+	<id>51</id>
+	<content>(7)您咽喉部有异物感,且吐之不出、咽之不下吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>7</catergory>
+	<score>[0,3.57,7.14,10.71,14.34]</score>
+</config>
+<config>
+	<id>52</id>
+	<content>(1)您没有感冒时也会打喷嚏吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>8</catergory>
+	<score>[0,3.57,7.14,10.71,14.28]</score>
+</config>
+<config>
+	<id>53</id>
+	<content>(2)您没有感冒时也会鼻塞、流鼻涕吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>8</catergory>
+	<score>[0,3.57,7.14,10.71,14.29]</score>
+</config>
+<config>
+	<id>54</id>
+	<content>(3)您有因季节变化、温度变化或异味等原因而咳喘的现象吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>8</catergory>
+	<score>[0,3.57,7.14,10.71,14.30]</score>
+</config>
+<config>
+	<id>55</id>
+	<content>(4)您容易过敏(对药物、食物、气味、花粉或在季节交替、气候变化时)吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>8</catergory>
+	<score>[0,3.57,7.14,10.71,14.31]</score>
+</config>
+<config>
+	<id>56</id>
+	<content>(5)您的皮肤容易起荨麻疹(风团、风疹块、风疙瘩)吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>8</catergory>
+	<score>[0,3.57,7.14,10.71,14.32]</score>
+</config>
+<config>
+	<id>57</id>
+	<content>(6)您的皮肤因过敏出现过紫癜(紫红色瘀点、瘀斑)吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>8</catergory>
+	<score>[0,3.57,7.14,10.71,14.33]</score>
+</config>
+<config>
+	<id>58</id>
+	<content>(7)您的皮肤一抓就红,并出现抓痕吗?</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>8</catergory>
+	<score>[0,3.57,7.14,10.71,14.34]</score>
+</config>
+<config>
+	<id>59</id>
+	<content>(1)您精力充沛吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>9</catergory>
+	<score>[0,3.13,6.26,9.39,12.52]</score>
+</config>
+<config>
+	<id>60</id>
+	<content>(2)您容易疲乏吗？*</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>9</catergory>
+	<score>[12.52,9.39,6.26,3.13,0]</score>
+</config>
+<config>
+	<id>61</id>
+	<content>(3)您说话声音低弱无力吗?*</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>9</catergory>
+	<score>[12.52,9.39,6.26,3.13,0]</score>
+</config>
+<config>
+	<id>62</id>
+	<content>(4)您感到闷闷不乐、情绪低沉吗?*</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>9</catergory>
+	<score>[12.52,9.39,6.26,3.13,0]</score>
+</config>
+<config>
+	<id>63</id>
+	<content>(5)您比一般人耐受不了寒冷(冬天的寒冷,夏天的冷空调、电扇等)吗？*</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>9</catergory>
+	<score>[12.52,9.39,6.26,3.13,0]</score>
+</config>
+<config>
+	<id>64</id>
+	<content>(6)您能适应外界自然和社会环境的变化吗？</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>9</catergory>
+	<score>[0,3.13,6.26,9.39,12.52]</score>
+</config>
+<config>
+	<id>65</id>
+	<content>(7)您容易失眠吗？*</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>9</catergory>
+	<score>[12.52,9.39,6.26,3.13,0]</score>
+</config>
+<config>
+	<id>66</id>
+	<content>(8)您容易忘事（健忘）吗*</content>
+	<contentImgUrl></contentImgUrl>
+	<options>[没有(根本不),很少(有一点),有时(有些),经常(相当),总是(非常)]</options>
+	<catergory>9</catergory>
+	<score>[12.52,9.39,6.26,3.13,0]</score>
+</config>
+<config>
+	<id>67</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>68</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>69</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>70</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>71</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>72</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>73</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>74</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>75</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>76</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>77</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>78</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+<config>
+	<id>79</id>
+	<content></content>
+	<contentImgUrl></contentImgUrl>
+	<options></options>
+	<catergory></catergory>
+	<score></score>
+</config>
+</root>

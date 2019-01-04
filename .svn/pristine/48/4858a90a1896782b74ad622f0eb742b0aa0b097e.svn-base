@@ -1,0 +1,448 @@
+package com.game.service;
+
+import com.game.data.QuestionCfg;
+import com.game.domain.player.Player;
+import com.game.domain.quest.Answer;
+import com.game.domain.quest.Fighter;
+import com.game.domain.quest.Room;
+import com.game.sdk.net.Result;
+import com.game.sdk.proto.AnswerResultResp;
+import com.game.sdk.proto.FaceReq;
+import com.game.sdk.proto.FightResultReq;
+import com.game.sdk.proto.QuestCategoryResp;
+import com.game.sdk.proto.vo.AnswerVO;
+import com.game.sdk.proto.vo.QuestVO;
+import com.game.sdk.utils.ErrorCode;
+import com.game.util.ConfigData;
+import com.game.util.RandomUtil;
+import com.google.common.collect.Maps;
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+
+@Service
+public class QuestBankService extends AbstractService {
+    private static Logger logger = Logger.getLogger(QuestBankService.class);
+
+    @Autowired
+    private QuestService questService;
+    @Autowired
+    private PlayerService playerService;
+
+    public Result getQuestCategorys(String openId) throws Exception {
+        QuestCategoryResp resp = new QuestCategoryResp();
+
+        Fighter matcher = questService.getMatcher(openId);
+        if (matcher == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, resp);
+        }
+
+        Room room = questService.getRoom(matcher.getRoomId());
+        if (matcher.getRoomId() == 0 || room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, resp);
+        }
+
+        List<Integer> questionCategorys = room.getQuestionCategorys();
+        if (questionCategorys.size() == 0) {
+            //随机题型
+            Collection<Object> configs = ConfigData.getConfigs(QuestionCfg.class);
+            int difficulty = 6;
+//            List<Integer> indexs = RandomUtil.getRandomIndexs(configs.size(), 9);
+
+            for (int i = 0; i < 9; i++) {
+                questionCategorys.add(RandomUtil.randInt(1, difficulty));
+            }
+//            room.getCurrentQuestions().addAll(questions);
+
+        }
+        resp.setQuestionCategorys(questionCategorys);
+
+        return Result.valueOf(ErrorCode.OK, resp);
+    }
+
+    public Result getQuestIndex(String openId) throws Exception {
+        Fighter matcher = questService.getMatcher(openId);
+        if (matcher == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Room room = questService.getRoom(matcher.getRoomId());
+
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, "0");
+        }
+
+        Fighter opponent = room.getOpponent(openId);
+        if(opponent.isOffline()){
+            return Result.valueOf(ErrorCode.OPPONENT_OFFLINE, opponent.getOpenId());
+        }
+
+        int vo;
+        QuestVO currentQuest = room.getCurrentQuest();
+        if (currentQuest != null) {
+            vo = currentQuest.getIndex();
+        } else {
+            vo = room.randomEmptyIndexs();
+        }
+
+        if (vo == -1) {
+            return Result.valueOf(ErrorCode.ROOM_NO_POSITION, String.valueOf(vo));
+        }
+
+        return Result.valueOf(ErrorCode.OK, String.valueOf(vo));
+    }
+
+    /**
+     * 抢答
+     *
+     * @param openId
+     * @return
+     */
+    public Result robAnswer(String openId, boolean isRobot) {
+        Fighter matcher = questService.getMatcher(openId);
+        if (matcher == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Room room = questService.getRoom(matcher.getRoomId());
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, "0");
+        }
+
+        if (isRobot) {
+            String robotOpenId = "";
+            for (Fighter matcher1 : room.getRoles().values()) {
+                if (matcher1.isRobot()) {
+                    robotOpenId = matcher1.getOpenId();
+                    break;
+                }
+            }
+
+            if (robotOpenId.length() == 0) {
+                return Result.valueOf(ErrorCode.ROBOT_NOT_EXIST_IN_GAME, "0");
+            }
+
+            openId = robotOpenId;
+        }
+
+        String answerOpenid = room.robAnswer(openId);
+        boolean result = false;
+        if (answerOpenid.equals(openId)) {
+            result = true;
+        }
+
+        QuestVO question = room.getCurrentQuest();
+        if (question == null) {
+            //随机派题
+            int currentQuestIndex = room.getCurrentIndex();
+            if (currentQuestIndex != -1) {
+                int questCategory = room.getQuestionCategorys().get(currentQuestIndex);
+                Collection<Object> cfgs = ConfigData.getConfigs(QuestionCfg.class);
+                Object[] array = cfgs.toArray();
+
+                while (true) {
+                    int index = RandomUtil.randInt(array.length);
+                    QuestionCfg config = (QuestionCfg) array[index];
+                    boolean isOld = false;
+
+                    for (QuestVO oldVo : room.getCurrentQuestions()) {
+                        if (oldVo.getId() == config.id) {
+                            isOld = true;
+                            break;
+                        }
+                    }
+
+                    if (config.catergory == questCategory && !isOld) {
+                        question = new QuestVO();
+                        question.setId(config.id);
+                        question.setContent(config.content);
+                        question.setAnswer(config.answerIndex);
+                        question.setCategory(config.catergory);
+                        question.setOptions(config.options);
+                        question.setDifficulty(config.difficulty);
+                        question.setIndex(currentQuestIndex);
+
+                        //打乱数组
+                        String[] options = question.getOptions();
+                        int length = options.length;
+                        int answerIndex = config.answerIndex;
+
+                        for (int i = length - 1; i > 0; i--) {
+                            int j = RandomUtil.randInt(i);
+
+                            String temp = options[i];
+                            options[i] = options[j];
+                            options[j] = temp;
+
+                            if (j == answerIndex) {
+                                answerIndex = i;
+                            } else if (i == answerIndex) {
+                                answerIndex = j;
+                            }
+                        }
+                        question.setOptions(options);
+                        question.setAnswer(answerIndex);
+
+                        room.setCurrentQuest(question);
+                        room.getCurrentQuestions().add(question);
+
+                        for (Fighter fighter : room.getRoles().values()) {
+                            if (!fighter.isRobot()) {
+                                Player player = playerService.getPlayer(fighter.getOpenId());
+                                player.addHistoryQuestion(question.getId());
+                            }
+                        }
+                        break;
+                    }
+                }
+            }
+        }
+
+        Map<String, Object> resp = Maps.newHashMapWithExpectedSize(2);
+        resp.put("result", result);
+        resp.put("question", question);
+        return Result.valueOf(ErrorCode.OK, resp);
+    }
+
+    /**
+     * 检查棋子是否已经被抢
+     *
+     * @param openId
+     * @return
+     */
+    public Result checkRob(String openId) {
+        Fighter matcher = questService.getMatcher(openId);
+        if (matcher == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Room room = questService.getRoom(matcher.getRoomId());
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, "0");
+        }
+
+        String answerOpenid = room.getAnswerOpendid();
+        boolean result = false;
+        if (answerOpenid != null && !answerOpenid.equals(openId)) {
+            result = true;
+        }
+        Map<String, Object> resp = Maps.newHashMapWithExpectedSize(1);
+        resp.put("result", result);
+        if (result) {
+            QuestVO quest = room.getCurrentQuest();
+            resp.put("question", quest);
+        }
+        return Result.valueOf(ErrorCode.OK, resp);
+    }
+
+    /**
+     * 答题
+     *
+     * @param openId
+     * @param answer
+     * @return
+     */
+    public Result answerTheQuestion(String openId, int answer, boolean isRobot) {
+        Fighter matcher = questService.getMatcher(openId);
+        if (matcher == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Room room = questService.getRoom(matcher.getRoomId());
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, "0");
+        }
+
+        if (isRobot) {
+            String robotOpenId = "";
+            for (Fighter matcher1 : room.getRoles().values()) {
+                if (matcher1.isRobot()) {
+                    robotOpenId = matcher1.getOpenId();
+                    break;
+                }
+            }
+
+            if (robotOpenId.length() == 0) {
+                return Result.valueOf(ErrorCode.ROBOT_NOT_EXIST_IN_GAME, "0");
+            }
+
+            openId = robotOpenId;
+        }
+
+        if (!room.getAnswerOpendid().equals(openId)) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_ANSWER_QUESTION, "0");
+        }
+
+        Answer answerResult = new Answer();
+        answerResult.setOpenid(openId);
+        answerResult.setResult(false);
+        answerResult.setCfgid(room.getCurrentQuest().getId());
+        answerResult.setPostAnswer(answer);
+
+        boolean result = false;
+        if (room.getCurrentQuest().getAnswer() == answer) { //正确
+            result = true;
+            answerResult.setResult(true);
+        }
+
+        if (!isRobot && !matcher.isRobot()) {
+            Player player = playerService.getPlayer(openId);
+            playerService.answerResult(openId, result);
+        }
+
+        room.getAnswers().put(answerResult.getCfgid(), answerResult);
+        room.cleanQuest();
+        Map<String, Object> resp = Maps.newHashMapWithExpectedSize(1);
+        resp.put("result", result);
+
+        return Result.valueOf(ErrorCode.OK, resp);
+    }
+
+    /**
+     * 获得答案
+     *
+     * @param openId
+     * @param cfgId
+     * @return
+     */
+    public Result getAnswer(String openId, int cfgId) {
+        Map<String, Object> resp = Maps.newHashMapWithExpectedSize(1);
+        resp.put("answer", 0);
+
+        Fighter matcher = questService.getMatcher(openId);
+        if (matcher == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, resp);
+        }
+
+        Room room = questService.getRoom(matcher.getRoomId());
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, resp);
+        }
+
+        for (QuestVO question : room.getCurrentQuestions()) {
+            if (question.getId() == cfgId) {
+                resp.put("answer", question.getAnswer());
+                resp.put("postAnswer", room.getAnswers().get(cfgId).getPostAnswer());
+
+                return Result.valueOf(ErrorCode.OK, resp);
+            }
+        }
+
+        return Result.valueOf(ErrorCode.PARAM_ERROR, resp);
+    }
+
+    public Result getRoomAnswers(String openId) {
+        AnswerResultResp resp = new AnswerResultResp();
+
+        Fighter matcher = questService.getMatcher(openId);
+        if (matcher == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Room room = questService.getRoom(matcher.getRoomId());
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, "0");
+        }
+
+        for (Answer answer : room.getAnswers().values()) {
+            AnswerVO vo = new AnswerVO();
+            vo.setCfgid(answer.getCfgid());
+            vo.setOpenid(answer.getOpenid());
+            vo.setResult(answer.isResult());
+
+            resp.getAnswerVOS().add(vo);
+        }
+
+        return Result.valueOf(ErrorCode.OK, resp);
+    }
+
+    public Result sumbitResult(String openId, FightResultReq req) {
+        Fighter fighter = questService.getMatcher(openId);
+        if (fighter == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Room room = questService.getRoom(fighter.getRoomId());
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Fighter opponentFighter = room.getOpponent(openId);
+        if (opponentFighter == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Fighter winner = req.isWin() ? fighter : opponentFighter;
+
+        if (!room.isSingle() && !winner.isRobot()) {
+            playerService.roundResult(winner.getOpenId(), 10, 10);
+        }
+
+        fighter.victory = req.isWin();
+        opponentFighter.victory = !req.isWin();
+
+        questService.removeRoom(room.getId());
+        room.setVictoryOpenid(winner.getOpenId());
+
+        if (!fighter.isRobot()) {
+            Player player = playerService.getPlayer(openId);
+            player.addHistoryRace(req.isWin());
+        }
+        if (!opponentFighter.isRobot()) {
+            Player player = playerService.getPlayer(opponentFighter.getOpenId());
+            player.addHistoryRace(!req.isWin());
+        }
+
+
+        return Result.valueOf(ErrorCode.OK, "0");
+    }
+    /**
+     *
+     *
+     * @param openId
+     * @param req
+     * @return
+     */
+    public Result setFace(String openId, FaceReq req) {
+        Fighter fighter = questService.getMatcher(openId);
+        if (fighter == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Room room = questService.getRoom(fighter.getRoomId());
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, "0");
+        }
+        Map<String,Integer> faces=room.getPlayerFace();
+        faces.put(openId, req.getFace());
+        Map<String, Object> resp = Maps.newHashMapWithExpectedSize(1);
+        resp.put("result", true);
+        return Result.valueOf(ErrorCode.OK, resp);
+    }
+
+    public Result getFace(String openId) {
+        FaceReq resp = new FaceReq();
+        Fighter matcher = questService.getMatcher(openId);
+        if (matcher == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_EXIST, "0");
+        }
+
+        Room room = questService.getRoom(matcher.getRoomId());
+        if (room == null) {
+            return Result.valueOf(ErrorCode.ROLE_NOT_IN_GAME, "0");
+        }
+        int faceId=0;
+        for (Fighter matcher1 : room.getRoles().values()) {
+            if (!matcher1.getOpenId().equals(openId)) {
+                faceId=room.getPlayerFace().get(matcher1.getOpenId());
+                break;
+            }
+        }
+        resp.setFace(faceId);
+        return Result.valueOf(ErrorCode.OK, resp);
+    }
+}

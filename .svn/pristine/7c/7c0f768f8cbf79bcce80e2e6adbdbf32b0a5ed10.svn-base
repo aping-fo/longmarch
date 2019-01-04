@@ -1,0 +1,28 @@
+package com.game.dao;
+
+import com.game.domain.family.Family;
+import net.paoding.rose.jade.annotation.DAO;
+import net.paoding.rose.jade.annotation.SQL;
+import net.paoding.rose.jade.annotation.SQLParam;
+
+import java.util.List;
+
+@DAO
+public interface FamilyDAO {
+
+    @SQL("select * from t_u_family where id = :id")
+    public Family queryFamily(@SQLParam("id") String id);
+
+    @SQL("REPLACE INTO t_u_family VALUES (:family.id,:family.step,:family.memberJson,:family.ownerId,:family.name,:family.totalStep)")
+    public void saveOrUpdate(@SQLParam("family") Family family);
+
+    @SQL("select count(1) from t_u_player")
+    public Integer selectPlayerCount();
+
+    @SQL("SELECT id, totalStep, name FROM t_u_family ORDER BY totalStep DESC LIMIT 50")
+    public List<Family> queryFamilyRank();
+
+    @SQL("delete FROM t_u_family where id = :id")
+    public List<Family> deleteFamily(@SQLParam("id") String id);
+
+}

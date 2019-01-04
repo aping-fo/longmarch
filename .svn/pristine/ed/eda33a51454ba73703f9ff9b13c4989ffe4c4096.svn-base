@@ -1,0 +1,39 @@
+[WARN ] 10-31 14:21:34  rank .....
+[ERROR] 10-31 14:21:37  sdk server 启动失败
+MultiException[java.net.BindException: Address already in use: bind, java.lang.IllegalStateException: no valid keystore]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.game.sdk.SdkServer.start(SdkServer.java:68)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+	Suppressed: java.lang.IllegalStateException: no valid keystore
+		at org.eclipse.jetty.util.security.CertificateUtils.getKeyStore(CertificateUtils.java:50)
+		at org.eclipse.jetty.util.ssl.SslContextFactory.loadKeyStore(SslContextFactory.java:1068)
+		at org.eclipse.jetty.util.ssl.SslContextFactory.load(SslContextFactory.java:259)
+		at org.eclipse.jetty.util.ssl.SslContextFactory.doStart(SslContextFactory.java:226)
+		at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+		at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:133)
+		at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:115)
+		at org.eclipse.jetty.server.SslConnectionFactory.doStart(SslConnectionFactory.java:72)
+		at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+		at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:133)
+		at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:115)
+		at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:278)
+		at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:81)
+		at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:238)
+		at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+		at org.eclipse.jetty.server.Server.doStart(Server.java:397)
+		... 4 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.Net.bind(Net.java:428)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:334)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:302)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:238)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:397)
+	... 4 more

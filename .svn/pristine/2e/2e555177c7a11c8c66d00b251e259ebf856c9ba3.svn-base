@@ -1,0 +1,55 @@
+[WARN ] 11-15 14:22:18  rank .....
+[WARN ] 11-15 14:22:22  sdk server start on 8129
+[WARN ] 11-15 14:26:34  rank .....
+[WARN ] 11-15 14:26:38  sdk server start on 8129
+[WARN ] 11-15 14:31:34  rank .....
+[WARN ] 11-15 14:36:34  rank .....
+[WARN ] 11-15 14:41:34  rank .....
+[ERROR] 11-15 14:41:34  match schedule error
+org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT openId, nickName, level,exp FROM t_u_player ORDER BY level DESC,exp DESC LIMIT 100]; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'exp' in 'field list'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:233)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:406)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:455)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:463)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.selectByJdbcTemplate(JdbcTemplateDataAccess.java:136)
+	at net.paoding.rose.jade.provider.jdbctemplate.JdbcTemplateDataAccess.select(JdbcTemplateDataAccess.java:84)
+	at net.paoding.rose.jade.core.SQLThreadLocalWrapper.select(SQLThreadLocalWrapper.java:48)
+	at net.paoding.rose.jade.core.SelectOperation.execute(SelectOperation.java:66)
+	at net.paoding.rose.jade.core.JadeDaoInvocationHandler.invoke(JadeDaoInvocationHandler.java:108)
+	at com.sun.proxy.$Proxy9.queryPlayerRank(Unknown Source)
+	at com.game.service.PlayerService.schedule(PlayerService.java:397)
+	at com.game.service.PlayerService.access$300(PlayerService.java:37)
+	at com.game.service.PlayerService$5.run(PlayerService.java:130)
+	at com.game.util.TimerService$1.run(TimerService.java:33)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'exp' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1959)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2109)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2642)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2571)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1464)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:111)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:440)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:395)
+	... 19 more
+[WARN ] 11-15 14:43:15  rank .....
+[WARN ] 11-15 14:43:19  sdk server start on 8129
+[WARN ] 11-15 14:48:15  rank .....
