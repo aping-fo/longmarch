@@ -12,9 +12,11 @@ import org.eclipse.jetty.server.handler.ResourceHandler;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.util.ssl.SslContextFactory;
+import org.eclipse.jetty.xml.XmlConfiguration;
 
 import javax.servlet.Servlet;
 import java.io.File;
+import java.io.FileInputStream;
 import java.util.Set;
 
 /**
@@ -61,18 +63,18 @@ public class SdkServer {
             ResourceHandler resourceHandler = new ResourceHandler();
             resourceHandler.setDirectoriesListed(true);
 
+
             String iconPath = System.getProperty("user.dir") + File.separator + "icon";
             File f = new File(iconPath);
             if(!f.exists()) {
                 f.mkdirs();
             }
+
             resourceHandler.setResourceBase(iconPath);
-            resourceHandler.setStylesheet("");
 
             HandlerList handlers = new HandlerList();
             handlers.setHandlers(new Handler[]{resourceHandler, context});
             server.setHandler(handlers);
-
 
             Set<Class<?>> classes = ClassUtil.getClasses(SdkServlet.class.getPackage());
             for (Class<?> clazz : classes) { //加载所有的servlet

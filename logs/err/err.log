@@ -53,3 +53,103 @@
 [WARN ] 01-04 17:21:10  sdk server start on 8129
 [WARN ] 01-04 17:27:49  rank .....
 [WARN ] 01-04 17:28:00  sdk server start on 8129
+[WARN ] 01-04 17:46:00  rank .....
+[WARN ] 01-04 17:46:04  sdk server start on 8129
+[WARN ] 01-04 17:48:46  player openId: 109, session: test109
+[WARN ] 01-04 17:51:00  rank .....
+[WARN ] 01-04 17:56:00  rank .....
+[WARN ] 01-04 18:01:00  rank .....
+[WARN ] 01-04 18:06:00  rank .....
+[WARN ] 01-04 18:09:59  rank .....
+[WARN ] 01-04 18:10:02  sdk server start on 8129
+[WARN ] 01-04 18:10:21  player openId: 109, session: test109
+[WARN ] 01-04 18:11:07  player openId: 109, session: test109
+[WARN ] 01-04 18:14:59  rank .....
+[WARN ] 01-04 18:19:59  rank .....
+[WARN ] 01-04 18:24:59  rank .....
+[WARN ] 01-04 18:29:59  rank .....
+[WARN ] 01-04 18:34:59  rank .....
+[WARN ] 01-04 18:39:59  rank .....
+[WARN ] 01-04 18:44:59  rank .....
+[WARN ] 01-04 18:49:55  rank .....
+[WARN ] 01-04 18:49:59  sdk server start on 8129
+[WARN ] 01-04 18:52:43  rank .....
+[ERROR] 01-04 18:52:46  sdk server 启动失败
+java.lang.IllegalStateException: Unknown configuration type: access-policy in org.eclipse.jetty.xml.XmlConfiguration@d71adc2
+	at org.eclipse.jetty.xml.XmlConfiguration.setConfig(XmlConfiguration.java:246)
+	at org.eclipse.jetty.xml.XmlConfiguration.<init>(XmlConfiguration.java:225)
+	at com.game.sdk.SdkServer.start(SdkServer.java:79)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+[WARN ] 01-04 18:57:43  rank .....
+[WARN ] 01-04 19:02:06  rank .....
+[ERROR] 01-04 19:02:09  sdk server 启动失败
+java.lang.IllegalStateException: Unknown configuration type: access-policy in org.eclipse.jetty.xml.XmlConfiguration@17503f6b
+	at org.eclipse.jetty.xml.XmlConfiguration.setConfig(XmlConfiguration.java:246)
+	at org.eclipse.jetty.xml.XmlConfiguration.<init>(XmlConfiguration.java:225)
+	at com.game.sdk.SdkServer.start(SdkServer.java:79)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+[WARN ] 01-04 19:02:43  rank .....
+[WARN ] 01-04 19:04:43  rank .....
+[ERROR] 01-04 19:04:46  sdk server 启动失败
+java.lang.IllegalStateException: Unknown configuration type: access-policy in org.eclipse.jetty.xml.XmlConfiguration@17503f6b
+	at org.eclipse.jetty.xml.XmlConfiguration.setConfig(XmlConfiguration.java:246)
+	at org.eclipse.jetty.xml.XmlConfiguration.<init>(XmlConfiguration.java:225)
+	at com.game.sdk.SdkServer.start(SdkServer.java:79)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+[WARN ] 01-04 19:06:00  rank .....
+[ERROR] 01-04 19:06:21  sdk server 启动失败
+java.lang.IllegalStateException: Unknown configuration type: access-policy in org.eclipse.jetty.xml.XmlConfiguration@74f7d1d2
+	at org.eclipse.jetty.xml.XmlConfiguration.setConfig(XmlConfiguration.java:246)
+	at org.eclipse.jetty.xml.XmlConfiguration.<init>(XmlConfiguration.java:225)
+	at com.game.sdk.SdkServer.start(SdkServer.java:79)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+[WARN ] 01-04 19:11:00  rank .....
+[WARN ] 01-04 19:11:49  rank .....
+[ERROR] 01-04 19:12:05  sdk server 启动失败
+org.xml.sax.SAXParseException; lineNumber: 9; columnNumber: 22; XML 文档结构必须从头至尾包含在同一个实体内。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.endEntity(XMLDocumentFragmentScannerImpl.java:903)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.endEntity(XMLDocumentScannerImpl.java:563)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.endEntity(XMLEntityManager.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1757)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.peekChar(XMLEntityScanner.java:490)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2718)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:333)
+	at org.eclipse.jetty.xml.XmlParser.parse(XmlParser.java:201)
+	at org.eclipse.jetty.xml.XmlConfiguration.<init>(XmlConfiguration.java:225)
+	at com.game.sdk.SdkServer.start(SdkServer.java:79)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+[WARN ] 01-04 19:12:31  rank .....
+[ERROR] 01-04 19:12:36  sdk server 启动失败
+java.lang.IllegalStateException: Unknown configuration type: web-app in org.eclipse.jetty.xml.XmlConfiguration@59221b97
+	at org.eclipse.jetty.xml.XmlConfiguration.setConfig(XmlConfiguration.java:246)
+	at org.eclipse.jetty.xml.XmlConfiguration.<init>(XmlConfiguration.java:225)
+	at com.game.sdk.SdkServer.start(SdkServer.java:79)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
+[WARN ] 01-04 19:13:08  rank .....
+[ERROR] 01-04 19:13:14  sdk server 启动失败
+java.io.FileNotFoundException: F:\h5\longmarch\icon\clientaccesspolicy.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.game.sdk.SdkServer.start(SdkServer.java:79)
+	at com.game.Start.init(Start.java:43)
+	at com.game.Start.main(Start.java:21)
